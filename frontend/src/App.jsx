@@ -139,7 +139,10 @@ function App() {
       {/* Footer */}
       <footer className="p-4 mt-8" style={{ background: 'transparent' }}>
         <div className="container mx-auto text-center text-sm text-gray-400">
-          <p style={{ fontFamily: "'Inter', sans-serif" }}>Courtside - Data from Kaggle Dataset</p>
+          <p style={{ fontFamily: "'Inter', sans-serif" }}>
+            Courtside - Data from Kaggle Dataset | 
+            <span className="ml-2 text-xs">NBA logo used for educational purposes only</span>
+          </p>
         </div>
       </footer>
     </div>
