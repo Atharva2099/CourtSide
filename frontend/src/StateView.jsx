@@ -50,13 +50,13 @@ export default function StateView() {
 
   return (
     <div className="p-6 rounded-xl" style={{ background: 'transparent' }}>
-      <h2 className="text-3xl font-bold mb-6 text-white" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '2px' }}>
+      <h2 className="text-3xl font-bold mb-6 text-white" style={{ fontFamily: "'Inter', sans-serif", letterSpacing: '2px' }}>
         State Statistics
       </h2>
 
       {/* Map Section */}
       <div className="mb-6">
-        <h3 className="text-2xl font-bold mb-4 text-white" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>
+        <h3 className="text-2xl font-bold mb-4 text-white" style={{ fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>
           US Map
         </h3>
         <div className="w-full rounded-lg overflow-hidden" style={{ height: '500px', background: 'rgba(15, 20, 25, 0.4)' }}>
@@ -167,7 +167,7 @@ export default function StateView() {
                 )}
                 
                 <div style={{ position: 'relative', zIndex: 1 }}>
-                  <h3 className="text-xl font-bold mb-3 text-white" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>
+                  <h3 className="text-xl font-bold mb-3 text-white" style={{ fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>
                     {state.state_name}
                   </h3>
                   <div className="space-y-2 text-sm" style={{ fontFamily: "'Inter', sans-serif" }}>

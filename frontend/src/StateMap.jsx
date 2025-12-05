@@ -151,7 +151,7 @@ export default function StateMap({ onStateSelect, selectedState = null, statesDa
                 <div style="position: relative; min-width: 250px; padding: 20px;">
                   ${logosBackground}
                   <div style="position: relative; z-index: 1;">
-                    <h3 style="color: white; font-size: 18px; font-weight: bold; margin-bottom: 12px; font-family: 'Bebas Neue', 'Oswald', sans-serif; letter-spacing: 1px;">
+                    <h3 style="color: white; font-size: 18px; font-weight: bold; margin-bottom: 12px; font-family: 'Inter', sans-serif; letter-spacing: 1px;">
                       ${stateName}
                     </h3>
                     <div style="display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; font-family: 'Inter', sans-serif; font-size: 12px;">
