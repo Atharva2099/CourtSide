@@ -91,7 +91,21 @@ export async function getMapData() {
 }
 
 export async function getStates() {
-  return fetchAPI('/api/states');
+  // For static hosting, we need to add teams to states client-side
+  const [states, teams] = await Promise.all([
+    fetchAPI('/api/states'),
+    fetchAPI('/api/teams')
+  ]);
+  
+  // Add teams to each state (matching backend logic)
+  return states.map(state => {
+    const stateCopy = { ...state };
+    const stateTeams = teams.filter(t => 
+      t.state && t.state.toLowerCase() === state.state_name.toLowerCase()
+    );
+    stateCopy.teams = stateTeams;
+    return stateCopy;
+  });
 }
 
 export async function getStateData(state) {
