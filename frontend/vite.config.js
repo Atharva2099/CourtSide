@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/CourtSide/', // GitHub Pages repo name
   server: {
     proxy: {
       '/api': {
