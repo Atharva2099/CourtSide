@@ -132,6 +132,18 @@ async def get_map_data():
     """Get all teams with coordinates and stats for map visualization"""
     return teams_data
 
+@app.get("/api/states")
+async def get_states():
+    """Get all states with aggregated stats"""
+    # Add teams to each state
+    result = []
+    for state in states_data:
+        state_copy = state.copy()
+        state_teams = [t for t in teams_data if t.get("state").lower() == state.get("state_name").lower()]
+        state_copy["teams"] = state_teams
+        result.append(state_copy)
+    return result
+
 @app.get("/api/states/{state}")
 async def get_state(state: str):
     """Get state-level aggregated stats"""

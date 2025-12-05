@@ -43,6 +43,10 @@ export async function getMapData() {
   return fetchAPI('/api/map-data');
 }
 
+export async function getStates() {
+  return fetchAPI('/api/states');
+}
+
 export async function getStateData(state) {
   return fetchAPI(`/api/states/${state}`);
 }

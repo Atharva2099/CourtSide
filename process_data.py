@@ -104,49 +104,154 @@ TEAM_COORDINATES = {
 }
 
 def load_data():
-    """Stream CSV files directly from Kaggle dataset"""
-    print("Streaming data from Kaggle...")
-    dataset = 'wyattowalsh/basketball'
+    """Load CSV files from Kaggle datasets"""
+    print("Loading data from Kaggle...")
+    dataset1 = 'wyattowalsh/basketball'
+    dataset2 = 'rodneycarroll78/nba-stats-1980-2024'
     
-    # Stream CSV files directly into pandas DataFrames
-    print("  Loading team.csv...")
+    # Load original dataset files
+    print("  Loading team.csv from wyattowalsh/basketball...")
     teams_df = kagglehub.dataset_load(
-        dataset,
-        path="csv/team.csv",
-        adapter=KaggleDatasetAdapter.PANDAS
+        KaggleDatasetAdapter.PANDAS,
+        dataset1,
+        path="csv/team.csv"
     )
     print(f"  Loaded {len(teams_df)} teams")
     
-    print("  Loading player.csv...")
+    print("  Loading player.csv from wyattowalsh/basketball...")
     players_df = kagglehub.dataset_load(
-        dataset,
-        path="csv/player.csv",
-        adapter=KaggleDatasetAdapter.PANDAS
+        KaggleDatasetAdapter.PANDAS,
+        dataset1,
+        path="csv/player.csv"
     )
     print(f"  Loaded {len(players_df)} players")
     
-    print("  Loading game.csv...")
+    print("  Loading game.csv from wyattowalsh/basketball...")
     games_df = kagglehub.dataset_load(
-        dataset,
-        path="csv/game.csv",
-        adapter=KaggleDatasetAdapter.PANDAS
+        KaggleDatasetAdapter.PANDAS,
+        dataset1,
+        path="csv/game.csv"
     )
     print(f"  Loaded {len(games_df)} games")
     
-    # Try to load game_summary.csv for box scores
-    print("  Loading game_summary.csv...")
-    try:
-        box_scores_df = kagglehub.dataset_load(
-            dataset,
-            path="csv/game_summary.csv",
-            adapter=KaggleDatasetAdapter.PANDAS
-        )
-        print(f"  Loaded {len(box_scores_df)} game summaries")
-    except Exception as e:
-        print(f"  game_summary.csv not available, using game.csv for box score data...")
-        box_scores_df = games_df.copy()
+    # Download the new dataset first
+    print("  Downloading rodneycarroll78/nba-stats-1980-2024...")
+    player_totals_df = pd.DataFrame()
+    team_stats_per_game_df = pd.DataFrame()
+    team_summaries_df = pd.DataFrame()
     
-    return teams_df, players_df, games_df, box_scores_df
+    try:
+        dataset_path = kagglehub.dataset_download(dataset2)
+        print(f"  Dataset downloaded to: {dataset_path}")
+        
+        # Load player stats from the downloaded dataset
+        print("  Loading player_totals.csv...")
+        player_totals_path = Path(dataset_path) / "player_totals.csv"
+        if player_totals_path.exists():
+            player_totals_df = pd.read_csv(player_totals_path)
+            print(f"  Loaded {len(player_totals_df)} player season records")
+        else:
+            print(f"  player_totals.csv not found in {dataset_path}")
+            # Try alternative names
+            for alt_name in ["Player Totals.csv", "player_totals.CSV"]:
+                alt_path = Path(dataset_path) / alt_name
+                if alt_path.exists():
+                    player_totals_df = pd.read_csv(alt_path)
+                    print(f"  Loaded {len(player_totals_df)} player season records from {alt_name}")
+                    break
+        
+        # Load team stats per game
+        print("  Loading team_stats_per_game.csv...")
+        team_stats_path = Path(dataset_path) / "team_stats_per_game.csv"
+        if team_stats_path.exists():
+            team_stats_per_game_df = pd.read_csv(team_stats_path)
+            print(f"  Loaded {len(team_stats_per_game_df)} team season records")
+        else:
+            print(f"  team_stats_per_game.csv not found, trying alternative names...")
+            for alt_name in ["Team Stats Per Game.csv", "team_stats_per_game.CSV"]:
+                alt_path = Path(dataset_path) / alt_name
+                if alt_path.exists():
+                    team_stats_per_game_df = pd.read_csv(alt_path)
+                    print(f"  Loaded {len(team_stats_per_game_df)} team season records from {alt_name}")
+                    break
+        
+        # Load team summaries (advanced stats)
+        print("  Loading team_summaries.csv...")
+        team_summaries_path = Path(dataset_path) / "team_summaries.csv"
+        if team_summaries_path.exists():
+            team_summaries_df = pd.read_csv(team_summaries_path)
+            print(f"  Loaded {len(team_summaries_df)} team summary records")
+        else:
+            print(f"  team_summaries.csv not found, trying alternative names...")
+            for alt_name in ["Team Summaries.csv", "team_summaries.CSV"]:
+                alt_path = Path(dataset_path) / alt_name
+                if alt_path.exists():
+                    team_summaries_df = pd.read_csv(alt_path)
+                    print(f"  Loaded {len(team_summaries_df)} team summary records from {alt_name}")
+                    break
+        
+        # Load advanced player stats
+        print("  Loading advanced.csv...")
+        advanced_df = pd.DataFrame()
+        advanced_path = Path(dataset_path) / "advanced.csv"
+        if advanced_path.exists():
+            advanced_df = pd.read_csv(advanced_path)
+            print(f"  Loaded {len(advanced_df)} advanced stat records")
+        else:
+            for alt_name in ["Advanced.csv", "advanced.CSV"]:
+                alt_path = Path(dataset_path) / alt_name
+                if alt_path.exists():
+                    advanced_df = pd.read_csv(alt_path)
+                    print(f"  Loaded {len(advanced_df)} advanced stat records from {alt_name}")
+                    break
+        
+        # Load all-star selections
+        print("  Loading all_star_selections.csv...")
+        all_star_df = pd.DataFrame()
+        all_star_path = Path(dataset_path) / "all_star_selections.csv"
+        if all_star_path.exists():
+            all_star_df = pd.read_csv(all_star_path)
+            print(f"  Loaded {len(all_star_df)} all-star selections")
+        else:
+            for alt_name in ["All Star Selections.csv", "all_star_selections.CSV"]:
+                alt_path = Path(dataset_path) / alt_name
+                if alt_path.exists():
+                    all_star_df = pd.read_csv(alt_path)
+                    print(f"  Loaded {len(all_star_df)} all-star selections from {alt_name}")
+                    break
+        
+        # Load awards (MVP, All-NBA, etc.)
+        print("  Loading awards_voting_results.csv...")
+        awards_df = pd.DataFrame()
+        awards_path = Path(dataset_path) / "awards_voting_results.csv"
+        if awards_path.exists():
+            awards_df = pd.read_csv(awards_path)
+            print(f"  Loaded {len(awards_df)} award voting records")
+        else:
+            for alt_name in ["Awards Voting Results.csv", "awards_voting_results.CSV"]:
+                alt_path = Path(dataset_path) / alt_name
+                if alt_path.exists():
+                    awards_df = pd.read_csv(alt_path)
+                    print(f"  Loaded {len(awards_df)} award voting records from {alt_name}")
+                    break
+        
+        # List available files for debugging
+        if player_totals_df.empty or team_stats_per_game_df.empty:
+            print(f"  Available files in dataset:")
+            for file in Path(dataset_path).glob("*.csv"):
+                print(f"    - {file.name}")
+                
+    except Exception as e:
+        print(f"  Error downloading/loading dataset: {e}")
+        print(f"  Will continue with placeholder stats")
+        advanced_df = pd.DataFrame()
+        all_star_df = pd.DataFrame()
+        awards_df = pd.DataFrame()
+    
+    # Use player_totals as box_scores for player stats calculation
+    box_scores_df = player_totals_df if not player_totals_df.empty else games_df.copy()
+    
+    return teams_df, players_df, games_df, box_scores_df, team_stats_per_game_df, team_summaries_df, advanced_df, all_star_df, awards_df
 
 def clean_data(teams_df, players_df, games_df, box_scores_df):
     """Clean and process CSV data"""
@@ -206,7 +311,7 @@ def clean_data(teams_df, players_df, games_df, box_scores_df):
     print("Data cleaning complete!")
     return teams_df, players_df, games_df, box_scores_df
 
-def generate_team_summary(teams_df, games_df):
+def generate_team_summary(teams_df, games_df, team_stats_per_game_df=None, team_summaries_df=None):
     """Generate team_summary.json"""
     print("Generating team summary...")
     
@@ -260,7 +365,7 @@ def generate_team_summary(teams_df, games_df):
         
         coords = TEAM_COORDINATES.get(abbrev, {})
         
-        team_summary.append({
+        team_data = {
             'team_id': stats['team_id'],
             'name': stats['name'],
             'city': coords.get('city', stats['city']),
@@ -272,19 +377,44 @@ def generate_team_summary(teams_df, games_df):
             'championships': stats['championships'],
             'lat': coords.get('lat', 0),
             'lng': coords.get('lng', 0),
-        })
+        }
+        
+        # Add per-game stats if available
+        if team_stats_per_game_df is not None and not team_stats_per_game_df.empty:
+            team_seasons = team_stats_per_game_df[team_stats_per_game_df['abbreviation'].str.upper() == abbrev.upper()]
+            if not team_seasons.empty:
+                # Calculate career averages
+                team_data['ppg'] = round(team_seasons['pts_per_game'].mean() if 'pts_per_game' in team_seasons.columns else 0, 2)
+                team_data['rpg'] = round(team_seasons['trb_per_game'].mean() if 'trb_per_game' in team_seasons.columns else 0, 2)
+                team_data['apg'] = round(team_seasons['ast_per_game'].mean() if 'ast_per_game' in team_seasons.columns else 0, 2)
+                team_data['spg'] = round(team_seasons['stl_per_game'].mean() if 'stl_per_game' in team_seasons.columns else 0, 2)
+                team_data['bpg'] = round(team_seasons['blk_per_game'].mean() if 'blk_per_game' in team_seasons.columns else 0, 2)
+                team_data['fg_pct'] = round(team_seasons['fg_percent'].mean() if 'fg_percent' in team_seasons.columns else 0, 4)
+                team_data['3p_pct'] = round(team_seasons['x3p_percent'].mean() if 'x3p_percent' in team_seasons.columns else 0, 4)
+                team_data['ft_pct'] = round(team_seasons['ft_percent'].mean() if 'ft_percent' in team_seasons.columns else 0, 4)
+        
+        # Add advanced stats if available
+        if team_summaries_df is not None and not team_summaries_df.empty:
+            team_summaries = team_summaries_df[team_summaries_df['abbreviation'].str.upper() == abbrev.upper()]
+            if not team_summaries.empty:
+                team_data['offensive_rating'] = round(team_summaries['o_rtg'].mean() if 'o_rtg' in team_summaries.columns else 0, 2)
+                team_data['defensive_rating'] = round(team_summaries['d_rtg'].mean() if 'd_rtg' in team_summaries.columns else 0, 2)
+                team_data['net_rating'] = round(team_summaries['n_rtg'].mean() if 'n_rtg' in team_summaries.columns else 0, 2)
+                team_data['pace'] = round(team_summaries['pace'].mean() if 'pace' in team_summaries.columns else 0, 2)
+                team_data['ts_pct'] = round(team_summaries['ts_percent'].mean() if 'ts_percent' in team_summaries.columns else 0, 4)
+                team_data['efg_pct'] = round(team_summaries['e_fg_percent'].mean() if 'e_fg_percent' in team_summaries.columns else 0, 4)
+        
+        team_summary.append(team_data)
     
     return team_summary
 
-def generate_player_summary(players_df, box_scores_df):
+def generate_player_summary(players_df, box_scores_df, advanced_df=None, all_star_df=None, awards_df=None):
     """Generate player_summary.json"""
     print("Generating player summary...")
     
     player_stats = {}
     
-    # For player stats, we'll create a simplified version since box_scores might not have player-level data
-    # We'll create player summaries from the players dataframe
-    player_summary = []
+    # Initialize all players
     for _, player in players_df.iterrows():
         player_id = player.get('player_id') or player.get('id')
         player_name = player.get('name') or player.get('full_name', '')
@@ -292,17 +422,229 @@ def generate_player_summary(players_df, box_scores_df):
         if not player_id:
             continue
         
-        # Initialize with basic info - stats would need to come from a different source
-        # For MVP, we'll create placeholder stats
-        player_summary.append({
+        player_stats[player_id] = {
             'player_id': player_id,
             'name': player_name,
-            'teams': [],  # Would need to join with game data
-            'career_ppg': 0,  # Placeholder - would need box score data
-            'career_rpg': 0,
-            'career_apg': 0,
+            'teams': set(),  # Use set to avoid duplicates
+            'total_points': 0,
+            'total_rebounds': 0,
+            'total_assists': 0,
+            'total_steals': 0,
+            'total_blocks': 0,
             'total_games': 0,
+            'total_fg_made': 0,
+            'total_fg_attempted': 0,
+            'total_3p_made': 0,
+            'total_3p_attempted': 0,
+            'total_ft_made': 0,
+            'total_ft_attempted': 0,
+        }
+    
+    # Calculate stats from player_totals if available
+    if not box_scores_df.empty and len(box_scores_df) > 0:
+        # Check what columns are available
+        print(f"  Player totals columns: {list(box_scores_df.columns)}")
+        
+        # The player_totals table should have: player_id, pts, trb, ast, g, tm
+        player_id_col = 'player_id'
+        pts_col = 'pts'
+        reb_col = 'trb'  # Total rebounds
+        ast_col = 'ast'
+        games_col = 'g'
+        team_col = 'tm'  # Team abbreviation
+        
+        # Check if columns exist
+        if player_id_col in box_scores_df.columns:
+            print(f"  Calculating stats from player_totals using columns: player_id={player_id_col}, pts={pts_col}, reb={reb_col}, ast={ast_col}, games={games_col}, team={team_col}")
+            
+            # Create a mapping from player_totals player_id/name to our player_stats
+            # First try by player_id, then by name
+            player_name_col = 'player' if 'player' in box_scores_df.columns else None
+            
+            # Group by player_id and aggregate
+            for stats_player_id, group in box_scores_df.groupby(player_id_col):
+                if pd.isna(stats_player_id):
+                    continue
+                
+                # Try to find matching player in our player_stats
+                target_player_id = None
+                
+                # First try direct player_id match
+                if stats_player_id in player_stats:
+                    target_player_id = stats_player_id
+                # If not found, try matching by name
+                elif player_name_col and player_name_col in group.columns:
+                    player_name = group[player_name_col].iloc[0] if len(group) > 0 else None
+                    if player_name:
+                        # Find player by name
+                        for pid, pdata in player_stats.items():
+                            if pdata['name'].lower() == str(player_name).lower():
+                                target_player_id = pid
+                                break
+                
+                if target_player_id is None:
+                    # Create new entry for player not in original dataset
+                    if player_name_col and player_name_col in group.columns:
+                        player_name = group[player_name_col].iloc[0]
+                        target_player_id = stats_player_id
+                        player_stats[target_player_id] = {
+                            'player_id': target_player_id,
+                            'name': player_name,
+                            'teams': set(),
+                            'total_points': 0,
+                            'total_rebounds': 0,
+                            'total_assists': 0,
+                            'total_steals': 0,
+                            'total_blocks': 0,
+                            'total_games': 0,
+                            'total_fg_made': 0,
+                            'total_fg_attempted': 0,
+                            'total_3p_made': 0,
+                            'total_3p_attempted': 0,
+                            'total_ft_made': 0,
+                            'total_ft_attempted': 0,
+                        }
+                    else:
+                        continue
+                
+                # Sum totals across all seasons
+                total_games = group[games_col].sum() if games_col in group.columns else len(group)
+                total_points = group[pts_col].sum() if pts_col in group.columns else 0
+                total_rebounds = group[reb_col].sum() if reb_col in group.columns else 0
+                total_assists = group[ast_col].sum() if ast_col in group.columns else 0
+                total_steals = group['stl'].sum() if 'stl' in group.columns else 0
+                total_blocks = group['blk'].sum() if 'blk' in group.columns else 0
+                total_fg_made = group['fg'].sum() if 'fg' in group.columns else 0
+                total_fg_attempted = group['fga'].sum() if 'fga' in group.columns else 0
+                total_3p_made = group['x3p'].sum() if 'x3p' in group.columns else 0
+                total_3p_attempted = group['x3pa'].sum() if 'x3pa' in group.columns else 0
+                total_ft_made = group['ft'].sum() if 'ft' in group.columns else 0
+                total_ft_attempted = group['fta'].sum() if 'fta' in group.columns else 0
+                
+                player_stats[target_player_id]['total_games'] += int(total_games)
+                player_stats[target_player_id]['total_points'] += float(total_points)
+                player_stats[target_player_id]['total_rebounds'] += float(total_rebounds)
+                player_stats[target_player_id]['total_assists'] += float(total_assists)
+                player_stats[target_player_id]['total_steals'] += float(total_steals)
+                player_stats[target_player_id]['total_blocks'] += float(total_blocks)
+                player_stats[target_player_id]['total_fg_made'] += float(total_fg_made)
+                player_stats[target_player_id]['total_fg_attempted'] += float(total_fg_attempted)
+                player_stats[target_player_id]['total_3p_made'] += float(total_3p_made)
+                player_stats[target_player_id]['total_3p_attempted'] += float(total_3p_attempted)
+                player_stats[target_player_id]['total_ft_made'] += float(total_ft_made)
+                player_stats[target_player_id]['total_ft_attempted'] += float(total_ft_attempted)
+                
+                # Collect unique teams
+                if team_col in group.columns:
+                    for team in group[team_col].dropna().unique():
+                        team_abbrev = str(team).upper().strip()
+                        # Map old abbreviations to new ones
+                        team_abbrev = TEAM_ABBREV_MAP.get(team_abbrev, team_abbrev)
+                        if team_abbrev:
+                            player_stats[target_player_id]['teams'].add(team_abbrev)
+        else:
+            print("  No player_id column found in player_totals, using placeholder stats")
+    
+    # Process advanced stats
+    if advanced_df is not None and not advanced_df.empty and 'player_id' in advanced_df.columns:
+        print("  Processing advanced stats...")
+        for player_id, group in advanced_df.groupby('player_id'):
+            if pd.isna(player_id):
+                continue
+            if player_id in player_stats:
+                # Calculate career averages for advanced stats
+                player_stats[player_id]['total_per'] = group['per'].sum() if 'per' in group.columns else 0
+                player_stats[player_id]['total_bpm'] = group['bpm'].sum() if 'bpm' in group.columns else 0
+                player_stats[player_id]['total_vorp'] = group['vorp'].sum() if 'vorp' in group.columns else 0
+                player_stats[player_id]['total_ws'] = group['ws'].sum() if 'ws' in group.columns else 0
+                player_stats[player_id]['total_usg_pct'] = group['usg_percent'].sum() if 'usg_percent' in group.columns else 0
+                player_stats[player_id]['total_ts_pct'] = group['ts_percent'].sum() if 'ts_percent' in group.columns else 0
+                player_stats[player_id]['total_efg_pct'] = group['e_fg_percent'].sum() if 'e_fg_percent' in group.columns else 0
+                player_stats[player_id]['advanced_seasons'] = len(group)
+    
+    # Process all-star selections
+    all_star_counts = {}
+    if all_star_df is not None and not all_star_df.empty:
+        print("  Processing all-star selections...")
+        if 'player' in all_star_df.columns:
+            for _, row in all_star_df.iterrows():
+                player_name = str(row['player']).strip()
+                if player_name:
+                    all_star_counts[player_name] = all_star_counts.get(player_name, 0) + 1
+    
+    # Process awards (MVP, All-NBA)
+    mvp_counts = {}
+    all_nba_counts = {}
+    if awards_df is not None and not awards_df.empty:
+        print("  Processing awards...")
+        if 'player' in awards_df.columns and 'award' in awards_df.columns:
+            for _, row in awards_df.iterrows():
+                player_name = str(row['player']).strip()
+                award = str(row['award']).strip().upper() if pd.notna(row['award']) else ''
+                if player_name:
+                    if 'MVP' in award:
+                        mvp_counts[player_name] = mvp_counts.get(player_name, 0) + 1
+                    if 'ALL-NBA' in award or 'ALL NBA' in award:
+                        all_nba_counts[player_name] = all_nba_counts.get(player_name, 0) + 1
+    
+    # Convert to final format
+    player_summary = []
+    for player_id, stats in player_stats.items():
+        total_games = stats['total_games']
+        career_ppg = stats['total_points'] / total_games if total_games > 0 else 0
+        career_rpg = stats['total_rebounds'] / total_games if total_games > 0 else 0
+        career_apg = stats['total_assists'] / total_games if total_games > 0 else 0
+        career_spg = stats['total_steals'] / total_games if total_games > 0 else 0
+        career_bpg = stats['total_blocks'] / total_games if total_games > 0 else 0
+        
+        # Calculate shooting percentages
+        fg_pct = stats['total_fg_made'] / stats['total_fg_attempted'] if stats['total_fg_attempted'] > 0 else 0
+        three_pct = stats['total_3p_made'] / stats['total_3p_attempted'] if stats['total_3p_attempted'] > 0 else 0
+        ft_pct = stats['total_ft_made'] / stats['total_ft_attempted'] if stats['total_ft_attempted'] > 0 else 0
+        
+        # Advanced stats averages
+        advanced_seasons = stats.get('advanced_seasons', 0)
+        career_per = stats.get('total_per', 0) / advanced_seasons if advanced_seasons > 0 else 0
+        career_bpm = stats.get('total_bpm', 0) / advanced_seasons if advanced_seasons > 0 else 0
+        career_vorp = stats.get('total_vorp', 0)  # VORP is cumulative
+        career_ws = stats.get('total_ws', 0)  # Win shares are cumulative
+        career_usg_pct = stats.get('total_usg_pct', 0) / advanced_seasons if advanced_seasons > 0 else 0
+        career_ts_pct = stats.get('total_ts_pct', 0) / advanced_seasons if advanced_seasons > 0 else 0
+        career_efg_pct = stats.get('total_efg_pct', 0) / advanced_seasons if advanced_seasons > 0 else 0
+        
+        # Awards
+        player_name = stats['name']
+        all_star_appearances = all_star_counts.get(player_name, 0)
+        mvp_count = mvp_counts.get(player_name, 0)
+        all_nba_count = all_nba_counts.get(player_name, 0)
+        
+        player_summary.append({
+            'player_id': player_id,
+            'name': stats['name'],
+            'teams': sorted(list(stats['teams'])),  # Convert set to sorted list
+            'career_ppg': round(career_ppg, 1),
+            'career_rpg': round(career_rpg, 1),
+            'career_apg': round(career_apg, 1),
+            'career_spg': round(career_spg, 1),
+            'career_bpg': round(career_bpg, 1),
+            'career_fg_pct': round(fg_pct, 4),
+            'career_3p_pct': round(three_pct, 4),
+            'career_ft_pct': round(ft_pct, 4),
+            'career_ts_pct': round(career_ts_pct, 4),
+            'career_efg_pct': round(career_efg_pct, 4),
+            'career_per': round(career_per, 1),
+            'career_bpm': round(career_bpm, 1),
+            'career_vorp': round(career_vorp, 1),
+            'career_ws': round(career_ws, 1),
+            'career_usg_pct': round(career_usg_pct, 4),
+            'all_star_appearances': all_star_appearances,
+            'mvp_count': mvp_count,
+            'all_nba_count': all_nba_count,
+            'total_games': total_games,
         })
+    
+    print(f"  Generated stats for {len(player_summary)} players")
+    print(f"  Players with stats: {sum(1 for p in player_summary if p['total_games'] > 0)}")
     
     return player_summary
 
@@ -383,14 +725,14 @@ def main():
     print("Starting NBA data processing...")
     
     # Stream data from Kaggle
-    teams_df, players_df, games_df, box_scores_df = load_data()
+    teams_df, players_df, games_df, box_scores_df, team_stats_per_game_df, team_summaries_df, advanced_df, all_star_df, awards_df = load_data()
     
     # Clean and process data
     teams_df, players_df, games_df, box_scores_df = clean_data(teams_df, players_df, games_df, box_scores_df)
     
     # Generate summaries
-    team_summary = generate_team_summary(teams_df, games_df)
-    player_summary = generate_player_summary(players_df, box_scores_df)
+    team_summary = generate_team_summary(teams_df, games_df, team_stats_per_game_df, team_summaries_df)
+    player_summary = generate_player_summary(players_df, box_scores_df, advanced_df, all_star_df, awards_df)
     rivalry_summary = generate_rivalry_summary(games_df)
     state_summary = generate_state_summary(team_summary)
     

@@ -10,18 +10,17 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [selectedDecade, setSelectedDecade] = useState(filters.decade || null);
+  const [chartType, setChartType] = useState('basic'); // 'basic', 'offensive', 'defensive', 'shooting', 'advanced'
 
   const decades = ['1940s', '1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010s', '2020s'];
 
   useEffect(() => {
-    // Load teams for dropdown
     getTeams()
       .then(data => setTeams(data))
       .catch(err => setError('Failed to load teams'));
   }, []);
 
   useEffect(() => {
-    // Update when selectedTeams prop changes
     if (selectedTeams.length > 0) {
       setTeam1(selectedTeams[0]);
       if (selectedTeams.length > 1) {
@@ -31,7 +30,6 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
   }, [selectedTeams]);
 
   useEffect(() => {
-    // Fetch comparison data when teams or decade changes
     if (team1 && team2) {
       setLoading(true);
       setError(null);
@@ -44,7 +42,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
           setError('Failed to load comparison data');
           setLoading(false);
         });
-    }
+  }
   }, [team1, team2, selectedDecade]);
 
   if (error) {
@@ -59,31 +57,191 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
   const team2Data = comparisonData?.team2;
   const rivalry = comparisonData?.rivalry;
 
-  // Prepare bar chart data
-  const barChartData = team1Data && team2Data ? [
-    {
-      x: ['Wins', 'Championships', 'Win %'],
-      y: [
-        team1Data.total_wins,
-        team1Data.championships,
-        (team1Data.win_pct * 100).toFixed(1)
-      ],
-      name: team1Data.name,
-      type: 'bar',
-      marker: { color: '#1d428a' }
-    },
-    {
-      x: ['Wins', 'Championships', 'Win %'],
-      y: [
-        team2Data.total_wins,
-        team2Data.championships,
-        (team2Data.win_pct * 100).toFixed(1)
-      ],
-      name: team2Data.name,
-      type: 'bar',
-      marker: { color: '#c8102e' }
+  // Prepare chart data based on chart type
+  const getChartData = (type) => {
+    if (!team1Data || !team2Data) return [];
+
+    switch(type) {
+      case 'basic':
+        return [
+          {
+            x: ['Wins', 'Championships', 'Win %'],
+            y: [
+              team1Data.total_wins,
+              team1Data.championships,
+              (team1Data.win_pct * 100).toFixed(1)
+            ],
+            name: team1Data.name,
+            type: 'bar',
+            marker: { color: '#1d428a' }
+          },
+          {
+            x: ['Wins', 'Championships', 'Win %'],
+            y: [
+              team2Data.total_wins,
+              team2Data.championships,
+              (team2Data.win_pct * 100).toFixed(1)
+            ],
+            name: team2Data.name,
+            type: 'bar',
+            marker: { color: '#c8102e' }
+          }
+        ];
+      
+      case 'offensive':
+        return [
+          {
+            x: ['PPG', 'APG', 'FG%', '3P%', 'FT%', 'TS%'],
+            y: [
+              team1Data.ppg || 0,
+              team1Data.apg || 0,
+              ((team1Data.fg_pct || 0) * 100).toFixed(1),
+              ((team1Data['3p_pct'] || 0) * 100).toFixed(1),
+              ((team1Data.ft_pct || 0) * 100).toFixed(1),
+              ((team1Data.ts_pct || 0) * 100).toFixed(1)
+            ],
+            name: team1Data.name,
+            type: 'bar',
+            marker: { color: '#1d428a' }
+          },
+          {
+            x: ['PPG', 'APG', 'FG%', '3P%', 'FT%', 'TS%'],
+            y: [
+              team2Data.ppg || 0,
+              team2Data.apg || 0,
+              ((team2Data.fg_pct || 0) * 100).toFixed(1),
+              ((team2Data['3p_pct'] || 0) * 100).toFixed(1),
+              ((team2Data.ft_pct || 0) * 100).toFixed(1),
+              ((team2Data.ts_pct || 0) * 100).toFixed(1)
+            ],
+            name: team2Data.name,
+            type: 'bar',
+            marker: { color: '#c8102e' }
+          }
+        ];
+      
+      case 'defensive':
+        return [
+          {
+            x: ['RPG', 'SPG', 'BPG', 'Def Rating'],
+            y: [
+              team1Data.rpg || 0,
+              team1Data.spg || 0,
+              team1Data.bpg || 0,
+              team1Data.defensive_rating || 0
+            ],
+            name: team1Data.name,
+            type: 'bar',
+            marker: { color: '#1d428a' }
+          },
+          {
+            x: ['RPG', 'SPG', 'BPG', 'Def Rating'],
+            y: [
+              team2Data.rpg || 0,
+              team2Data.spg || 0,
+              team2Data.bpg || 0,
+              team2Data.defensive_rating || 0
+            ],
+            name: team2Data.name,
+            type: 'bar',
+            marker: { color: '#c8102e' }
+          }
+        ];
+      
+      case 'advanced':
+        return [
+          {
+            x: ['Off Rating', 'Def Rating', 'Net Rating', 'Pace'],
+            y: [
+              team1Data.offensive_rating || 0,
+              team1Data.defensive_rating || 0,
+              team1Data.net_rating || 0,
+              team1Data.pace || 0
+            ],
+            name: team1Data.name,
+            type: 'bar',
+            marker: { color: '#1d428a' }
+          },
+          {
+            x: ['Off Rating', 'Def Rating', 'Net Rating', 'Pace'],
+            y: [
+              team2Data.offensive_rating || 0,
+              team2Data.defensive_rating || 0,
+              team2Data.net_rating || 0,
+              team2Data.pace || 0
+            ],
+            name: team2Data.name,
+            type: 'bar',
+            marker: { color: '#c8102e' }
+          }
+        ];
+      
+      case 'shooting':
+        return [
+          {
+            x: ['FG%', '3P%', 'FT%', 'eFG%', 'TS%'],
+            y: [
+              ((team1Data.fg_pct || 0) * 100).toFixed(1),
+              ((team1Data['3p_pct'] || 0) * 100).toFixed(1),
+              ((team1Data.ft_pct || 0) * 100).toFixed(1),
+              ((team1Data.efg_pct || 0) * 100).toFixed(1),
+              ((team1Data.ts_pct || 0) * 100).toFixed(1)
+            ],
+            name: team1Data.name,
+            type: 'bar',
+            marker: { color: '#1d428a' }
+          },
+          {
+            x: ['FG%', '3P%', 'FT%', 'eFG%', 'TS%'],
+            y: [
+              ((team2Data.fg_pct || 0) * 100).toFixed(1),
+              ((team2Data['3p_pct'] || 0) * 100).toFixed(1),
+              ((team2Data.ft_pct || 0) * 100).toFixed(1),
+              ((team2Data.efg_pct || 0) * 100).toFixed(1),
+              ((team2Data.ts_pct || 0) * 100).toFixed(1)
+            ],
+            name: team2Data.name,
+            type: 'bar',
+            marker: { color: '#c8102e' }
+          }
+        ];
+      
+      default:
+        return [];
     }
-  ] : [];
+  };
+
+  // Radar chart data for multi-dimensional comparison
+  const getRadarData = () => {
+    if (!team1Data || !team2Data) return null;
+
+    const categories = ['Wins', 'Win %', 'PPG', 'RPG', 'APG', 'FG%'];
+    const team1Values = [
+      team1Data.total_wins / 100, // Normalize
+      team1Data.win_pct * 100,
+      team1Data.ppg || 0,
+      team1Data.rpg || 0,
+      team1Data.apg || 0,
+      (team1Data.fg_pct || 0) * 100
+    ];
+    const team2Values = [
+      team2Data.total_wins / 100, // Normalize
+      team2Data.win_pct * 100,
+      team2Data.ppg || 0,
+      team2Data.rpg || 0,
+      team2Data.apg || 0,
+      (team2Data.fg_pct || 0) * 100
+    ];
+
+    return {
+      categories,
+      team1Values,
+      team2Values
+    };
+  };
+
+  const chartData = getChartData(chartType);
+  const radarData = getRadarData();
 
   return (
     <div className="p-6 rounded-xl" style={{ background: 'transparent' }}>
@@ -187,13 +345,90 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
             </div>
           </div>
 
+          {/* Chart Type Selector */}
+          <div className="mb-4">
+            <div className="flex gap-2 flex-wrap">
+              <button
+                onClick={() => setChartType('basic')}
+                className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+                  chartType === 'basic' ? 'text-white' : 'text-gray-300'
+                }`}
+                style={{
+                  background: chartType === 'basic' ? 'rgba(29, 66, 138, 0.6)' : 'rgba(29, 66, 138, 0.3)',
+                  fontFamily: "'Bebas Neue', 'Oswald', sans-serif",
+                  letterSpacing: '1px'
+                }}
+              >
+                Basic Stats
+              </button>
+              <button
+                onClick={() => setChartType('offensive')}
+                className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+                  chartType === 'offensive' ? 'text-white' : 'text-gray-300'
+                }`}
+                style={{
+                  background: chartType === 'offensive' ? 'rgba(29, 66, 138, 0.6)' : 'rgba(29, 66, 138, 0.3)',
+                  fontFamily: "'Bebas Neue', 'Oswald', sans-serif",
+                  letterSpacing: '1px'
+                }}
+              >
+                Offensive
+              </button>
+              <button
+                onClick={() => setChartType('defensive')}
+                className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+                  chartType === 'defensive' ? 'text-white' : 'text-gray-300'
+                }`}
+                style={{
+                  background: chartType === 'defensive' ? 'rgba(29, 66, 138, 0.6)' : 'rgba(29, 66, 138, 0.3)',
+                  fontFamily: "'Bebas Neue', 'Oswald', sans-serif",
+                  letterSpacing: '1px'
+                }}
+              >
+                Defensive
+              </button>
+              <button
+                onClick={() => setChartType('shooting')}
+                className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+                  chartType === 'shooting' ? 'text-white' : 'text-gray-300'
+                }`}
+                style={{
+                  background: chartType === 'shooting' ? 'rgba(29, 66, 138, 0.6)' : 'rgba(29, 66, 138, 0.3)',
+                  fontFamily: "'Bebas Neue', 'Oswald', sans-serif",
+                  letterSpacing: '1px'
+                }}
+              >
+                Shooting
+              </button>
+              <button
+                onClick={() => setChartType('advanced')}
+                className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+                  chartType === 'advanced' ? 'text-white' : 'text-gray-300'
+                }`}
+                style={{
+                  background: chartType === 'advanced' ? 'rgba(29, 66, 138, 0.6)' : 'rgba(29, 66, 138, 0.3)',
+                  fontFamily: "'Bebas Neue', 'Oswald', sans-serif",
+                  letterSpacing: '1px'
+                }}
+              >
+                Advanced
+              </button>
+            </div>
+          </div>
+
           {/* Bar Chart */}
-          {barChartData.length > 0 && (
+          {chartData.length > 0 && (
             <div className="mb-6">
-              <h3 className="text-xl font-semibold mb-4 text-white" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px', textTransform: 'uppercase' }}>Statistics Comparison</h3>
+              <h3 className="text-xl font-semibold mb-4 text-white" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px', textTransform: 'uppercase' }}>
+                {chartType === 'basic' ? 'Statistics Comparison' :
+                 chartType === 'offensive' ? 'Offensive Statistics' :
+                 chartType === 'defensive' ? 'Defensive Statistics' :
+                 chartType === 'shooting' ? 'Shooting Efficiency' :
+                 'Advanced Metrics'}
+              </h3>
               <div className="w-full rounded-lg overflow-hidden" style={{ background: 'rgba(15, 20, 25, 0.3)', padding: '20px' }}>
                 <Plot
-                  data={barChartData.map((trace, idx) => ({
+                  data={chartData.map((trace, idx) => ({
                     ...trace,
                     marker: {
                       color: trace.marker.color,
@@ -201,7 +436,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
                         color: idx === 0 ? '#0a4a8a' : '#8b0000',
                         width: 2
                       },
-                      opacity: 0.9
+                      opacity: 0.4
                     },
                     width: 0.4
                   }))}
@@ -212,22 +447,16 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
                     xaxis: { 
                       title: { text: 'Statistic', font: { color: '#ffffff', family: "'Bebas Neue', 'Oswald', sans-serif", size: 18 }, standoff: 10 }, 
                       tickfont: { color: '#ffffff', family: "'Inter', sans-serif", size: 12 }, 
-                      tickangle: 0,
-                      tickmode: 'array',
-                      tickvals: [0, 1, 2],
-                      ticktext: ['Wins', 'Championships', 'Win %'],
+                      tickangle: chartType === 'offensive' || chartType === 'shooting' ? -45 : 0,
                       gridcolor: 'rgba(255,255,255,0.08)',
                       gridwidth: 1,
                       showline: true,
                       linecolor: 'rgba(255,255,255,0.2)',
                       zeroline: false,
-                      automargin: false,
-                      side: 'bottom',
-                      ticklabelposition: 'outside',
-                      ticklen: 5
+                      automargin: true
                     },
                     yaxis: { 
-                      title: { text: 'Value', font: { color: '#ffffff', family: "'Bebas Neue', 'Oswald', sans-serif", size: 18 } }, 
+                      title: { text: chartType === 'shooting' ? 'Percentage (%)' : 'Value', font: { color: '#ffffff', family: "'Bebas Neue', 'Oswald', sans-serif", size: 18 } }, 
                       tickfont: { color: '#ffffff', family: "'Inter', sans-serif", size: 12 }, 
                       gridcolor: 'rgba(255,255,255,0.08)',
                       gridwidth: 1,
@@ -269,24 +498,117 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
             </div>
           )}
 
-          {/* Team Details */}
-          <div className="flex justify-between gap-8 w-full">
-            <div className="p-5 rounded-lg flex-1 max-w-md" style={{ background: 'rgba(29, 66, 138, 0.15)' }}>
+          {/* Radar Chart for Multi-dimensional Comparison */}
+          {radarData && (
+            <div className="mb-6">
+              <h3 className="text-xl font-semibold mb-4 text-white" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px', textTransform: 'uppercase' }}>
+                Multi-Dimensional Comparison
+              </h3>
+              <div className="w-full rounded-lg overflow-hidden" style={{ background: 'rgba(15, 20, 25, 0.3)', padding: '20px' }}>
+                <Plot
+                  data={[
+                    {
+                      type: 'scatterpolar',
+                      r: radarData.team1Values,
+                      theta: radarData.categories,
+                      fill: 'toself',
+                      name: team1Data.name,
+                      marker: { color: '#1d428a' },
+                      line: { color: '#1d428a' }
+                    },
+                    {
+                      type: 'scatterpolar',
+                      r: radarData.team2Values,
+                      theta: radarData.categories,
+                      fill: 'toself',
+                      name: team2Data.name,
+                      marker: { color: '#c8102e' },
+                      line: { color: '#c8102e' }
+                    }
+                  ]}
+                  layout={{
+                    polar: {
+                      radialaxis: {
+                        visible: true,
+                        range: [0, Math.max(...radarData.team1Values, ...radarData.team2Values) * 1.2],
+                        tickfont: { color: '#ffffff', size: 10 }
+                      },
+                      angularaxis: {
+                        tickfont: { color: '#ffffff', size: 12 }
+                      }
+                    },
+                    height: 500,
+                    showlegend: true,
+                    legend: {
+                      x: 0.5,
+                      y: 1.02,
+                      xanchor: 'center',
+                      yanchor: 'bottom',
+                      orientation: 'h',
+                      font: { color: '#ffffff', family: "'Bebas Neue', 'Oswald', sans-serif", size: 16 },
+                      bgcolor: 'rgba(0,0,0,0)'
+                    },
+                    plot_bgcolor: 'rgba(0,0,0,0)',
+                    paper_bgcolor: 'rgba(0,0,0,0)',
+                    font: { color: '#ffffff', family: "'Inter', sans-serif" },
+                    margin: { t: 80, b: 50 }
+                  }}
+                  config={{ 
+                    displayModeBar: false,
+                    responsive: true
+                  }}
+                  style={{ width: '100%', height: '100%' }}
+                />
+              </div>
+            </div>
+          )}
+
+          {/* Team Details with Enhanced Stats */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="p-5 rounded-lg" style={{ background: 'rgba(29, 66, 138, 0.15)' }}>
               <h4 className="font-semibold mb-3 text-white text-lg" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>{team1Data.name}</h4>
               <div className="text-sm space-y-2 text-gray-300" style={{ fontFamily: "'Inter', sans-serif" }}>
                 <p><strong className="text-white">Record:</strong> {team1Data.total_wins}-{team1Data.total_losses}</p>
                 <p><strong className="text-white">Win %:</strong> {(team1Data.win_pct * 100).toFixed(1)}%</p>
                 <p><strong className="text-white">Championships:</strong> {team1Data.championships}</p>
                 <p><strong className="text-white">Location:</strong> {team1Data.city}, {team1Data.state}</p>
+                {team1Data.ppg && (
+                  <>
+                    <p><strong className="text-white">PPG:</strong> {team1Data.ppg.toFixed(1)}</p>
+                    <p><strong className="text-white">RPG:</strong> {team1Data.rpg?.toFixed(1) || 'N/A'}</p>
+                    <p><strong className="text-white">APG:</strong> {team1Data.apg?.toFixed(1) || 'N/A'}</p>
+                  </>
+                )}
+                {team1Data.offensive_rating && (
+                  <>
+                    <p><strong className="text-white">Off Rating:</strong> {team1Data.offensive_rating.toFixed(1)}</p>
+                    <p><strong className="text-white">Def Rating:</strong> {team1Data.defensive_rating?.toFixed(1) || 'N/A'}</p>
+                    <p><strong className="text-white">Net Rating:</strong> {team1Data.net_rating?.toFixed(1) || 'N/A'}</p>
+                  </>
+                )}
               </div>
             </div>
-            <div className="p-5 rounded-lg flex-1 max-w-md ml-auto" style={{ background: 'rgba(200, 16, 46, 0.15)' }}>
+            <div className="p-5 rounded-lg" style={{ background: 'rgba(200, 16, 46, 0.15)' }}>
               <h4 className="font-semibold mb-3 text-white text-lg" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>{team2Data.name}</h4>
               <div className="text-sm space-y-2 text-gray-300" style={{ fontFamily: "'Inter', sans-serif" }}>
                 <p><strong className="text-white">Record:</strong> {team2Data.total_wins}-{team2Data.total_losses}</p>
                 <p><strong className="text-white">Win %:</strong> {(team2Data.win_pct * 100).toFixed(1)}%</p>
                 <p><strong className="text-white">Championships:</strong> {team2Data.championships}</p>
                 <p><strong className="text-white">Location:</strong> {team2Data.city}, {team2Data.state}</p>
+                {team2Data.ppg && (
+                  <>
+                    <p><strong className="text-white">PPG:</strong> {team2Data.ppg.toFixed(1)}</p>
+                    <p><strong className="text-white">RPG:</strong> {team2Data.rpg?.toFixed(1) || 'N/A'}</p>
+                    <p><strong className="text-white">APG:</strong> {team2Data.apg?.toFixed(1) || 'N/A'}</p>
+                  </>
+                )}
+                {team2Data.offensive_rating && (
+                  <>
+                    <p><strong className="text-white">Off Rating:</strong> {team2Data.offensive_rating.toFixed(1)}</p>
+                    <p><strong className="text-white">Def Rating:</strong> {team2Data.defensive_rating?.toFixed(1) || 'N/A'}</p>
+                    <p><strong className="text-white">Net Rating:</strong> {team2Data.net_rating?.toFixed(1) || 'N/A'}</p>
+                  </>
+                )}
               </div>
             </div>
           </div>
@@ -295,4 +617,3 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
     </div>
   );
 }
-
