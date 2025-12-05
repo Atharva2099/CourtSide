@@ -25,44 +25,17 @@ function App() {
       {/* Header */}
       <header className="p-6 shadow-2xl" style={{ background: viewMode === 'player' ? 'white' : 'linear-gradient(135deg, #1d428a 0%, #0a0e27 100%)', borderBottom: viewMode === 'player' ? '1px solid #E0E0E0' : '3px solid #c8102e' }}>
         <div className="container mx-auto flex items-center gap-4">
-          {viewMode === 'player' ? (
-            <img 
-              src="https://cdn.nba.com/logos/nba/nba-logo.svg" 
-              alt="NBA Logo" 
-              style={{ 
-                height: '60px', 
-                width: 'auto',
-                display: 'block'
-              }}
-              onError={(e) => { e.target.style.display = 'none'; }}
-            />
-          ) : (
-            <div style={{ 
+          <img 
+            src="https://cdn.nba.com/logos/nba/nba-logo.svg" 
+            alt="NBA Logo" 
+            style={{ 
               height: '60px', 
-              width: '60px',
-              background: 'white',
-              borderRadius: '8px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              padding: '8px'
-            }}>
-              <img 
-                src="https://cdn.nba.com/logos/nba/nba-logo.svg" 
-                alt="NBA Logo" 
-                style={{ 
-                  height: '100%', 
-                  width: '100%',
-                  objectFit: 'contain',
-                  filter: 'none'
-                }}
-                onError={(e) => { 
-                  e.target.style.display = 'none';
-                  e.target.parentElement.innerHTML = '<span style="font-size: 40px;">🏀</span>';
-                }}
-              />
-            </div>
-          )}
+              width: 'auto',
+              display: 'block',
+              filter: viewMode === 'player' ? 'none' : 'brightness(0) invert(1)'
+            }}
+            onError={(e) => { e.target.style.display = 'none'; }}
+          />
           <div>
             <h1 className="text-5xl font-bold mb-2" style={{ color: viewMode === 'player' ? '#1D428A' : 'white', fontFamily: "'Bebas Neue', 'Oswald', sans-serif", textShadow: viewMode === 'player' ? 'none' : '3px 3px 6px rgba(0,0,0,0.7)', letterSpacing: '3px' }}>
               Courtside
@@ -75,7 +48,7 @@ function App() {
       </header>
 
       {/* View Mode Toggle */}
-      <div className="bg-opacity-90 backdrop-blur-sm" style={{ background: viewMode === 'player' ? 'white' : 'rgba(26, 31, 58, 0.5)' }}>
+      <div className="bg-opacity-90 backdrop-blur-sm" style={{ background: 'rgba(26, 31, 58, 0.5)' }}>
         <div className="container mx-auto p-4">
           <div className="flex gap-3">
             <button
