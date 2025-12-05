@@ -31,11 +31,16 @@ function App() {
             style={{ 
               height: '60px', 
               width: 'auto',
-              filter: viewMode === 'player' ? 'none' : 'brightness(0) invert(1)'
+              filter: viewMode === 'player' ? 'none' : 'brightness(0) invert(1)',
+              display: 'block'
             }}
             onError={(e) => {
-              // Fallback if logo fails to load
+              // Fallback if logo fails to load - use a simple basketball emoji
               e.target.style.display = 'none';
+              const fallback = document.createElement('div');
+              fallback.innerHTML = '🏀';
+              fallback.style.fontSize = '60px';
+              e.target.parentNode.insertBefore(fallback, e.target);
             }}
           />
           <div>
@@ -55,7 +60,7 @@ function App() {
           <div className="flex gap-3">
             <button
               onClick={() => setViewMode('team')}
-              className={`px-6 py-2.5 rounded-lg font-semibold transition-all duration-200 ${
+              className={`px-6 py-2.5 rounded-lg font-semibold transition-all duration-200 flex items-center gap-2 ${
                 viewMode === 'team'
                   ? 'text-white shadow-lg transform scale-105'
                   : 'text-gray-300 hover:text-white hover:bg-opacity-50'
@@ -66,11 +71,21 @@ function App() {
                 letterSpacing: '1px'
               }}
             >
+              <img 
+                src="https://cdn.nba.com/logos/nba/nba-logo.svg" 
+                alt="" 
+                style={{ 
+                  height: '20px', 
+                  width: 'auto',
+                  filter: 'brightness(0) invert(1)'
+                }}
+                onError={(e) => { e.target.style.display = 'none'; }}
+              />
               Team View
             </button>
             <button
               onClick={() => setViewMode('player')}
-              className={`px-6 py-2.5 rounded-lg font-semibold transition-all duration-200 ${
+              className={`px-6 py-2.5 rounded-lg font-semibold transition-all duration-200 flex items-center gap-2 ${
                 viewMode === 'player'
                   ? 'text-white shadow-lg transform scale-105'
                   : 'text-gray-300 hover:text-white hover:bg-opacity-50'
@@ -80,11 +95,21 @@ function App() {
                 fontFamily: "'Roboto Condensed', sans-serif"
               }}
             >
+              <img 
+                src="https://cdn.nba.com/logos/nba/nba-logo.svg" 
+                alt="" 
+                style={{ 
+                  height: '20px', 
+                  width: 'auto',
+                  filter: 'brightness(0) invert(1)'
+                }}
+                onError={(e) => { e.target.style.display = 'none'; }}
+              />
               Player View
             </button>
             <button
               onClick={() => setViewMode('state')}
-              className={`px-6 py-2.5 rounded-lg font-semibold transition-all duration-200 ${
+              className={`px-6 py-2.5 rounded-lg font-semibold transition-all duration-200 flex items-center gap-2 ${
                 viewMode === 'state'
                   ? 'text-white shadow-lg transform scale-105'
                   : 'text-gray-300 hover:text-white hover:bg-opacity-50'
@@ -94,6 +119,16 @@ function App() {
                 fontFamily: "'Roboto Condensed', sans-serif"
               }}
             >
+              <img 
+                src="https://cdn.nba.com/logos/nba/nba-logo.svg" 
+                alt="" 
+                style={{ 
+                  height: '20px', 
+                  width: 'auto',
+                  filter: 'brightness(0) invert(1)'
+                }}
+                onError={(e) => { e.target.style.display = 'none'; }}
+              />
               State View
             </button>
           </div>
