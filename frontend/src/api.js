@@ -2,8 +2,8 @@
  * API service functions for fetching data from FastAPI backend
  */
 
-// Use relative paths - Vite proxy will handle forwarding to backend
-const API_BASE_URL = '';
+// Use environment variable for production, empty string for development (Vite proxy)
+const API_BASE_URL = import.meta.env.VITE_API_URL || '';
 
 async function fetchAPI(endpoint) {
   try {
