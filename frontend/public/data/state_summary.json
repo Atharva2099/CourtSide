@@ -1,0 +1,163 @@
+[
+  {
+    "state_name": "Georgia",
+    "total_teams": 1,
+    "aggregate_wins": 2201,
+    "aggregate_losses": 2249,
+    "aggregate_championships": 0
+  },
+  {
+    "state_name": "Massachusetts",
+    "total_teams": 1,
+    "aggregate_wins": 3626,
+    "aggregate_losses": 2581,
+    "aggregate_championships": 4
+  },
+  {
+    "state_name": "Ohio",
+    "total_teams": 1,
+    "aggregate_wins": 2015,
+    "aggregate_losses": 2243,
+    "aggregate_championships": 1
+  },
+  {
+    "state_name": "Louisiana",
+    "total_teams": 1,
+    "aggregate_wins": 394,
+    "aggregate_losses": 468,
+    "aggregate_championships": 0
+  },
+  {
+    "state_name": "Illinois",
+    "total_teams": 1,
+    "aggregate_wins": 2377,
+    "aggregate_losses": 2231,
+    "aggregate_championships": 6
+  },
+  {
+    "state_name": "Texas",
+    "total_teams": 3,
+    "aggregate_wins": 5634,
+    "aggregate_losses": 4791,
+    "aggregate_championships": 8
+  },
+  {
+    "state_name": "Colorado",
+    "total_teams": 1,
+    "aggregate_wins": 1936,
+    "aggregate_losses": 2001,
+    "aggregate_championships": 0
+  },
+  {
+    "state_name": "California",
+    "total_teams": 4,
+    "aggregate_wins": 7023,
+    "aggregate_losses": 6880,
+    "aggregate_championships": 12
+  },
+  {
+    "state_name": "Florida",
+    "total_teams": 2,
+    "aggregate_wins": 2957,
+    "aggregate_losses": 2970,
+    "aggregate_championships": 3
+  },
+  {
+    "state_name": "Wisconsin",
+    "total_teams": 1,
+    "aggregate_wins": 2345,
+    "aggregate_losses": 2165,
+    "aggregate_championships": 0
+  },
+  {
+    "state_name": "Minnesota",
+    "total_teams": 1,
+    "aggregate_wins": 1138,
+    "aggregate_losses": 1646,
+    "aggregate_championships": 0
+  },
+  {
+    "state_name": "New York",
+    "total_teams": 2,
+    "aggregate_wins": 3271,
+    "aggregate_losses": 3505,
+    "aggregate_championships": 0
+  },
+  {
+    "state_name": "Indiana",
+    "total_teams": 1,
+    "aggregate_wins": 1932,
+    "aggregate_losses": 1974,
+    "aggregate_championships": 0
+  },
+  {
+    "state_name": "Pennsylvania",
+    "total_teams": 1,
+    "aggregate_wins": 1096,
+    "aggregate_losses": 1203,
+    "aggregate_championships": 1
+  },
+  {
+    "state_name": "Arizona",
+    "total_teams": 1,
+    "aggregate_wins": 2424,
+    "aggregate_losses": 2066,
+    "aggregate_championships": 0
+  },
+  {
+    "state_name": "Oregon",
+    "total_teams": 1,
+    "aggregate_wins": 2274,
+    "aggregate_losses": 2023,
+    "aggregate_championships": 0
+  },
+  {
+    "state_name": "Oklahoma",
+    "total_teams": 1,
+    "aggregate_wins": 701,
+    "aggregate_losses": 596,
+    "aggregate_championships": 0
+  },
+  {
+    "state_name": "Ontario",
+    "total_teams": 1,
+    "aggregate_wins": 1154,
+    "aggregate_losses": 1207,
+    "aggregate_championships": 0
+  },
+  {
+    "state_name": "Utah",
+    "total_teams": 1,
+    "aggregate_wins": 1318,
+    "aggregate_losses": 1004,
+    "aggregate_championships": 0
+  },
+  {
+    "state_name": "Tennessee",
+    "total_teams": 1,
+    "aggregate_wins": 912,
+    "aggregate_losses": 974,
+    "aggregate_championships": 0
+  },
+  {
+    "state_name": "District of Columbia",
+    "total_teams": 1,
+    "aggregate_wins": 1924,
+    "aggregate_losses": 2342,
+    "aggregate_championships": 0
+  },
+  {
+    "state_name": "Michigan",
+    "total_teams": 1,
+    "aggregate_wins": 2448,
+    "aggregate_losses": 2662,
+    "aggregate_championships": 3
+  },
+  {
+    "state_name": "North Carolina",
+    "total_teams": 1,
+    "aggregate_wins": 0,
+    "aggregate_losses": 0,
+    "aggregate_championships": 0
+  }
+]
