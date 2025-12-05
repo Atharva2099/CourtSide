@@ -24,13 +24,28 @@ function App() {
     <div className="min-h-screen" style={{ background: viewMode === 'player' ? 'white' : 'linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%)' }}>
       {/* Header */}
       <header className="p-6 shadow-2xl" style={{ background: viewMode === 'player' ? 'white' : 'linear-gradient(135deg, #1d428a 0%, #0a0e27 100%)', borderBottom: viewMode === 'player' ? '1px solid #E0E0E0' : '3px solid #c8102e' }}>
-        <div className="container mx-auto">
-          <h1 className="text-5xl font-bold mb-2" style={{ color: viewMode === 'player' ? '#1D428A' : 'white', fontFamily: "'Bebas Neue', 'Oswald', sans-serif", textShadow: viewMode === 'player' ? 'none' : '3px 3px 6px rgba(0,0,0,0.7)', letterSpacing: '3px' }}>
-            Courtside
-          </h1>
-          <p className="text-lg" style={{ color: viewMode === 'player' ? '#666' : '#93c5fd', fontFamily: "'Inter', sans-serif", letterSpacing: '0.5px' }}>
-            Team & State Rivalries (1946-2024)
-          </p>
+        <div className="container mx-auto flex items-center gap-4">
+          <img 
+            src="https://cdn.nba.com/logos/nba/nba-logo.svg" 
+            alt="NBA Logo" 
+            style={{ 
+              height: '60px', 
+              width: 'auto',
+              filter: viewMode === 'player' ? 'none' : 'brightness(0) invert(1)'
+            }}
+            onError={(e) => {
+              // Fallback if logo fails to load
+              e.target.style.display = 'none';
+            }}
+          />
+          <div>
+            <h1 className="text-5xl font-bold mb-2" style={{ color: viewMode === 'player' ? '#1D428A' : 'white', fontFamily: "'Bebas Neue', 'Oswald', sans-serif", textShadow: viewMode === 'player' ? 'none' : '3px 3px 6px rgba(0,0,0,0.7)', letterSpacing: '3px' }}>
+              Courtside
+            </h1>
+            <p className="text-lg" style={{ color: viewMode === 'player' ? '#666' : '#93c5fd', fontFamily: "'Inter', sans-serif", letterSpacing: '0.5px' }}>
+              Team & State Rivalries (1946-2024)
+            </p>
+          </div>
         </div>
       </header>
 
