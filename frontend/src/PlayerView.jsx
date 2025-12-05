@@ -249,24 +249,24 @@ export default function PlayerView() {
             {(player.all_star_appearances > 0 || player.mvp_count > 0 || player.all_nba_count > 0) && (
               <div className="absolute top-0 right-0 flex flex-col gap-1">
                 {player.all_star_appearances > 0 && (
-                  <div className="bg-yellow-500 text-black text-xs font-bold px-2 py-1 rounded-full" style={{ fontFamily: "'Inter', sans-serif" }}>
+                  <div className="bg-yellow-500 text-black text-xs font-bold px-2 py-1 rounded-full" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
                     ⭐ {player.all_star_appearances}
                   </div>
                 )}
                 {player.mvp_count > 0 && (
-                  <div className="bg-purple-500 text-white text-xs font-bold px-2 py-1 rounded-full" style={{ fontFamily: "'Inter', sans-serif" }}>
+                  <div className="bg-purple-500 text-white text-xs font-bold px-2 py-1 rounded-full" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
                     🏆 {player.mvp_count}x MVP
                   </div>
                 )}
                 {player.all_nba_count > 0 && (
-                  <div className="bg-blue-500 text-white text-xs font-bold px-2 py-1 rounded-full" style={{ fontFamily: "'Inter', sans-serif" }}>
+                  <div className="bg-blue-500 text-white text-xs font-bold px-2 py-1 rounded-full" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
                     🏀 {player.all_nba_count}x All-NBA
                   </div>
                 )}
               </div>
             )}
           </div>
-          <h3 className="text-2xl font-bold mb-1" style={{ color: accentColor, fontFamily: "'Inter', sans-serif", letterSpacing: '1px', textTransform: 'uppercase' }}>
+          <h3 className="text-2xl font-bold mb-1" style={{ color: accentColor, fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px', textTransform: 'uppercase' }}>
             {player.name}
           </h3>
           {primaryTeam && (
@@ -336,7 +336,7 @@ export default function PlayerView() {
         <div style={{ background: 'rgb(255, 254, 245)', padding: '0', flex: 1 }}>
           {/* Header Banner */}
           <div style={{ background: accentColor, padding: '8px 12px' }}>
-            <span style={{ color: 'white', fontFamily: "'Inter', sans-serif", fontSize: '14px', letterSpacing: '1px' }}>
+            <span style={{ color: 'white', fontFamily: "'Bebas Neue', 'Oswald', sans-serif", fontSize: '14px', letterSpacing: '1px' }}>
               {statCategory === 'basic' ? 'CAREER STATS' : statCategory === 'shooting' ? 'SHOOTING STATS' : 'ADVANCED STATS'}
             </span>
           </div>
@@ -447,7 +447,7 @@ export default function PlayerView() {
 
   return (
     <div className="p-6" style={{ background: 'white', minHeight: '100vh' }}>
-      <h2 className="text-3xl font-bold mb-6" style={{ color: nbaBlue, fontFamily: "'Inter', sans-serif", letterSpacing: '2px' }}>
+      <h2 className="text-3xl font-bold mb-6" style={{ color: nbaBlue, fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '2px' }}>
         Player vs Player
       </h2>
 
@@ -457,7 +457,7 @@ export default function PlayerView() {
           <PlayerCard player={player1} side="left" onSelect={handlePlayerSelect} statCategory={statCategory1} setStatCategory={setStatCategory1} />
         </div>
         <div className="flex flex-col items-center justify-center px-4">
-          <div className="text-4xl font-bold mb-4" style={{ color: nbaRed, fontFamily: "'Inter', sans-serif" }}>
+          <div className="text-4xl font-bold mb-4" style={{ color: nbaRed, fontFamily: "'Bebas Neue', 'Oswald', sans-serif" }}>
             VS
           </div>
           {/* Comparison indicators */}
@@ -479,7 +479,7 @@ export default function PlayerView() {
 
       {/* Leaderboard Section */}
       <div className="mb-6">
-        <h3 className="text-2xl font-bold mb-4" style={{ color: nbaBlue, fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>
+        <h3 className="text-2xl font-bold mb-4" style={{ color: nbaBlue, fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>
           Leaderboard
         </h3>
         
@@ -524,43 +524,43 @@ export default function PlayerView() {
             <table className="w-full" style={{ borderCollapse: 'collapse' }}>
               <thead>
                 <tr style={{ background: 'white', borderBottom: `1px solid #E0E0E0` }}>
-                  <th className="p-4 text-left font-semibold" style={{ color: nbaBlue, fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>
+                  <th className="p-4 text-left font-semibold" style={{ color: nbaBlue, fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>
                     Rank
                   </th>
-                  <th className="p-4 text-left font-semibold" style={{ color: nbaBlue, fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>
+                  <th className="p-4 text-left font-semibold" style={{ color: nbaBlue, fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>
                     Player Name
                   </th>
-                  <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>
+                  <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>
                     PPG
                   </th>
-                  <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>
+                  <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>
                     RPG
                   </th>
-                  <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>
+                  <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>
                     APG
                   </th>
                   {(leaderboardCategory === 'per' || leaderboardCategory === 'bpm' || leaderboardCategory === 'vorp') && (
                     <>
-                      <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>
+                      <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>
                         PER
                       </th>
-                      <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>
+                      <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>
                         BPM
                       </th>
-                      <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>
+                      <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>
                         VORP
                       </th>
                     </>
                   )}
                   {leaderboardCategory === 'all_star' && (
-                    <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>
+                    <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>
                       All-Stars
                     </th>
                   )}
-                  <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>
+                  <th className="p-4 text-right font-semibold" style={{ color: nbaBlue, fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>
                     Games
                   </th>
-                  <th className="p-4 text-center font-semibold" style={{ color: nbaBlue, fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>
+                  <th className="p-4 text-center font-semibold" style={{ color: nbaBlue, fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>
                     Select
                   </th>
                 </tr>

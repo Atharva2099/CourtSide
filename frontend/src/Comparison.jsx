@@ -297,12 +297,12 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
 
   return (
     <div className="p-6 rounded-xl" style={{ background: 'transparent' }}>
-      <h2 className="text-3xl font-bold mb-6 text-white" style={{ fontFamily: "'Inter', sans-serif", letterSpacing: '2px' }}>Team Comparison</h2>
+      <h2 className="text-3xl font-bold mb-6 text-white" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '2px' }}>Team Comparison</h2>
 
       {/* Team Selection */}
       <div className="grid grid-cols-2 gap-4 mb-6">
         <div>
-          <label className="block text-sm font-semibold mb-2 text-gray-300" style={{ fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>Team 1</label>
+          <label className="block text-sm font-semibold mb-2 text-gray-300" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>Team 1</label>
           <select
             value={team1}
             onChange={(e) => setTeam1(e.target.value)}
@@ -317,7 +317,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
           </select>
         </div>
         <div>
-          <label className="block text-sm font-semibold mb-2 text-gray-300" style={{ fontFamily: "'Inter', sans-serif" }}>Team 2</label>
+          <label className="block text-sm font-semibold mb-2 text-gray-300" style={{ fontFamily: "'Roboto Condensed', sans-serif" }}>Team 2</label>
           <select
             value={team2}
             onChange={(e) => setTeam2(e.target.value)}
@@ -335,7 +335,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
 
       {/* Decade Filter */}
       <div className="mb-6">
-        <label className="block text-sm font-semibold mb-2 text-gray-300" style={{ fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>Filter by Decade</label>
+        <label className="block text-sm font-semibold mb-2 text-gray-300" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>Filter by Decade</label>
         <div className="flex flex-wrap gap-2 max-w-4xl">
           <button
             onClick={() => setSelectedDecade(null)}
@@ -346,7 +346,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
             }`}
             style={{
               background: selectedDecade === null ? 'linear-gradient(135deg, #1d428a 0%, #0077c0 100%)' : 'rgba(29, 66, 138, 0.3)',
-              fontFamily: "'Inter', sans-serif",
+              fontFamily: "'Bebas Neue', 'Oswald', sans-serif",
               letterSpacing: '1px'
             }}
           >
@@ -363,7 +363,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
               }`}
               style={{
                 background: selectedDecade === decade ? 'linear-gradient(135deg, #1d428a 0%, #0077c0 100%)' : 'rgba(29, 66, 138, 0.3)',
-                fontFamily: "'Inter', sans-serif"
+                fontFamily: "'Roboto Condensed', sans-serif"
               }}
             >
               {decade}
@@ -380,18 +380,18 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
         <>
           {/* Head-to-Head Record */}
           <div className="mb-6 p-5 rounded-xl" style={{ background: 'rgba(15, 20, 25, 0.3)' }}>
-            <h3 className="text-xl font-semibold mb-3 text-white" style={{ fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>Head-to-Head Record</h3>
+            <h3 className="text-xl font-semibold mb-3 text-white" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>Head-to-Head Record</h3>
             <div className="grid grid-cols-3 gap-4 text-center">
               <div>
-                <div className="text-xl font-bold text-white mb-1" style={{ fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>{team1Data.name}</div>
+                <div className="text-xl font-bold text-white mb-1" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>{team1Data.name}</div>
                 <div className="text-2xl font-bold" style={{ color: '#1d428a' }}>{rivalry.team1_wins}</div>
               </div>
               <div>
                 <div className="text-xs text-gray-400 mb-1" style={{ fontFamily: "'Inter', sans-serif" }}>Total Meetings</div>
-                <div className="text-2xl font-bold text-white" style={{ fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>{rivalry.total_meetings}</div>
+                <div className="text-2xl font-bold text-white" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>{rivalry.total_meetings}</div>
               </div>
               <div>
-                <div className="text-xl font-bold text-white mb-1" style={{ fontFamily: "'Inter', sans-serif" }}>{team2Data.name}</div>
+                <div className="text-xl font-bold text-white mb-1" style={{ fontFamily: "'Roboto Condensed', sans-serif" }}>{team2Data.name}</div>
                 <div className="text-2xl font-bold" style={{ color: '#c8102e' }}>{rivalry.team2_wins}</div>
               </div>
             </div>
@@ -407,7 +407,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
                 }`}
                 style={{
                   background: chartType === 'basic' ? 'rgba(29, 66, 138, 0.6)' : 'rgba(29, 66, 138, 0.3)',
-                  fontFamily: "'Inter', sans-serif",
+                  fontFamily: "'Bebas Neue', 'Oswald', sans-serif",
                   letterSpacing: '1px'
                 }}
               >
@@ -420,7 +420,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
                 }`}
                 style={{
                   background: chartType === 'offensive' ? 'rgba(29, 66, 138, 0.6)' : 'rgba(29, 66, 138, 0.3)',
-                  fontFamily: "'Inter', sans-serif",
+                  fontFamily: "'Bebas Neue', 'Oswald', sans-serif",
                   letterSpacing: '1px'
                 }}
               >
@@ -433,7 +433,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
                 }`}
                 style={{
                   background: chartType === 'defensive' ? 'rgba(29, 66, 138, 0.6)' : 'rgba(29, 66, 138, 0.3)',
-                  fontFamily: "'Inter', sans-serif",
+                  fontFamily: "'Bebas Neue', 'Oswald', sans-serif",
                   letterSpacing: '1px'
                 }}
               >
@@ -446,7 +446,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
                 }`}
                 style={{
                   background: chartType === 'shooting' ? 'rgba(29, 66, 138, 0.6)' : 'rgba(29, 66, 138, 0.3)',
-                  fontFamily: "'Inter', sans-serif",
+                  fontFamily: "'Bebas Neue', 'Oswald', sans-serif",
                   letterSpacing: '1px'
                 }}
               >
@@ -459,7 +459,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
                 }`}
                 style={{
                   background: chartType === 'advanced' ? 'rgba(29, 66, 138, 0.6)' : 'rgba(29, 66, 138, 0.3)',
-                  fontFamily: "'Inter', sans-serif",
+                  fontFamily: "'Bebas Neue', 'Oswald', sans-serif",
                   letterSpacing: '1px'
                 }}
               >
@@ -472,7 +472,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
                 }`}
                 style={{
                   background: chartType === 'championships' ? 'rgba(29, 66, 138, 0.6)' : 'rgba(29, 66, 138, 0.3)',
-                  fontFamily: "'Inter', sans-serif",
+                  fontFamily: "'Bebas Neue', 'Oswald', sans-serif",
                   letterSpacing: '1px'
                 }}
               >
@@ -484,7 +484,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
           {/* Bar Chart */}
           {chartData.length > 0 && (
             <div className="mb-6">
-              <h3 className="text-xl font-semibold mb-4 text-white" style={{ fontFamily: "'Inter', sans-serif", letterSpacing: '1px', textTransform: 'uppercase' }}>
+              <h3 className="text-xl font-semibold mb-4 text-white" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px', textTransform: 'uppercase' }}>
                 {chartType === 'basic' ? 'Statistics Comparison' :
                  chartType === 'offensive' ? 'Offensive Statistics' :
                  chartType === 'defensive' ? 'Defensive Statistics' :
@@ -575,7 +575,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
           {/* Radar Chart for Multi-dimensional Comparison */}
           {radarData && (
             <div className="mb-6">
-              <h3 className="text-xl font-semibold mb-4 text-white" style={{ fontFamily: "'Inter', sans-serif", letterSpacing: '1px', textTransform: 'uppercase' }}>
+              <h3 className="text-xl font-semibold mb-4 text-white" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px', textTransform: 'uppercase' }}>
                 Multi-Dimensional Comparison
               </h3>
               <div className="w-full rounded-lg overflow-hidden" style={{ background: 'rgba(15, 20, 25, 0.3)', padding: '20px' }}>
@@ -640,7 +640,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
           {/* Team Details with Enhanced Stats */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-5 rounded-lg" style={{ background: 'rgba(29, 66, 138, 0.15)' }}>
-              <h4 className="font-semibold mb-3 text-white text-lg" style={{ fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>{team1Data.name}</h4>
+              <h4 className="font-semibold mb-3 text-white text-lg" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>{team1Data.name}</h4>
               <div className="text-sm space-y-2 text-gray-300" style={{ fontFamily: "'Inter', sans-serif" }}>
                 <p><strong className="text-white">Record:</strong> {team1Data.total_wins}-{team1Data.total_losses}</p>
                 <p><strong className="text-white">Win %:</strong> {(team1Data.win_pct * 100).toFixed(1)}%</p>
@@ -666,7 +666,7 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
               </div>
             </div>
             <div className="p-5 rounded-lg" style={{ background: 'rgba(200, 16, 46, 0.15)' }}>
-              <h4 className="font-semibold mb-3 text-white text-lg" style={{ fontFamily: "'Inter', sans-serif", letterSpacing: '1px' }}>{team2Data.name}</h4>
+              <h4 className="font-semibold mb-3 text-white text-lg" style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif", letterSpacing: '1px' }}>{team2Data.name}</h4>
               <div className="text-sm space-y-2 text-gray-300" style={{ fontFamily: "'Inter', sans-serif" }}>
                 <p><strong className="text-white">Record:</strong> {team2Data.total_wins}-{team2Data.total_losses}</p>
                 <p><strong className="text-white">Win %:</strong> {(team2Data.win_pct * 100).toFixed(1)}%</p>
