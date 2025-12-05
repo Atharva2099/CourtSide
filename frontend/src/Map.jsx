@@ -119,10 +119,14 @@ export default function Map({ onTeamSelect, selectedTeams = [] }) {
         d3.select(this).attr('opacity', 1);
         if (tooltipRef.current) {
           tooltipRef.current.style.display = 'block';
+          const championshipYears = d.championship_years && d.championship_years.length > 0 
+            ? d.championship_years.join(', ')
+            : 'None';
           tooltipRef.current.innerHTML = `
             <h3>${d.name}</h3>
             <p><strong>City:</strong> ${d.city}, ${d.state}</p>
             <p><strong>Championships:</strong> ${d.championships || 0}</p>
+            ${d.championships > 0 ? `<p><strong>Championship Years:</strong> ${championshipYears}</p>` : ''}
             <p><strong>Win %:</strong> ${((d.win_pct || 0) * 100).toFixed(1)}%</p>
             <p><strong>Record:</strong> ${d.total_wins}-${d.total_losses}</p>
           `;
@@ -276,10 +280,14 @@ export default function Map({ onTeamSelect, selectedTeams = [] }) {
             
             if (tooltipRef.current) {
               tooltipRef.current.style.display = 'block';
+              const championshipYears = d.championship_years && d.championship_years.length > 0 
+                ? d.championship_years.join(', ')
+                : 'None';
               tooltipRef.current.innerHTML = `
                 <h3>${d.name}</h3>
                 <p><strong>City:</strong> ${d.city}, ${d.state}</p>
                 <p><strong>Championships:</strong> ${d.championships || 0}</p>
+                ${d.championships > 0 ? `<p><strong>Championship Years:</strong> ${championshipYears}</p>` : ''}
                 <p><strong>Win %:</strong> ${((d.win_pct || 0) * 100).toFixed(1)}%</p>
                 <p><strong>Record:</strong> ${d.total_wins}-${d.total_losses}</p>
               `;

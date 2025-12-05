@@ -62,6 +62,30 @@ TEAM_ABBREV_MAP = {
     'NOK': 'NOP',  # New Orleans/Oklahoma City Hornets → New Orleans Pelicans
 }
 
+# Mapping from CSV team names to abbreviations
+CHAMPIONSHIP_TEAM_NAME_MAP = {
+    'Lakers': 'LAL',
+    'Celtics': 'BOS',
+    'Rockets': 'HOU',
+    'Sixers': 'PHI',
+    'Pistons': 'DET',
+    'Blazers': 'POR',
+    'Bulls': 'CHI',
+    'Suns': 'PHX',
+    'Knicks': 'NYK',
+    'Magic': 'ORL',
+    'Spurs': 'SAS',
+    'Heat': 'MIA',
+    'Mavericks': 'DAL',
+    'Cavaliers': 'CLE',
+    'Thunder': 'OKC',
+    'Warriors': 'GSW',
+    'Sonics': 'OKC',  # Seattle SuperSonics → Oklahoma City Thunder
+    'Jazz': 'UTA',
+    'Pacers': 'IND',
+    'Nets': 'BRK',
+}
+
 # Team city coordinates (lat, lng) - current and historical locations
 TEAM_COORDINATES = {
     'ATL': {'city': 'Atlanta', 'state': 'Georgia', 'lat': 33.749, 'lng': -84.388},
@@ -311,9 +335,53 @@ def clean_data(teams_df, players_df, games_df, box_scores_df):
     print("Data cleaning complete!")
     return teams_df, players_df, games_df, box_scores_df
 
-def generate_team_summary(teams_df, games_df, team_stats_per_game_df=None, team_summaries_df=None):
+def load_championship_data():
+    """Load championship data from CSV file"""
+    print("Loading championship data...")
+    championships = {}
+    championship_years = {}
+    
+    csv_path = Path('champs_and_runner_ups_series_averages.csv')
+    if not csv_path.exists():
+        print(f"  Warning: {csv_path} not found, championships will be 0")
+        return championships, championship_years
+    
+    try:
+        champs_df = pd.read_csv(csv_path)
+        
+        # Process championship data
+        for _, row in champs_df.iterrows():
+            if row.get('Status') == 'Champion':
+                team_name = str(row.get('Team', '')).strip()
+                year = int(row.get('Year', 0))
+                
+                # Map team name to abbreviation
+                abbrev = CHAMPIONSHIP_TEAM_NAME_MAP.get(team_name)
+                if abbrev:
+                    if abbrev not in championships:
+                        championships[abbrev] = 0
+                        championship_years[abbrev] = []
+                    championships[abbrev] += 1
+                    championship_years[abbrev].append(year)
+        
+        print(f"  Loaded championship data for {len(championships)} teams")
+        for abbrev, count in sorted(championships.items(), key=lambda x: x[1], reverse=True):
+            years = sorted(championship_years[abbrev])
+            print(f"    {abbrev}: {count} championships ({', '.join(map(str, years))})")
+        
+    except Exception as e:
+        print(f"  Error loading championship data: {e}")
+        print(f"  Championships will be 0")
+    
+    return championships, championship_years
+
+def generate_team_summary(teams_df, games_df, team_stats_per_game_df=None, team_summaries_df=None, championships=None, championship_years=None):
     """Generate team_summary.json"""
     print("Generating team summary...")
+    
+    # Load championship data if not provided
+    if championships is None or championship_years is None:
+        championships, championship_years = load_championship_data()
     
     team_stats = {}
     
@@ -330,7 +398,8 @@ def generate_team_summary(teams_df, games_df, team_stats_per_game_df=None, team_
             'abbreviation': abbrev,
             'total_wins': 0,
             'total_losses': 0,
-            'championships': 0,
+            'championships': championships.get(abbrev, 0),
+            'championship_years': sorted(championship_years.get(abbrev, [])),
         }
     
     # Calculate wins/losses from games
@@ -375,6 +444,7 @@ def generate_team_summary(teams_df, games_df, team_stats_per_game_df=None, team_
             'total_losses': stats['total_losses'],
             'win_pct': round(win_pct, 3),
             'championships': stats['championships'],
+            'championship_years': stats.get('championship_years', []),
             'lat': coords.get('lat', 0),
             'lng': coords.get('lng', 0),
         }
@@ -730,8 +800,11 @@ def main():
     # Clean and process data
     teams_df, players_df, games_df, box_scores_df = clean_data(teams_df, players_df, games_df, box_scores_df)
     
+    # Load championship data
+    championships, championship_years = load_championship_data()
+    
     # Generate summaries
-    team_summary = generate_team_summary(teams_df, games_df, team_stats_per_game_df, team_summaries_df)
+    team_summary = generate_team_summary(teams_df, games_df, team_stats_per_game_df, team_summaries_df, championships, championship_years)
     player_summary = generate_player_summary(players_df, box_scores_df, advanced_df, all_star_df, awards_df)
     rivalry_summary = generate_rivalry_summary(games_df)
     state_summary = generate_state_summary(team_summary)

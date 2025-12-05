@@ -68,23 +68,35 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
             x: ['Wins', 'Championships', 'Win %'],
             y: [
               team1Data.total_wins,
-              team1Data.championships,
+              (team1Data.championships || 0) * 10, // Scale championships for visibility
               (team1Data.win_pct * 100).toFixed(1)
             ],
             name: team1Data.name,
             type: 'bar',
-            marker: { color: '#1d428a' }
+            marker: { color: '#1d428a' },
+            text: [
+              team1Data.total_wins,
+              team1Data.championships || 0,
+              (team1Data.win_pct * 100).toFixed(1) + '%'
+            ],
+            textposition: 'outside'
           },
           {
             x: ['Wins', 'Championships', 'Win %'],
             y: [
               team2Data.total_wins,
-              team2Data.championships,
+              (team2Data.championships || 0) * 10, // Scale championships for visibility
               (team2Data.win_pct * 100).toFixed(1)
             ],
             name: team2Data.name,
             type: 'bar',
-            marker: { color: '#c8102e' }
+            marker: { color: '#c8102e' },
+            text: [
+              team2Data.total_wins,
+              team2Data.championships || 0,
+              (team2Data.win_pct * 100).toFixed(1) + '%'
+            ],
+            textposition: 'outside'
           }
         ];
       
@@ -203,6 +215,46 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
             name: team2Data.name,
             type: 'bar',
             marker: { color: '#c8102e' }
+          }
+        ];
+      
+      case 'championships':
+        // Create timeline chart for championships
+        const allYears = new Set();
+        if (team1Data.championship_years) {
+          team1Data.championship_years.forEach(year => allYears.add(year));
+        }
+        if (team2Data.championship_years) {
+          team2Data.championship_years.forEach(year => allYears.add(year));
+        }
+        const sortedYears = Array.from(allYears).sort((a, b) => a - b);
+        
+        return [
+          {
+            x: sortedYears,
+            y: sortedYears.map(year => team1Data.championship_years?.includes(year) ? 1 : 0),
+            name: team1Data.name,
+            type: 'scatter',
+            mode: 'markers+lines',
+            marker: { 
+              color: '#1d428a',
+              size: 15,
+              symbol: 'circle'
+            },
+            line: { color: '#1d428a', width: 2 }
+          },
+          {
+            x: sortedYears,
+            y: sortedYears.map(year => team2Data.championship_years?.includes(year) ? 2 : 0),
+            name: team2Data.name,
+            type: 'scatter',
+            mode: 'markers+lines',
+            marker: { 
+              color: '#c8102e',
+              size: 15,
+              symbol: 'diamond'
+            },
+            line: { color: '#c8102e', width: 2 }
           }
         ];
       
@@ -413,6 +465,19 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
               >
                 Advanced
               </button>
+              <button
+                onClick={() => setChartType('championships')}
+                className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all ${
+                  chartType === 'championships' ? 'text-white' : 'text-gray-300'
+                }`}
+                style={{
+                  background: chartType === 'championships' ? 'rgba(29, 66, 138, 0.6)' : 'rgba(29, 66, 138, 0.3)',
+                  fontFamily: "'Bebas Neue', 'Oswald', sans-serif",
+                  letterSpacing: '1px'
+                }}
+              >
+                Championships
+              </button>
             </div>
           </div>
 
@@ -456,9 +521,18 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
                       automargin: true
                     },
                     yaxis: { 
-                      title: { text: chartType === 'shooting' ? 'Percentage (%)' : 'Value', font: { color: '#ffffff', family: "'Bebas Neue', 'Oswald', sans-serif", size: 18 } }, 
+                      title: { 
+                        text: chartType === 'shooting' ? 'Percentage (%)' : chartType === 'championships' ? 'Team' : 'Value', 
+                        font: { color: '#ffffff', family: "'Bebas Neue', 'Oswald', sans-serif", size: 18 } 
+                      }, 
                       tickfont: { color: '#ffffff', family: "'Inter', sans-serif", size: 12 }, 
                       gridcolor: 'rgba(255,255,255,0.08)',
+                      ...(chartType === 'championships' ? {
+                        tickmode: 'array',
+                        tickvals: [0, 1, 2],
+                        ticktext: ['', team1Data.name, team2Data.name],
+                        range: [-0.5, 2.5]
+                      } : {}),
                       gridwidth: 1,
                       showline: true,
                       linecolor: 'rgba(255,255,255,0.2)',
@@ -570,7 +644,10 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
               <div className="text-sm space-y-2 text-gray-300" style={{ fontFamily: "'Inter', sans-serif" }}>
                 <p><strong className="text-white">Record:</strong> {team1Data.total_wins}-{team1Data.total_losses}</p>
                 <p><strong className="text-white">Win %:</strong> {(team1Data.win_pct * 100).toFixed(1)}%</p>
-                <p><strong className="text-white">Championships:</strong> {team1Data.championships}</p>
+                <p><strong className="text-white">Championships:</strong> {team1Data.championships || 0}</p>
+                {team1Data.championship_years && team1Data.championship_years.length > 0 && (
+                  <p><strong className="text-white">Championship Years:</strong> <span className="text-gray-300">{team1Data.championship_years.join(', ')}</span></p>
+                )}
                 <p><strong className="text-white">Location:</strong> {team1Data.city}, {team1Data.state}</p>
                 {team1Data.ppg && (
                   <>
@@ -593,7 +670,10 @@ export default function Comparison({ selectedTeams = [], filters = {} }) {
               <div className="text-sm space-y-2 text-gray-300" style={{ fontFamily: "'Inter', sans-serif" }}>
                 <p><strong className="text-white">Record:</strong> {team2Data.total_wins}-{team2Data.total_losses}</p>
                 <p><strong className="text-white">Win %:</strong> {(team2Data.win_pct * 100).toFixed(1)}%</p>
-                <p><strong className="text-white">Championships:</strong> {team2Data.championships}</p>
+                <p><strong className="text-white">Championships:</strong> {team2Data.championships || 0}</p>
+                {team2Data.championship_years && team2Data.championship_years.length > 0 && (
+                  <p><strong className="text-white">Championship Years:</strong> <span className="text-gray-300">{team2Data.championship_years.join(', ')}</span></p>
+                )}
                 <p><strong className="text-white">Location:</strong> {team2Data.city}, {team2Data.state}</p>
                 {team2Data.ppg && (
                   <>
