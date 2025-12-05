@@ -1,0 +1,8346 @@
+[
+  {
+    "team1": "HUS",
+    "team2": "NYK",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "BOM",
+    "team2": "PIT",
+    "total_meetings": 6,
+    "team1_wins": 5,
+    "team2_wins": 1
+  },
+  {
+    "team1": "BOS",
+    "team2": "PRO",
+    "total_meetings": 20,
+    "team1_wins": 10,
+    "team2_wins": 10
+  },
+  {
+    "team1": "CHS",
+    "team2": "NYK",
+    "total_meetings": 23,
+    "team1_wins": 14,
+    "team2_wins": 9
+  },
+  {
+    "team1": "DEF",
+    "team2": "WAS",
+    "total_meetings": 6,
+    "team1_wins": 1,
+    "team2_wins": 5
+  },
+  {
+    "team1": "CLR",
+    "team2": "HUS",
+    "total_meetings": 6,
+    "team1_wins": 6,
+    "team2_wins": 0
+  },
+  {
+    "team1": "PIT",
+    "team2": "WAS",
+    "total_meetings": 6,
+    "team1_wins": 1,
+    "team2_wins": 5
+  },
+  {
+    "team1": "BOS",
+    "team2": "CHS",
+    "total_meetings": 26,
+    "team1_wins": 4,
+    "team2_wins": 22
+  },
+  {
+    "team1": "BOM",
+    "team2": "DEF",
+    "total_meetings": 6,
+    "team1_wins": 6,
+    "team2_wins": 0
+  },
+  {
+    "team1": "CHS",
+    "team2": "PRO",
+    "total_meetings": 17,
+    "team1_wins": 12,
+    "team2_wins": 5
+  },
+  {
+    "team1": "BOM",
+    "team2": "NYK",
+    "total_meetings": 23,
+    "team1_wins": 8,
+    "team2_wins": 15
+  },
+  {
+    "team1": "PHW",
+    "team2": "PIT",
+    "total_meetings": 6,
+    "team1_wins": 5,
+    "team2_wins": 1
+  },
+  {
+    "team1": "DEF",
+    "team2": "HUS",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "BOM",
+    "team2": "WAS",
+    "total_meetings": 25,
+    "team1_wins": 8,
+    "team2_wins": 17
+  },
+  {
+    "team1": "PIT",
+    "team2": "PRO",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "CHS",
+    "team2": "HUS",
+    "total_meetings": 6,
+    "team1_wins": 4,
+    "team2_wins": 2
+  },
+  {
+    "team1": "BOS",
+    "team2": "DEF",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "CLR",
+    "team2": "WAS",
+    "total_meetings": 6,
+    "team1_wins": 1,
+    "team2_wins": 5
+  },
+  {
+    "team1": "DEF",
+    "team2": "PRO",
+    "total_meetings": 6,
+    "team1_wins": 2,
+    "team2_wins": 4
+  },
+  {
+    "team1": "BOM",
+    "team2": "BOS",
+    "total_meetings": 23,
+    "team1_wins": 15,
+    "team2_wins": 8
+  },
+  {
+    "team1": "PHW",
+    "team2": "WAS",
+    "total_meetings": 29,
+    "team1_wins": 10,
+    "team2_wins": 19
+  },
+  {
+    "team1": "HUS",
+    "team2": "PRO",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "CHS",
+    "team2": "WAS",
+    "total_meetings": 32,
+    "team1_wins": 17,
+    "team2_wins": 15
+  },
+  {
+    "team1": "BOS",
+    "team2": "HUS",
+    "total_meetings": 6,
+    "team1_wins": 4,
+    "team2_wins": 2
+  },
+  {
+    "team1": "BOM",
+    "team2": "CLR",
+    "total_meetings": 6,
+    "team1_wins": 5,
+    "team2_wins": 1
+  },
+  {
+    "team1": "NYK",
+    "team2": "PIT",
+    "total_meetings": 6,
+    "team1_wins": 6,
+    "team2_wins": 0
+  },
+  {
+    "team1": "CHS",
+    "team2": "CLR",
+    "total_meetings": 6,
+    "team1_wins": 5,
+    "team2_wins": 1
+  },
+  {
+    "team1": "DEF",
+    "team2": "NYK",
+    "total_meetings": 6,
+    "team1_wins": 1,
+    "team2_wins": 5
+  },
+  {
+    "team1": "HUS",
+    "team2": "PIT",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "BOM",
+    "team2": "PHW",
+    "total_meetings": 33,
+    "team1_wins": 16,
+    "team2_wins": 17
+  },
+  {
+    "team1": "DEF",
+    "team2": "PIT",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "CHS",
+    "team2": "PHW",
+    "total_meetings": 28,
+    "team1_wins": 16,
+    "team2_wins": 12
+  },
+  {
+    "team1": "PRO",
+    "team2": "WAS",
+    "total_meetings": 18,
+    "team1_wins": 1,
+    "team2_wins": 17
+  },
+  {
+    "team1": "HUS",
+    "team2": "WAS",
+    "total_meetings": 6,
+    "team1_wins": 1,
+    "team2_wins": 5
+  },
+  {
+    "team1": "CLR",
+    "team2": "NYK",
+    "total_meetings": 9,
+    "team1_wins": 5,
+    "team2_wins": 4
+  },
+  {
+    "team1": "BOM",
+    "team2": "PRO",
+    "total_meetings": 17,
+    "team1_wins": 15,
+    "team2_wins": 2
+  },
+  {
+    "team1": "CHS",
+    "team2": "DEF",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "CLR",
+    "team2": "PIT",
+    "total_meetings": 6,
+    "team1_wins": 4,
+    "team2_wins": 2
+  },
+  {
+    "team1": "CLR",
+    "team2": "DEF",
+    "total_meetings": 6,
+    "team1_wins": 4,
+    "team2_wins": 2
+  },
+  {
+    "team1": "BOS",
+    "team2": "PHW",
+    "total_meetings": 149,
+    "team1_wins": 87,
+    "team2_wins": 62
+  },
+  {
+    "team1": "BOM",
+    "team2": "CHS",
+    "total_meetings": 27,
+    "team1_wins": 13,
+    "team2_wins": 14
+  },
+  {
+    "team1": "NYK",
+    "team2": "PRO",
+    "total_meetings": 20,
+    "team1_wins": 16,
+    "team2_wins": 4
+  },
+  {
+    "team1": "BOS",
+    "team2": "PIT",
+    "total_meetings": 6,
+    "team1_wins": 5,
+    "team2_wins": 1
+  },
+  {
+    "team1": "DEF",
+    "team2": "PHW",
+    "total_meetings": 6,
+    "team1_wins": 2,
+    "team2_wins": 4
+  },
+  {
+    "team1": "NYK",
+    "team2": "PHW",
+    "total_meetings": 138,
+    "team1_wins": 69,
+    "team2_wins": 69
+  },
+  {
+    "team1": "PHW",
+    "team2": "PRO",
+    "total_meetings": 20,
+    "team1_wins": 18,
+    "team2_wins": 2
+  },
+  {
+    "team1": "CHS",
+    "team2": "PIT",
+    "total_meetings": 6,
+    "team1_wins": 6,
+    "team2_wins": 0
+  },
+  {
+    "team1": "BOS",
+    "team2": "NYK",
+    "total_meetings": 515,
+    "team1_wins": 308,
+    "team2_wins": 207
+  },
+  {
+    "team1": "CLR",
+    "team2": "PHW",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "HUS",
+    "team2": "PHW",
+    "total_meetings": 6,
+    "team1_wins": 1,
+    "team2_wins": 5
+  },
+  {
+    "team1": "BOM",
+    "team2": "HUS",
+    "total_meetings": 6,
+    "team1_wins": 2,
+    "team2_wins": 4
+  },
+  {
+    "team1": "NYK",
+    "team2": "WAS",
+    "total_meetings": 241,
+    "team1_wins": 139,
+    "team2_wins": 102
+  },
+  {
+    "team1": "BOS",
+    "team2": "WAS",
+    "total_meetings": 256,
+    "team1_wins": 148,
+    "team2_wins": 108
+  },
+  {
+    "team1": "BOS",
+    "team2": "CLR",
+    "total_meetings": 6,
+    "team1_wins": 2,
+    "team2_wins": 4
+  },
+  {
+    "team1": "CLR",
+    "team2": "PRO",
+    "total_meetings": 6,
+    "team1_wins": 2,
+    "team2_wins": 4
+  },
+  {
+    "team1": "BAL",
+    "team2": "WAS",
+    "total_meetings": 23,
+    "team1_wins": 8,
+    "team2_wins": 15
+  },
+  {
+    "team1": "BAL",
+    "team2": "BOS",
+    "total_meetings": 56,
+    "team1_wins": 18,
+    "team2_wins": 38
+  },
+  {
+    "team1": "BAL",
+    "team2": "CHS",
+    "total_meetings": 22,
+    "team1_wins": 9,
+    "team2_wins": 13
+  },
+  {
+    "team1": "BAL",
+    "team2": "NYK",
+    "total_meetings": 62,
+    "team1_wins": 18,
+    "team2_wins": 44
+  },
+  {
+    "team1": "BAL",
+    "team2": "PRO",
+    "total_meetings": 12,
+    "team1_wins": 8,
+    "team2_wins": 4
+  },
+  {
+    "team1": "BAL",
+    "team2": "BOM",
+    "total_meetings": 19,
+    "team1_wins": 8,
+    "team2_wins": 11
+  },
+  {
+    "team1": "BAL",
+    "team2": "PHW",
+    "total_meetings": 62,
+    "team1_wins": 30,
+    "team2_wins": 32
+  },
+  {
+    "team1": "BOM",
+    "team2": "JET",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "FTW",
+    "team2": "NYK",
+    "total_meetings": 64,
+    "team1_wins": 29,
+    "team2_wins": 35
+  },
+  {
+    "team1": "BAL",
+    "team2": "MNL",
+    "total_meetings": 37,
+    "team1_wins": 7,
+    "team2_wins": 30
+  },
+  {
+    "team1": "JET",
+    "team2": "NYK",
+    "total_meetings": 5,
+    "team1_wins": 1,
+    "team2_wins": 4
+  },
+  {
+    "team1": "JET",
+    "team2": "ROC",
+    "total_meetings": 6,
+    "team1_wins": 1,
+    "team2_wins": 5
+  },
+  {
+    "team1": "BOM",
+    "team2": "FTW",
+    "total_meetings": 12,
+    "team1_wins": 6,
+    "team2_wins": 6
+  },
+  {
+    "team1": "MNL",
+    "team2": "WAS",
+    "total_meetings": 19,
+    "team1_wins": 14,
+    "team2_wins": 5
+  },
+  {
+    "team1": "BAL",
+    "team2": "FTW",
+    "total_meetings": 37,
+    "team1_wins": 13,
+    "team2_wins": 24
+  },
+  {
+    "team1": "BAL",
+    "team2": "JET",
+    "total_meetings": 5,
+    "team1_wins": 5,
+    "team2_wins": 0
+  },
+  {
+    "team1": "BOS",
+    "team2": "MNL",
+    "total_meetings": 91,
+    "team1_wins": 54,
+    "team2_wins": 37
+  },
+  {
+    "team1": "ROC",
+    "team2": "WAS",
+    "total_meetings": 16,
+    "team1_wins": 13,
+    "team2_wins": 3
+  },
+  {
+    "team1": "PHW",
+    "team2": "ROC",
+    "total_meetings": 64,
+    "team1_wins": 25,
+    "team2_wins": 39
+  },
+  {
+    "team1": "FTW",
+    "team2": "PRO",
+    "total_meetings": 5,
+    "team1_wins": 4,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MNL",
+    "team2": "NYK",
+    "total_meetings": 103,
+    "team1_wins": 54,
+    "team2_wins": 49
+  },
+  {
+    "team1": "BOS",
+    "team2": "FTW",
+    "total_meetings": 64,
+    "team1_wins": 36,
+    "team2_wins": 28
+  },
+  {
+    "team1": "FTW",
+    "team2": "WAS",
+    "total_meetings": 15,
+    "team1_wins": 7,
+    "team2_wins": 8
+  },
+  {
+    "team1": "BOS",
+    "team2": "ROC",
+    "total_meetings": 64,
+    "team1_wins": 29,
+    "team2_wins": 35
+  },
+  {
+    "team1": "MNL",
+    "team2": "PRO",
+    "total_meetings": 5,
+    "team1_wins": 5,
+    "team2_wins": 0
+  },
+  {
+    "team1": "CHS",
+    "team2": "JET",
+    "total_meetings": 6,
+    "team1_wins": 5,
+    "team2_wins": 1
+  },
+  {
+    "team1": "FTW",
+    "team2": "JET",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "MNL",
+    "team2": "ROC",
+    "total_meetings": 104,
+    "team1_wins": 64,
+    "team2_wins": 40
+  },
+  {
+    "team1": "NYK",
+    "team2": "ROC",
+    "total_meetings": 71,
+    "team1_wins": 36,
+    "team2_wins": 35
+  },
+  {
+    "team1": "JET",
+    "team2": "PHW",
+    "total_meetings": 5,
+    "team1_wins": 1,
+    "team2_wins": 4
+  },
+  {
+    "team1": "FTW",
+    "team2": "PHW",
+    "total_meetings": 68,
+    "team1_wins": 40,
+    "team2_wins": 28
+  },
+  {
+    "team1": "PRO",
+    "team2": "ROC",
+    "total_meetings": 5,
+    "team1_wins": 2,
+    "team2_wins": 3
+  },
+  {
+    "team1": "BOS",
+    "team2": "JET",
+    "total_meetings": 5,
+    "team1_wins": 3,
+    "team2_wins": 2
+  },
+  {
+    "team1": "CHS",
+    "team2": "MNL",
+    "total_meetings": 16,
+    "team1_wins": 4,
+    "team2_wins": 12
+  },
+  {
+    "team1": "JET",
+    "team2": "PRO",
+    "total_meetings": 5,
+    "team1_wins": 4,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CHS",
+    "team2": "FTW",
+    "total_meetings": 13,
+    "team1_wins": 6,
+    "team2_wins": 7
+  },
+  {
+    "team1": "BAL",
+    "team2": "ROC",
+    "total_meetings": 37,
+    "team1_wins": 8,
+    "team2_wins": 29
+  },
+  {
+    "team1": "JET",
+    "team2": "MNL",
+    "total_meetings": 6,
+    "team1_wins": 0,
+    "team2_wins": 6
+  },
+  {
+    "team1": "JET",
+    "team2": "WAS",
+    "total_meetings": 5,
+    "team1_wins": 2,
+    "team2_wins": 3
+  },
+  {
+    "team1": "CHS",
+    "team2": "ROC",
+    "total_meetings": 12,
+    "team1_wins": 4,
+    "team2_wins": 8
+  },
+  {
+    "team1": "BOM",
+    "team2": "MNL",
+    "total_meetings": 12,
+    "team1_wins": 3,
+    "team2_wins": 9
+  },
+  {
+    "team1": "MNL",
+    "team2": "PHW",
+    "total_meetings": 91,
+    "team1_wins": 51,
+    "team2_wins": 40
+  },
+  {
+    "team1": "FTW",
+    "team2": "MNL",
+    "total_meetings": 100,
+    "team1_wins": 46,
+    "team2_wins": 54
+  },
+  {
+    "team1": "FTW",
+    "team2": "ROC",
+    "total_meetings": 98,
+    "team1_wins": 41,
+    "team2_wins": 57
+  },
+  {
+    "team1": "BOM",
+    "team2": "ROC",
+    "total_meetings": 14,
+    "team1_wins": 1,
+    "team2_wins": 13
+  },
+  {
+    "team1": "DN",
+    "team2": "TCB",
+    "total_meetings": 7,
+    "team1_wins": 0,
+    "team2_wins": 7
+  },
+  {
+    "team1": "ROC",
+    "team2": "SHE",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "BOM",
+    "team2": "TCB",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "DN",
+    "team2": "INO",
+    "total_meetings": 7,
+    "team1_wins": 0,
+    "team2_wins": 7
+  },
+  {
+    "team1": "NYK",
+    "team2": "WAT",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "AND",
+    "team2": "TCB",
+    "total_meetings": 12,
+    "team1_wins": 9,
+    "team2_wins": 3
+  },
+  {
+    "team1": "BOS",
+    "team2": "SHE",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "DN",
+    "team2": "SYR",
+    "total_meetings": 7,
+    "team1_wins": 1,
+    "team2_wins": 6
+  },
+  {
+    "team1": "NYK",
+    "team2": "TCB",
+    "total_meetings": 8,
+    "team1_wins": 5,
+    "team2_wins": 3
+  },
+  {
+    "team1": "PHW",
+    "team2": "SYR",
+    "total_meetings": 134,
+    "team1_wins": 60,
+    "team2_wins": 74
+  },
+  {
+    "team1": "NYK",
+    "team2": "SHE",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "BOS",
+    "team2": "WAT",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "AND",
+    "team2": "BOM",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "INO",
+    "team2": "NYK",
+    "total_meetings": 20,
+    "team1_wins": 10,
+    "team2_wins": 10
+  },
+  {
+    "team1": "INO",
+    "team2": "SYR",
+    "total_meetings": 27,
+    "team1_wins": 10,
+    "team2_wins": 17
+  },
+  {
+    "team1": "DN",
+    "team2": "WAT",
+    "total_meetings": 7,
+    "team1_wins": 2,
+    "team2_wins": 5
+  },
+  {
+    "team1": "FTW",
+    "team2": "WAT",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "BOM",
+    "team2": "SYR",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CHS",
+    "team2": "DN",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "INO",
+    "team2": "PHW",
+    "total_meetings": 20,
+    "team1_wins": 10,
+    "team2_wins": 10
+  },
+  {
+    "team1": "BOM",
+    "team2": "INO",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "TCB",
+    "team2": "WAT",
+    "total_meetings": 7,
+    "team1_wins": 4,
+    "team2_wins": 3
+  },
+  {
+    "team1": "AND",
+    "team2": "SYR",
+    "total_meetings": 7,
+    "team1_wins": 3,
+    "team2_wins": 4
+  },
+  {
+    "team1": "DN",
+    "team2": "PHW",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "NYK",
+    "team2": "SYR",
+    "total_meetings": 141,
+    "team1_wins": 60,
+    "team2_wins": 81
+  },
+  {
+    "team1": "INO",
+    "team2": "SHE",
+    "total_meetings": 10,
+    "team1_wins": 7,
+    "team2_wins": 3
+  },
+  {
+    "team1": "DN",
+    "team2": "FTW",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "AND",
+    "team2": "WAT",
+    "total_meetings": 7,
+    "team1_wins": 7,
+    "team2_wins": 0
+  },
+  {
+    "team1": "ROC",
+    "team2": "TCB",
+    "total_meetings": 10,
+    "team1_wins": 7,
+    "team2_wins": 3
+  },
+  {
+    "team1": "AND",
+    "team2": "INO",
+    "total_meetings": 10,
+    "team1_wins": 4,
+    "team2_wins": 6
+  },
+  {
+    "team1": "SHE",
+    "team2": "WAT",
+    "total_meetings": 7,
+    "team1_wins": 4,
+    "team2_wins": 3
+  },
+  {
+    "team1": "DN",
+    "team2": "WAS",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "BOS",
+    "team2": "INO",
+    "total_meetings": 19,
+    "team1_wins": 12,
+    "team2_wins": 7
+  },
+  {
+    "team1": "BAL",
+    "team2": "DN",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "SYR",
+    "team2": "TCB",
+    "total_meetings": 13,
+    "team1_wins": 9,
+    "team2_wins": 4
+  },
+  {
+    "team1": "DN",
+    "team2": "NYK",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "AND",
+    "team2": "MNL",
+    "total_meetings": 4,
+    "team1_wins": 1,
+    "team2_wins": 3
+  },
+  {
+    "team1": "FTW",
+    "team2": "TCB",
+    "total_meetings": 12,
+    "team1_wins": 7,
+    "team2_wins": 5
+  },
+  {
+    "team1": "INO",
+    "team2": "WAT",
+    "total_meetings": 7,
+    "team1_wins": 5,
+    "team2_wins": 2
+  },
+  {
+    "team1": "DN",
+    "team2": "ROC",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "BAL",
+    "team2": "SHE",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "INO",
+    "team2": "MNL",
+    "total_meetings": 38,
+    "team1_wins": 13,
+    "team2_wins": 25
+  },
+  {
+    "team1": "AND",
+    "team2": "BOS",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "INO",
+    "team2": "ROC",
+    "total_meetings": 30,
+    "team1_wins": 12,
+    "team2_wins": 18
+  },
+  {
+    "team1": "BOS",
+    "team2": "TCB",
+    "total_meetings": 8,
+    "team1_wins": 4,
+    "team2_wins": 4
+  },
+  {
+    "team1": "ROC",
+    "team2": "WAT",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "CHS",
+    "team2": "INO",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "SHE",
+    "team2": "TCB",
+    "total_meetings": 7,
+    "team1_wins": 3,
+    "team2_wins": 4
+  },
+  {
+    "team1": "DN",
+    "team2": "MNL",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "INO",
+    "team2": "TCB",
+    "total_meetings": 15,
+    "team1_wins": 8,
+    "team2_wins": 7
+  },
+  {
+    "team1": "SYR",
+    "team2": "WAT",
+    "total_meetings": 7,
+    "team1_wins": 6,
+    "team2_wins": 1
+  },
+  {
+    "team1": "AND",
+    "team2": "SHE",
+    "total_meetings": 7,
+    "team1_wins": 5,
+    "team2_wins": 2
+  },
+  {
+    "team1": "BOS",
+    "team2": "SYR",
+    "total_meetings": 141,
+    "team1_wins": 71,
+    "team2_wins": 70
+  },
+  {
+    "team1": "CHS",
+    "team2": "SHE",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "BOM",
+    "team2": "SHE",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "BOM",
+    "team2": "DN",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "SHE",
+    "team2": "SYR",
+    "total_meetings": 7,
+    "team1_wins": 1,
+    "team2_wins": 6
+  },
+  {
+    "team1": "ROC",
+    "team2": "SYR",
+    "total_meetings": 55,
+    "team1_wins": 25,
+    "team2_wins": 30
+  },
+  {
+    "team1": "FTW",
+    "team2": "INO",
+    "total_meetings": 29,
+    "team1_wins": 18,
+    "team2_wins": 11
+  },
+  {
+    "team1": "AND",
+    "team2": "FTW",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "FTW",
+    "team2": "SYR",
+    "total_meetings": 62,
+    "team1_wins": 20,
+    "team2_wins": 42
+  },
+  {
+    "team1": "CHS",
+    "team2": "TCB",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "PHW",
+    "team2": "WAT",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "BAL",
+    "team2": "WAT",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CHS",
+    "team2": "SYR",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "AND",
+    "team2": "NYK",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "BAL",
+    "team2": "INO",
+    "total_meetings": 20,
+    "team1_wins": 7,
+    "team2_wins": 13
+  },
+  {
+    "team1": "CHS",
+    "team2": "WAT",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "DN",
+    "team2": "SHE",
+    "total_meetings": 7,
+    "team1_wins": 3,
+    "team2_wins": 4
+  },
+  {
+    "team1": "MNL",
+    "team2": "TCB",
+    "total_meetings": 12,
+    "team1_wins": 12,
+    "team2_wins": 0
+  },
+  {
+    "team1": "AND",
+    "team2": "WAS",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "SYR",
+    "team2": "WAS",
+    "total_meetings": 4,
+    "team1_wins": 3,
+    "team2_wins": 1
+  },
+  {
+    "team1": "AND",
+    "team2": "CHS",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MNL",
+    "team2": "WAT",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "BAL",
+    "team2": "TCB",
+    "total_meetings": 8,
+    "team1_wins": 3,
+    "team2_wins": 5
+  },
+  {
+    "team1": "BOM",
+    "team2": "WAT",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "AND",
+    "team2": "BAL",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "AND",
+    "team2": "DN",
+    "total_meetings": 7,
+    "team1_wins": 4,
+    "team2_wins": 3
+  },
+  {
+    "team1": "MNL",
+    "team2": "SHE",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "WAS",
+    "team2": "WAT",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "FTW",
+    "team2": "SHE",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "BOS",
+    "team2": "DN",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MNL",
+    "team2": "SYR",
+    "total_meetings": 95,
+    "team1_wins": 43,
+    "team2_wins": 52
+  },
+  {
+    "team1": "PHW",
+    "team2": "SHE",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "AND",
+    "team2": "ROC",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "SHE",
+    "team2": "WAS",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "TCB",
+    "team2": "WAS",
+    "total_meetings": 4,
+    "team1_wins": 2,
+    "team2_wins": 2
+  },
+  {
+    "team1": "PHW",
+    "team2": "TCB",
+    "total_meetings": 8,
+    "team1_wins": 5,
+    "team2_wins": 3
+  },
+  {
+    "team1": "BAL",
+    "team2": "SYR",
+    "total_meetings": 39,
+    "team1_wins": 11,
+    "team2_wins": 28
+  },
+  {
+    "team1": "AND",
+    "team2": "PHW",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "INO",
+    "team2": "WAS",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "EST",
+    "team2": "WST",
+    "total_meetings": 118,
+    "team1_wins": 66,
+    "team2_wins": 52
+  },
+  {
+    "team1": "MIH",
+    "team2": "NYK",
+    "total_meetings": 29,
+    "team1_wins": 9,
+    "team2_wins": 20
+  },
+  {
+    "team1": "FTW",
+    "team2": "MIH",
+    "total_meetings": 42,
+    "team1_wins": 31,
+    "team2_wins": 11
+  },
+  {
+    "team1": "MIH",
+    "team2": "ROC",
+    "total_meetings": 41,
+    "team1_wins": 11,
+    "team2_wins": 30
+  },
+  {
+    "team1": "INO",
+    "team2": "MIH",
+    "total_meetings": 20,
+    "team1_wins": 12,
+    "team2_wins": 8
+  },
+  {
+    "team1": "BAL",
+    "team2": "MIH",
+    "total_meetings": 19,
+    "team1_wins": 9,
+    "team2_wins": 10
+  },
+  {
+    "team1": "MIH",
+    "team2": "PHW",
+    "total_meetings": 29,
+    "team1_wins": 12,
+    "team2_wins": 17
+  },
+  {
+    "team1": "BOS",
+    "team2": "MIH",
+    "total_meetings": 29,
+    "team1_wins": 22,
+    "team2_wins": 7
+  },
+  {
+    "team1": "MIH",
+    "team2": "MNL",
+    "total_meetings": 42,
+    "team1_wins": 12,
+    "team2_wins": 30
+  },
+  {
+    "team1": "MIH",
+    "team2": "SYR",
+    "total_meetings": 29,
+    "team1_wins": 10,
+    "team2_wins": 19
+  },
+  {
+    "team1": "MNL",
+    "team2": "STL",
+    "total_meetings": 76,
+    "team1_wins": 24,
+    "team2_wins": 52
+  },
+  {
+    "team1": "STL",
+    "team2": "SYR",
+    "total_meetings": 54,
+    "team1_wins": 30,
+    "team2_wins": 24
+  },
+  {
+    "team1": "NYK",
+    "team2": "STL",
+    "total_meetings": 89,
+    "team1_wins": 33,
+    "team2_wins": 56
+  },
+  {
+    "team1": "ROC",
+    "team2": "STL",
+    "total_meetings": 24,
+    "team1_wins": 12,
+    "team2_wins": 12
+  },
+  {
+    "team1": "FTW",
+    "team2": "STL",
+    "total_meetings": 30,
+    "team1_wins": 14,
+    "team2_wins": 16
+  },
+  {
+    "team1": "PHW",
+    "team2": "STL",
+    "total_meetings": 45,
+    "team1_wins": 28,
+    "team2_wins": 17
+  },
+  {
+    "team1": "BOS",
+    "team2": "STL",
+    "total_meetings": 103,
+    "team1_wins": 67,
+    "team2_wins": 36
+  },
+  {
+    "team1": "BOS",
+    "team2": "DET",
+    "total_meetings": 323,
+    "team1_wins": 206,
+    "team2_wins": 117
+  },
+  {
+    "team1": "CIN",
+    "team2": "SYR",
+    "total_meetings": 44,
+    "team1_wins": 19,
+    "team2_wins": 25
+  },
+  {
+    "team1": "DET",
+    "team2": "PHW",
+    "total_meetings": 27,
+    "team1_wins": 12,
+    "team2_wins": 15
+  },
+  {
+    "team1": "DET",
+    "team2": "MNL",
+    "total_meetings": 39,
+    "team1_wins": 17,
+    "team2_wins": 22
+  },
+  {
+    "team1": "CIN",
+    "team2": "STL",
+    "total_meetings": 80,
+    "team1_wins": 29,
+    "team2_wins": 51
+  },
+  {
+    "team1": "CIN",
+    "team2": "DET",
+    "total_meetings": 104,
+    "team1_wins": 53,
+    "team2_wins": 51
+  },
+  {
+    "team1": "BOS",
+    "team2": "CIN",
+    "total_meetings": 115,
+    "team1_wins": 76,
+    "team2_wins": 39
+  },
+  {
+    "team1": "CIN",
+    "team2": "PHW",
+    "total_meetings": 27,
+    "team1_wins": 8,
+    "team2_wins": 19
+  },
+  {
+    "team1": "DET",
+    "team2": "NYK",
+    "total_meetings": 305,
+    "team1_wins": 136,
+    "team2_wins": 169
+  },
+  {
+    "team1": "CIN",
+    "team2": "NYK",
+    "total_meetings": 96,
+    "team1_wins": 56,
+    "team2_wins": 40
+  },
+  {
+    "team1": "DET",
+    "team2": "STL",
+    "total_meetings": 92,
+    "team1_wins": 31,
+    "team2_wins": 61
+  },
+  {
+    "team1": "CIN",
+    "team2": "MNL",
+    "total_meetings": 37,
+    "team1_wins": 19,
+    "team2_wins": 18
+  },
+  {
+    "team1": "DET",
+    "team2": "SYR",
+    "total_meetings": 36,
+    "team1_wins": 14,
+    "team2_wins": 22
+  },
+  {
+    "team1": "DET",
+    "team2": "LAL",
+    "total_meetings": 196,
+    "team1_wins": 72,
+    "team2_wins": 124
+  },
+  {
+    "team1": "BOS",
+    "team2": "LAL",
+    "total_meetings": 223,
+    "team1_wins": 113,
+    "team2_wins": 110
+  },
+  {
+    "team1": "CHZ",
+    "team2": "NYK",
+    "total_meetings": 10,
+    "team1_wins": 4,
+    "team2_wins": 6
+  },
+  {
+    "team1": "LAL",
+    "team2": "NYK",
+    "total_meetings": 181,
+    "team1_wins": 109,
+    "team2_wins": 72
+  },
+  {
+    "team1": "LAL",
+    "team2": "SYR",
+    "total_meetings": 8,
+    "team1_wins": 4,
+    "team2_wins": 4
+  },
+  {
+    "team1": "CHZ",
+    "team2": "CIN",
+    "total_meetings": 10,
+    "team1_wins": 4,
+    "team2_wins": 6
+  },
+  {
+    "team1": "DET",
+    "team2": "SFW",
+    "total_meetings": 63,
+    "team1_wins": 29,
+    "team2_wins": 34
+  },
+  {
+    "team1": "CIN",
+    "team2": "LAL",
+    "total_meetings": 61,
+    "team1_wins": 23,
+    "team2_wins": 38
+  },
+  {
+    "team1": "CHZ",
+    "team2": "STL",
+    "total_meetings": 10,
+    "team1_wins": 3,
+    "team2_wins": 7
+  },
+  {
+    "team1": "CHZ",
+    "team2": "LAL",
+    "total_meetings": 10,
+    "team1_wins": 3,
+    "team2_wins": 7
+  },
+  {
+    "team1": "CHZ",
+    "team2": "SYR",
+    "total_meetings": 10,
+    "team1_wins": 2,
+    "team2_wins": 8
+  },
+  {
+    "team1": "CHZ",
+    "team2": "SFW",
+    "total_meetings": 10,
+    "team1_wins": 4,
+    "team2_wins": 6
+  },
+  {
+    "team1": "CIN",
+    "team2": "SFW",
+    "total_meetings": 57,
+    "team1_wins": 33,
+    "team2_wins": 24
+  },
+  {
+    "team1": "NYK",
+    "team2": "SFW",
+    "total_meetings": 56,
+    "team1_wins": 30,
+    "team2_wins": 26
+  },
+  {
+    "team1": "BOS",
+    "team2": "CHZ",
+    "total_meetings": 10,
+    "team1_wins": 8,
+    "team2_wins": 2
+  },
+  {
+    "team1": "LAL",
+    "team2": "SFW",
+    "total_meetings": 73,
+    "team1_wins": 45,
+    "team2_wins": 28
+  },
+  {
+    "team1": "LAL",
+    "team2": "STL",
+    "total_meetings": 71,
+    "team1_wins": 40,
+    "team2_wins": 31
+  },
+  {
+    "team1": "SFW",
+    "team2": "STL",
+    "total_meetings": 71,
+    "team1_wins": 26,
+    "team2_wins": 45
+  },
+  {
+    "team1": "BOS",
+    "team2": "SFW",
+    "total_meetings": 61,
+    "team1_wins": 43,
+    "team2_wins": 18
+  },
+  {
+    "team1": "CHZ",
+    "team2": "DET",
+    "total_meetings": 10,
+    "team1_wins": 3,
+    "team2_wins": 7
+  },
+  {
+    "team1": "SFW",
+    "team2": "SYR",
+    "total_meetings": 8,
+    "team1_wins": 3,
+    "team2_wins": 5
+  },
+  {
+    "team1": "BLT",
+    "team2": "BOS",
+    "total_meetings": 62,
+    "team1_wins": 23,
+    "team2_wins": 39
+  },
+  {
+    "team1": "DET",
+    "team2": "PHL",
+    "total_meetings": 157,
+    "team1_wins": 67,
+    "team2_wins": 90
+  },
+  {
+    "team1": "BLT",
+    "team2": "NYK",
+    "total_meetings": 88,
+    "team1_wins": 38,
+    "team2_wins": 50
+  },
+  {
+    "team1": "BLT",
+    "team2": "SFW",
+    "total_meetings": 49,
+    "team1_wins": 24,
+    "team2_wins": 25
+  },
+  {
+    "team1": "NYK",
+    "team2": "PHL",
+    "total_meetings": 201,
+    "team1_wins": 90,
+    "team2_wins": 111
+  },
+  {
+    "team1": "BLT",
+    "team2": "STL",
+    "total_meetings": 40,
+    "team1_wins": 17,
+    "team2_wins": 23
+  },
+  {
+    "team1": "BLT",
+    "team2": "PHL",
+    "total_meetings": 68,
+    "team1_wins": 32,
+    "team2_wins": 36
+  },
+  {
+    "team1": "BOS",
+    "team2": "PHL",
+    "total_meetings": 230,
+    "team1_wins": 136,
+    "team2_wins": 94
+  },
+  {
+    "team1": "PHL",
+    "team2": "STL",
+    "total_meetings": 36,
+    "team1_wins": 20,
+    "team2_wins": 16
+  },
+  {
+    "team1": "CIN",
+    "team2": "PHL",
+    "total_meetings": 67,
+    "team1_wins": 35,
+    "team2_wins": 32
+  },
+  {
+    "team1": "PHL",
+    "team2": "SFW",
+    "total_meetings": 53,
+    "team1_wins": 34,
+    "team2_wins": 19
+  },
+  {
+    "team1": "BLT",
+    "team2": "LAL",
+    "total_meetings": 58,
+    "team1_wins": 23,
+    "team2_wins": 35
+  },
+  {
+    "team1": "LAL",
+    "team2": "PHL",
+    "total_meetings": 123,
+    "team1_wins": 70,
+    "team2_wins": 53
+  },
+  {
+    "team1": "BLT",
+    "team2": "CIN",
+    "total_meetings": 58,
+    "team1_wins": 28,
+    "team2_wins": 30
+  },
+  {
+    "team1": "BLT",
+    "team2": "DET",
+    "total_meetings": 61,
+    "team1_wins": 39,
+    "team2_wins": 22
+  },
+  {
+    "team1": "CHI",
+    "team2": "STL",
+    "total_meetings": 11,
+    "team1_wins": 1,
+    "team2_wins": 10
+  },
+  {
+    "team1": "SEA",
+    "team2": "SFW",
+    "total_meetings": 22,
+    "team1_wins": 8,
+    "team2_wins": 14
+  },
+  {
+    "team1": "BOS",
+    "team2": "CHI",
+    "total_meetings": 239,
+    "team1_wins": 131,
+    "team2_wins": 108
+  },
+  {
+    "team1": "SDR",
+    "team2": "STL",
+    "total_meetings": 8,
+    "team1_wins": 1,
+    "team2_wins": 7
+  },
+  {
+    "team1": "CHI",
+    "team2": "LAL",
+    "total_meetings": 163,
+    "team1_wins": 62,
+    "team2_wins": 101
+  },
+  {
+    "team1": "CHI",
+    "team2": "SFW",
+    "total_meetings": 21,
+    "team1_wins": 10,
+    "team2_wins": 11
+  },
+  {
+    "team1": "SDR",
+    "team2": "SEA",
+    "total_meetings": 20,
+    "team1_wins": 10,
+    "team2_wins": 10
+  },
+  {
+    "team1": "CHI",
+    "team2": "CIN",
+    "total_meetings": 23,
+    "team1_wins": 12,
+    "team2_wins": 11
+  },
+  {
+    "team1": "CIN",
+    "team2": "SEA",
+    "total_meetings": 24,
+    "team1_wins": 10,
+    "team2_wins": 14
+  },
+  {
+    "team1": "SDR",
+    "team2": "SFW",
+    "total_meetings": 21,
+    "team1_wins": 10,
+    "team2_wins": 11
+  },
+  {
+    "team1": "BLT",
+    "team2": "SEA",
+    "total_meetings": 28,
+    "team1_wins": 17,
+    "team2_wins": 11
+  },
+  {
+    "team1": "BLT",
+    "team2": "SDR",
+    "total_meetings": 19,
+    "team1_wins": 18,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CHI",
+    "team2": "DET",
+    "total_meetings": 286,
+    "team1_wins": 146,
+    "team2_wins": 140
+  },
+  {
+    "team1": "PHL",
+    "team2": "SEA",
+    "total_meetings": 78,
+    "team1_wins": 44,
+    "team2_wins": 34
+  },
+  {
+    "team1": "CIN",
+    "team2": "SDR",
+    "total_meetings": 19,
+    "team1_wins": 13,
+    "team2_wins": 6
+  },
+  {
+    "team1": "SEA",
+    "team2": "STL",
+    "total_meetings": 8,
+    "team1_wins": 0,
+    "team2_wins": 8
+  },
+  {
+    "team1": "CHI",
+    "team2": "SEA",
+    "total_meetings": 113,
+    "team1_wins": 60,
+    "team2_wins": 53
+  },
+  {
+    "team1": "NYK",
+    "team2": "SEA",
+    "total_meetings": 99,
+    "team1_wins": 57,
+    "team2_wins": 42
+  },
+  {
+    "team1": "NYK",
+    "team2": "SDR",
+    "total_meetings": 19,
+    "team1_wins": 14,
+    "team2_wins": 5
+  },
+  {
+    "team1": "PHL",
+    "team2": "SDR",
+    "total_meetings": 19,
+    "team1_wins": 14,
+    "team2_wins": 5
+  },
+  {
+    "team1": "DET",
+    "team2": "SEA",
+    "total_meetings": 106,
+    "team1_wins": 55,
+    "team2_wins": 51
+  },
+  {
+    "team1": "BOS",
+    "team2": "SEA",
+    "total_meetings": 100,
+    "team1_wins": 56,
+    "team2_wins": 44
+  },
+  {
+    "team1": "CHI",
+    "team2": "SDR",
+    "total_meetings": 21,
+    "team1_wins": 10,
+    "team2_wins": 11
+  },
+  {
+    "team1": "CHI",
+    "team2": "NYK",
+    "total_meetings": 240,
+    "team1_wins": 132,
+    "team2_wins": 108
+  },
+  {
+    "team1": "LAL",
+    "team2": "SEA",
+    "total_meetings": 227,
+    "team1_wins": 141,
+    "team2_wins": 86
+  },
+  {
+    "team1": "BOS",
+    "team2": "SDR",
+    "total_meetings": 19,
+    "team1_wins": 15,
+    "team2_wins": 4
+  },
+  {
+    "team1": "BLT",
+    "team2": "CHI",
+    "total_meetings": 28,
+    "team1_wins": 14,
+    "team2_wins": 14
+  },
+  {
+    "team1": "DET",
+    "team2": "SDR",
+    "total_meetings": 19,
+    "team1_wins": 11,
+    "team2_wins": 8
+  },
+  {
+    "team1": "CHI",
+    "team2": "PHL",
+    "total_meetings": 134,
+    "team1_wins": 65,
+    "team2_wins": 69
+  },
+  {
+    "team1": "LAL",
+    "team2": "SDR",
+    "total_meetings": 22,
+    "team1_wins": 19,
+    "team2_wins": 3
+  },
+  {
+    "team1": "ATL",
+    "team2": "CIN",
+    "total_meetings": 18,
+    "team1_wins": 10,
+    "team2_wins": 8
+  },
+  {
+    "team1": "CHI",
+    "team2": "MIL",
+    "total_meetings": 280,
+    "team1_wins": 145,
+    "team2_wins": 135
+  },
+  {
+    "team1": "PHX",
+    "team2": "SEA",
+    "total_meetings": 212,
+    "team1_wins": 120,
+    "team2_wins": 92
+  },
+  {
+    "team1": "ATL",
+    "team2": "MIL",
+    "total_meetings": 246,
+    "team1_wins": 122,
+    "team2_wins": 124
+  },
+  {
+    "team1": "BLT",
+    "team2": "PHX",
+    "total_meetings": 21,
+    "team1_wins": 15,
+    "team2_wins": 6
+  },
+  {
+    "team1": "PHX",
+    "team2": "SFW",
+    "total_meetings": 12,
+    "team1_wins": 5,
+    "team2_wins": 7
+  },
+  {
+    "team1": "MIL",
+    "team2": "NYK",
+    "total_meetings": 218,
+    "team1_wins": 121,
+    "team2_wins": 97
+  },
+  {
+    "team1": "ATL",
+    "team2": "CHI",
+    "total_meetings": 244,
+    "team1_wins": 109,
+    "team2_wins": 135
+  },
+  {
+    "team1": "NYK",
+    "team2": "PHX",
+    "total_meetings": 121,
+    "team1_wins": 55,
+    "team2_wins": 66
+  },
+  {
+    "team1": "ATL",
+    "team2": "SEA",
+    "total_meetings": 93,
+    "team1_wins": 46,
+    "team2_wins": 47
+  },
+  {
+    "team1": "BOS",
+    "team2": "MIL",
+    "total_meetings": 255,
+    "team1_wins": 135,
+    "team2_wins": 120
+  },
+  {
+    "team1": "ATL",
+    "team2": "PHX",
+    "total_meetings": 123,
+    "team1_wins": 60,
+    "team2_wins": 63
+  },
+  {
+    "team1": "ATL",
+    "team2": "LAL",
+    "total_meetings": 126,
+    "team1_wins": 44,
+    "team2_wins": 82
+  },
+  {
+    "team1": "BLT",
+    "team2": "MIL",
+    "total_meetings": 25,
+    "team1_wins": 10,
+    "team2_wins": 15
+  },
+  {
+    "team1": "ATL",
+    "team2": "SDR",
+    "total_meetings": 13,
+    "team1_wins": 7,
+    "team2_wins": 6
+  },
+  {
+    "team1": "CHI",
+    "team2": "PHX",
+    "total_meetings": 135,
+    "team1_wins": 67,
+    "team2_wins": 68
+  },
+  {
+    "team1": "DET",
+    "team2": "MIL",
+    "total_meetings": 266,
+    "team1_wins": 122,
+    "team2_wins": 144
+  },
+  {
+    "team1": "ATL",
+    "team2": "SFW",
+    "total_meetings": 14,
+    "team1_wins": 8,
+    "team2_wins": 6
+  },
+  {
+    "team1": "CIN",
+    "team2": "MIL",
+    "total_meetings": 18,
+    "team1_wins": 7,
+    "team2_wins": 11
+  },
+  {
+    "team1": "MIL",
+    "team2": "SFW",
+    "total_meetings": 17,
+    "team1_wins": 11,
+    "team2_wins": 6
+  },
+  {
+    "team1": "ATL",
+    "team2": "BOS",
+    "total_meetings": 268,
+    "team1_wins": 111,
+    "team2_wins": 157
+  },
+  {
+    "team1": "LAL",
+    "team2": "PHX",
+    "total_meetings": 308,
+    "team1_wins": 175,
+    "team2_wins": 133
+  },
+  {
+    "team1": "LAL",
+    "team2": "MIL",
+    "total_meetings": 144,
+    "team1_wins": 83,
+    "team2_wins": 61
+  },
+  {
+    "team1": "ATL",
+    "team2": "BLT",
+    "total_meetings": 25,
+    "team1_wins": 9,
+    "team2_wins": 16
+  },
+  {
+    "team1": "DET",
+    "team2": "PHX",
+    "total_meetings": 126,
+    "team1_wins": 65,
+    "team2_wins": 61
+  },
+  {
+    "team1": "MIL",
+    "team2": "SEA",
+    "total_meetings": 112,
+    "team1_wins": 56,
+    "team2_wins": 56
+  },
+  {
+    "team1": "ATL",
+    "team2": "PHL",
+    "total_meetings": 132,
+    "team1_wins": 69,
+    "team2_wins": 63
+  },
+  {
+    "team1": "MIL",
+    "team2": "PHL",
+    "total_meetings": 157,
+    "team1_wins": 77,
+    "team2_wins": 80
+  },
+  {
+    "team1": "BOS",
+    "team2": "PHX",
+    "total_meetings": 126,
+    "team1_wins": 69,
+    "team2_wins": 57
+  },
+  {
+    "team1": "PHL",
+    "team2": "PHX",
+    "total_meetings": 70,
+    "team1_wins": 32,
+    "team2_wins": 38
+  },
+  {
+    "team1": "ATL",
+    "team2": "NYK",
+    "total_meetings": 231,
+    "team1_wins": 112,
+    "team2_wins": 119
+  },
+  {
+    "team1": "ATL",
+    "team2": "DET",
+    "total_meetings": 258,
+    "team1_wins": 118,
+    "team2_wins": 140
+  },
+  {
+    "team1": "MIL",
+    "team2": "PHX",
+    "total_meetings": 141,
+    "team1_wins": 70,
+    "team2_wins": 71
+  },
+  {
+    "team1": "PHX",
+    "team2": "SDR",
+    "total_meetings": 15,
+    "team1_wins": 8,
+    "team2_wins": 7
+  },
+  {
+    "team1": "MIL",
+    "team2": "SDR",
+    "total_meetings": 12,
+    "team1_wins": 10,
+    "team2_wins": 2
+  },
+  {
+    "team1": "CIN",
+    "team2": "PHX",
+    "total_meetings": 17,
+    "team1_wins": 9,
+    "team2_wins": 8
+  },
+  {
+    "team1": "BUF",
+    "team2": "SEA",
+    "total_meetings": 20,
+    "team1_wins": 8,
+    "team2_wins": 12
+  },
+  {
+    "team1": "HOU",
+    "team2": "PHL",
+    "total_meetings": 73,
+    "team1_wins": 37,
+    "team2_wins": 36
+  },
+  {
+    "team1": "BOS",
+    "team2": "GOS",
+    "total_meetings": 58,
+    "team1_wins": 37,
+    "team2_wins": 21
+  },
+  {
+    "team1": "POR",
+    "team2": "SEA",
+    "total_meetings": 197,
+    "team1_wins": 97,
+    "team2_wins": 100
+  },
+  {
+    "team1": "BUF",
+    "team2": "CLE",
+    "total_meetings": 26,
+    "team1_wins": 14,
+    "team2_wins": 12
+  },
+  {
+    "team1": "BLT",
+    "team2": "GOS",
+    "total_meetings": 9,
+    "team1_wins": 4,
+    "team2_wins": 5
+  },
+  {
+    "team1": "HOU",
+    "team2": "PHX",
+    "total_meetings": 202,
+    "team1_wins": 100,
+    "team2_wins": 102
+  },
+  {
+    "team1": "CLE",
+    "team2": "NYK",
+    "total_meetings": 220,
+    "team1_wins": 101,
+    "team2_wins": 119
+  },
+  {
+    "team1": "MIL",
+    "team2": "POR",
+    "total_meetings": 118,
+    "team1_wins": 71,
+    "team2_wins": 47
+  },
+  {
+    "team1": "DET",
+    "team2": "HOU",
+    "total_meetings": 112,
+    "team1_wins": 56,
+    "team2_wins": 56
+  },
+  {
+    "team1": "DET",
+    "team2": "POR",
+    "total_meetings": 115,
+    "team1_wins": 51,
+    "team2_wins": 64
+  },
+  {
+    "team1": "CLE",
+    "team2": "MIL",
+    "total_meetings": 219,
+    "team1_wins": 92,
+    "team2_wins": 127
+  },
+  {
+    "team1": "BUF",
+    "team2": "LAL",
+    "total_meetings": 20,
+    "team1_wins": 5,
+    "team2_wins": 15
+  },
+  {
+    "team1": "GOS",
+    "team2": "NYK",
+    "total_meetings": 59,
+    "team1_wins": 29,
+    "team2_wins": 30
+  },
+  {
+    "team1": "CHI",
+    "team2": "HOU",
+    "total_meetings": 110,
+    "team1_wins": 55,
+    "team2_wins": 55
+  },
+  {
+    "team1": "CLE",
+    "team2": "GOS",
+    "total_meetings": 57,
+    "team1_wins": 27,
+    "team2_wins": 30
+  },
+  {
+    "team1": "BUF",
+    "team2": "MIL",
+    "total_meetings": 20,
+    "team1_wins": 3,
+    "team2_wins": 17
+  },
+  {
+    "team1": "HOU",
+    "team2": "SEA",
+    "total_meetings": 175,
+    "team1_wins": 80,
+    "team2_wins": 95
+  },
+  {
+    "team1": "DET",
+    "team2": "GOS",
+    "total_meetings": 72,
+    "team1_wins": 33,
+    "team2_wins": 39
+  },
+  {
+    "team1": "BLT",
+    "team2": "CLE",
+    "total_meetings": 14,
+    "team1_wins": 9,
+    "team2_wins": 5
+  },
+  {
+    "team1": "CIN",
+    "team2": "POR",
+    "total_meetings": 4,
+    "team1_wins": 2,
+    "team2_wins": 2
+  },
+  {
+    "team1": "BOS",
+    "team2": "BUF",
+    "total_meetings": 45,
+    "team1_wins": 34,
+    "team2_wins": 11
+  },
+  {
+    "team1": "CLE",
+    "team2": "PHL",
+    "total_meetings": 119,
+    "team1_wins": 59,
+    "team2_wins": 60
+  },
+  {
+    "team1": "HOU",
+    "team2": "LAL",
+    "total_meetings": 229,
+    "team1_wins": 89,
+    "team2_wins": 140
+  },
+  {
+    "team1": "BUF",
+    "team2": "GOS",
+    "total_meetings": 19,
+    "team1_wins": 5,
+    "team2_wins": 14
+  },
+  {
+    "team1": "CHI",
+    "team2": "POR",
+    "total_meetings": 126,
+    "team1_wins": 66,
+    "team2_wins": 60
+  },
+  {
+    "team1": "BOS",
+    "team2": "HOU",
+    "total_meetings": 139,
+    "team1_wins": 87,
+    "team2_wins": 52
+  },
+  {
+    "team1": "HOU",
+    "team2": "NYK",
+    "total_meetings": 121,
+    "team1_wins": 65,
+    "team2_wins": 56
+  },
+  {
+    "team1": "ATL",
+    "team2": "CLE",
+    "total_meetings": 238,
+    "team1_wins": 123,
+    "team2_wins": 115
+  },
+  {
+    "team1": "CHI",
+    "team2": "GOS",
+    "total_meetings": 75,
+    "team1_wins": 47,
+    "team2_wins": 28
+  },
+  {
+    "team1": "BUF",
+    "team2": "POR",
+    "total_meetings": 22,
+    "team1_wins": 10,
+    "team2_wins": 12
+  },
+  {
+    "team1": "CIN",
+    "team2": "GOS",
+    "total_meetings": 5,
+    "team1_wins": 2,
+    "team2_wins": 3
+  },
+  {
+    "team1": "BUF",
+    "team2": "HOU",
+    "total_meetings": 24,
+    "team1_wins": 10,
+    "team2_wins": 14
+  },
+  {
+    "team1": "GOS",
+    "team2": "LAL",
+    "total_meetings": 149,
+    "team1_wins": 52,
+    "team2_wins": 97
+  },
+  {
+    "team1": "BUF",
+    "team2": "PHX",
+    "total_meetings": 20,
+    "team1_wins": 7,
+    "team2_wins": 13
+  },
+  {
+    "team1": "HOU",
+    "team2": "POR",
+    "total_meetings": 210,
+    "team1_wins": 111,
+    "team2_wins": 99
+  },
+  {
+    "team1": "GOS",
+    "team2": "SEA",
+    "total_meetings": 137,
+    "team1_wins": 59,
+    "team2_wins": 78
+  },
+  {
+    "team1": "CLE",
+    "team2": "PHX",
+    "total_meetings": 106,
+    "team1_wins": 45,
+    "team2_wins": 61
+  },
+  {
+    "team1": "ATL",
+    "team2": "BUF",
+    "total_meetings": 26,
+    "team1_wins": 15,
+    "team2_wins": 11
+  },
+  {
+    "team1": "BOS",
+    "team2": "POR",
+    "total_meetings": 108,
+    "team1_wins": 67,
+    "team2_wins": 41
+  },
+  {
+    "team1": "BUF",
+    "team2": "CHI",
+    "total_meetings": 20,
+    "team1_wins": 8,
+    "team2_wins": 12
+  },
+  {
+    "team1": "CLE",
+    "team2": "POR",
+    "total_meetings": 108,
+    "team1_wins": 49,
+    "team2_wins": 59
+  },
+  {
+    "team1": "BLT",
+    "team2": "HOU",
+    "total_meetings": 12,
+    "team1_wins": 8,
+    "team2_wins": 4
+  },
+  {
+    "team1": "GOS",
+    "team2": "HOU",
+    "total_meetings": 99,
+    "team1_wins": 45,
+    "team2_wins": 54
+  },
+  {
+    "team1": "CLE",
+    "team2": "SEA",
+    "total_meetings": 81,
+    "team1_wins": 30,
+    "team2_wins": 51
+  },
+  {
+    "team1": "HOU",
+    "team2": "MIL",
+    "total_meetings": 110,
+    "team1_wins": 53,
+    "team2_wins": 57
+  },
+  {
+    "team1": "ATL",
+    "team2": "GOS",
+    "total_meetings": 59,
+    "team1_wins": 29,
+    "team2_wins": 30
+  },
+  {
+    "team1": "LAL",
+    "team2": "POR",
+    "total_meetings": 269,
+    "team1_wins": 145,
+    "team2_wins": 124
+  },
+  {
+    "team1": "CLE",
+    "team2": "LAL",
+    "total_meetings": 107,
+    "team1_wins": 48,
+    "team2_wins": 59
+  },
+  {
+    "team1": "BUF",
+    "team2": "CIN",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "GOS",
+    "team2": "POR",
+    "total_meetings": 128,
+    "team1_wins": 51,
+    "team2_wins": 77
+  },
+  {
+    "team1": "BLT",
+    "team2": "BUF",
+    "total_meetings": 12,
+    "team1_wins": 8,
+    "team2_wins": 4
+  },
+  {
+    "team1": "GOS",
+    "team2": "MIL",
+    "total_meetings": 77,
+    "team1_wins": 30,
+    "team2_wins": 47
+  },
+  {
+    "team1": "BUF",
+    "team2": "DET",
+    "total_meetings": 22,
+    "team1_wins": 7,
+    "team2_wins": 15
+  },
+  {
+    "team1": "BOS",
+    "team2": "CLE",
+    "total_meetings": 259,
+    "team1_wins": 155,
+    "team2_wins": 104
+  },
+  {
+    "team1": "GOS",
+    "team2": "PHL",
+    "total_meetings": 59,
+    "team1_wins": 32,
+    "team2_wins": 27
+  },
+  {
+    "team1": "CIN",
+    "team2": "CLE",
+    "total_meetings": 8,
+    "team1_wins": 6,
+    "team2_wins": 2
+  },
+  {
+    "team1": "PHL",
+    "team2": "POR",
+    "total_meetings": 63,
+    "team1_wins": 31,
+    "team2_wins": 32
+  },
+  {
+    "team1": "PHX",
+    "team2": "POR",
+    "total_meetings": 261,
+    "team1_wins": 137,
+    "team2_wins": 124
+  },
+  {
+    "team1": "CLE",
+    "team2": "HOU",
+    "total_meetings": 123,
+    "team1_wins": 48,
+    "team2_wins": 75
+  },
+  {
+    "team1": "BUF",
+    "team2": "NYK",
+    "total_meetings": 33,
+    "team1_wins": 14,
+    "team2_wins": 19
+  },
+  {
+    "team1": "GOS",
+    "team2": "PHX",
+    "total_meetings": 139,
+    "team1_wins": 52,
+    "team2_wins": 87
+  },
+  {
+    "team1": "CHI",
+    "team2": "CLE",
+    "total_meetings": 251,
+    "team1_wins": 143,
+    "team2_wins": 108
+  },
+  {
+    "team1": "BLT",
+    "team2": "POR",
+    "total_meetings": 8,
+    "team1_wins": 7,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CLE",
+    "team2": "DET",
+    "total_meetings": 236,
+    "team1_wins": 111,
+    "team2_wins": 125
+  },
+  {
+    "team1": "ATL",
+    "team2": "HOU",
+    "total_meetings": 126,
+    "team1_wins": 63,
+    "team2_wins": 63
+  },
+  {
+    "team1": "NYK",
+    "team2": "POR",
+    "total_meetings": 107,
+    "team1_wins": 44,
+    "team2_wins": 63
+  },
+  {
+    "team1": "BUF",
+    "team2": "PHL",
+    "total_meetings": 37,
+    "team1_wins": 25,
+    "team2_wins": 12
+  },
+  {
+    "team1": "CIN",
+    "team2": "HOU",
+    "total_meetings": 4,
+    "team1_wins": 0,
+    "team2_wins": 4
+  },
+  {
+    "team1": "ATL",
+    "team2": "POR",
+    "total_meetings": 110,
+    "team1_wins": 53,
+    "team2_wins": 57
+  },
+  {
+    "team1": "KCK",
+    "team2": "LAL",
+    "total_meetings": 58,
+    "team1_wins": 13,
+    "team2_wins": 45
+  },
+  {
+    "team1": "DET",
+    "team2": "KCK",
+    "total_meetings": 40,
+    "team1_wins": 17,
+    "team2_wins": 23
+  },
+  {
+    "team1": "BLT",
+    "team2": "KCK",
+    "total_meetings": 4,
+    "team1_wins": 3,
+    "team2_wins": 1
+  },
+  {
+    "team1": "ATL",
+    "team2": "KCK",
+    "total_meetings": 31,
+    "team1_wins": 11,
+    "team2_wins": 20
+  },
+  {
+    "team1": "KCK",
+    "team2": "MIL",
+    "total_meetings": 47,
+    "team1_wins": 15,
+    "team2_wins": 32
+  },
+  {
+    "team1": "BUF",
+    "team2": "KCK",
+    "total_meetings": 15,
+    "team1_wins": 5,
+    "team2_wins": 10
+  },
+  {
+    "team1": "CLE",
+    "team2": "KCK",
+    "total_meetings": 32,
+    "team1_wins": 13,
+    "team2_wins": 19
+  },
+  {
+    "team1": "CHI",
+    "team2": "KCK",
+    "total_meetings": 53,
+    "team1_wins": 27,
+    "team2_wins": 26
+  },
+  {
+    "team1": "KCK",
+    "team2": "NYK",
+    "total_meetings": 31,
+    "team1_wins": 11,
+    "team2_wins": 20
+  },
+  {
+    "team1": "KCK",
+    "team2": "PHL",
+    "total_meetings": 32,
+    "team1_wins": 10,
+    "team2_wins": 22
+  },
+  {
+    "team1": "BOS",
+    "team2": "KCK",
+    "total_meetings": 32,
+    "team1_wins": 20,
+    "team2_wins": 12
+  },
+  {
+    "team1": "KCK",
+    "team2": "SEA",
+    "total_meetings": 55,
+    "team1_wins": 22,
+    "team2_wins": 33
+  },
+  {
+    "team1": "KCK",
+    "team2": "POR",
+    "total_meetings": 58,
+    "team1_wins": 25,
+    "team2_wins": 33
+  },
+  {
+    "team1": "HOU",
+    "team2": "KCK",
+    "total_meetings": 57,
+    "team1_wins": 28,
+    "team2_wins": 29
+  },
+  {
+    "team1": "KCK",
+    "team2": "PHX",
+    "total_meetings": 70,
+    "team1_wins": 29,
+    "team2_wins": 41
+  },
+  {
+    "team1": "GOS",
+    "team2": "KCK",
+    "total_meetings": 55,
+    "team1_wins": 32,
+    "team2_wins": 23
+  },
+  {
+    "team1": "ATL",
+    "team2": "CAP",
+    "total_meetings": 8,
+    "team1_wins": 4,
+    "team2_wins": 4
+  },
+  {
+    "team1": "CAP",
+    "team2": "SEA",
+    "total_meetings": 4,
+    "team1_wins": 2,
+    "team2_wins": 2
+  },
+  {
+    "team1": "CAP",
+    "team2": "POR",
+    "total_meetings": 4,
+    "team1_wins": 3,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CAP",
+    "team2": "CHI",
+    "total_meetings": 4,
+    "team1_wins": 1,
+    "team2_wins": 3
+  },
+  {
+    "team1": "BOS",
+    "team2": "CAP",
+    "total_meetings": 6,
+    "team1_wins": 2,
+    "team2_wins": 4
+  },
+  {
+    "team1": "CAP",
+    "team2": "NYK",
+    "total_meetings": 13,
+    "team1_wins": 6,
+    "team2_wins": 7
+  },
+  {
+    "team1": "CAP",
+    "team2": "PHL",
+    "total_meetings": 6,
+    "team1_wins": 4,
+    "team2_wins": 2
+  },
+  {
+    "team1": "CAP",
+    "team2": "PHX",
+    "total_meetings": 4,
+    "team1_wins": 2,
+    "team2_wins": 2
+  },
+  {
+    "team1": "CAP",
+    "team2": "HOU",
+    "total_meetings": 7,
+    "team1_wins": 4,
+    "team2_wins": 3
+  },
+  {
+    "team1": "CAP",
+    "team2": "KCK",
+    "total_meetings": 4,
+    "team1_wins": 3,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CAP",
+    "team2": "MIL",
+    "total_meetings": 4,
+    "team1_wins": 1,
+    "team2_wins": 3
+  },
+  {
+    "team1": "BUF",
+    "team2": "CAP",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "CAP",
+    "team2": "LAL",
+    "total_meetings": 4,
+    "team1_wins": 2,
+    "team2_wins": 2
+  },
+  {
+    "team1": "CAP",
+    "team2": "GOS",
+    "total_meetings": 4,
+    "team1_wins": 3,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CAP",
+    "team2": "DET",
+    "total_meetings": 4,
+    "team1_wins": 2,
+    "team2_wins": 2
+  },
+  {
+    "team1": "CAP",
+    "team2": "CLE",
+    "total_meetings": 7,
+    "team1_wins": 6,
+    "team2_wins": 1
+  },
+  {
+    "team1": "NOJ",
+    "team2": "NYK",
+    "total_meetings": 12,
+    "team1_wins": 5,
+    "team2_wins": 7
+  },
+  {
+    "team1": "NOJ",
+    "team2": "PHL",
+    "total_meetings": 12,
+    "team1_wins": 6,
+    "team2_wins": 6
+  },
+  {
+    "team1": "NOJ",
+    "team2": "WAS",
+    "total_meetings": 15,
+    "team1_wins": 0,
+    "team2_wins": 15
+  },
+  {
+    "team1": "BUF",
+    "team2": "NOJ",
+    "total_meetings": 8,
+    "team1_wins": 6,
+    "team2_wins": 2
+  },
+  {
+    "team1": "KCK",
+    "team2": "WAS",
+    "total_meetings": 23,
+    "team1_wins": 14,
+    "team2_wins": 9
+  },
+  {
+    "team1": "HOU",
+    "team2": "WAS",
+    "total_meetings": 110,
+    "team1_wins": 66,
+    "team2_wins": 44
+  },
+  {
+    "team1": "MIL",
+    "team2": "WAS",
+    "total_meetings": 187,
+    "team1_wins": 109,
+    "team2_wins": 78
+  },
+  {
+    "team1": "CLE",
+    "team2": "NOJ",
+    "total_meetings": 15,
+    "team1_wins": 10,
+    "team2_wins": 5
+  },
+  {
+    "team1": "CHI",
+    "team2": "WAS",
+    "total_meetings": 203,
+    "team1_wins": 113,
+    "team2_wins": 90
+  },
+  {
+    "team1": "HOU",
+    "team2": "NOJ",
+    "total_meetings": 16,
+    "team1_wins": 10,
+    "team2_wins": 6
+  },
+  {
+    "team1": "DET",
+    "team2": "NOJ",
+    "total_meetings": 12,
+    "team1_wins": 9,
+    "team2_wins": 3
+  },
+  {
+    "team1": "PHX",
+    "team2": "WAS",
+    "total_meetings": 95,
+    "team1_wins": 55,
+    "team2_wins": 40
+  },
+  {
+    "team1": "KCK",
+    "team2": "NOJ",
+    "total_meetings": 12,
+    "team1_wins": 7,
+    "team2_wins": 5
+  },
+  {
+    "team1": "CLE",
+    "team2": "WAS",
+    "total_meetings": 223,
+    "team1_wins": 114,
+    "team2_wins": 109
+  },
+  {
+    "team1": "NOJ",
+    "team2": "PHX",
+    "total_meetings": 12,
+    "team1_wins": 3,
+    "team2_wins": 9
+  },
+  {
+    "team1": "NOJ",
+    "team2": "POR",
+    "total_meetings": 12,
+    "team1_wins": 6,
+    "team2_wins": 6
+  },
+  {
+    "team1": "CHI",
+    "team2": "NOJ",
+    "total_meetings": 12,
+    "team1_wins": 8,
+    "team2_wins": 4
+  },
+  {
+    "team1": "ATL",
+    "team2": "NOJ",
+    "total_meetings": 16,
+    "team1_wins": 7,
+    "team2_wins": 9
+  },
+  {
+    "team1": "BUF",
+    "team2": "WAS",
+    "total_meetings": 15,
+    "team1_wins": 6,
+    "team2_wins": 9
+  },
+  {
+    "team1": "NOJ",
+    "team2": "SEA",
+    "total_meetings": 11,
+    "team1_wins": 3,
+    "team2_wins": 8
+  },
+  {
+    "team1": "POR",
+    "team2": "WAS",
+    "total_meetings": 96,
+    "team1_wins": 57,
+    "team2_wins": 39
+  },
+  {
+    "team1": "LAL",
+    "team2": "WAS",
+    "total_meetings": 95,
+    "team1_wins": 56,
+    "team2_wins": 39
+  },
+  {
+    "team1": "ATL",
+    "team2": "WAS",
+    "total_meetings": 222,
+    "team1_wins": 117,
+    "team2_wins": 105
+  },
+  {
+    "team1": "LAL",
+    "team2": "NOJ",
+    "total_meetings": 11,
+    "team1_wins": 7,
+    "team2_wins": 4
+  },
+  {
+    "team1": "SEA",
+    "team2": "WAS",
+    "total_meetings": 81,
+    "team1_wins": 47,
+    "team2_wins": 34
+  },
+  {
+    "team1": "GOS",
+    "team2": "NOJ",
+    "total_meetings": 12,
+    "team1_wins": 5,
+    "team2_wins": 7
+  },
+  {
+    "team1": "DET",
+    "team2": "WAS",
+    "total_meetings": 204,
+    "team1_wins": 114,
+    "team2_wins": 90
+  },
+  {
+    "team1": "BOS",
+    "team2": "NOJ",
+    "total_meetings": 12,
+    "team1_wins": 8,
+    "team2_wins": 4
+  },
+  {
+    "team1": "GOS",
+    "team2": "WAS",
+    "total_meetings": 50,
+    "team1_wins": 27,
+    "team2_wins": 23
+  },
+  {
+    "team1": "PHL",
+    "team2": "WAS",
+    "total_meetings": 123,
+    "team1_wins": 78,
+    "team2_wins": 45
+  },
+  {
+    "team1": "MIL",
+    "team2": "NOJ",
+    "total_meetings": 11,
+    "team1_wins": 8,
+    "team2_wins": 3
+  },
+  {
+    "team1": "BOS",
+    "team2": "SAN",
+    "total_meetings": 48,
+    "team1_wins": 28,
+    "team2_wins": 20
+  },
+  {
+    "team1": "DEN",
+    "team2": "POR",
+    "total_meetings": 220,
+    "team1_wins": 106,
+    "team2_wins": 114
+  },
+  {
+    "team1": "DET",
+    "team2": "NJN",
+    "total_meetings": 163,
+    "team1_wins": 99,
+    "team2_wins": 64
+  },
+  {
+    "team1": "DEN",
+    "team2": "MIL",
+    "total_meetings": 108,
+    "team1_wins": 66,
+    "team2_wins": 42
+  },
+  {
+    "team1": "IND",
+    "team2": "LAL",
+    "total_meetings": 92,
+    "team1_wins": 32,
+    "team2_wins": 60
+  },
+  {
+    "team1": "DEN",
+    "team2": "LAL",
+    "total_meetings": 230,
+    "team1_wins": 90,
+    "team2_wins": 140
+  },
+  {
+    "team1": "NJN",
+    "team2": "NOJ",
+    "total_meetings": 8,
+    "team1_wins": 3,
+    "team2_wins": 5
+  },
+  {
+    "team1": "GOS",
+    "team2": "SAN",
+    "total_meetings": 86,
+    "team1_wins": 40,
+    "team2_wins": 46
+  },
+  {
+    "team1": "CHI",
+    "team2": "IND",
+    "total_meetings": 219,
+    "team1_wins": 118,
+    "team2_wins": 101
+  },
+  {
+    "team1": "BUF",
+    "team2": "NJN",
+    "total_meetings": 4,
+    "team1_wins": 2,
+    "team2_wins": 2
+  },
+  {
+    "team1": "IND",
+    "team2": "KCK",
+    "total_meetings": 20,
+    "team1_wins": 9,
+    "team2_wins": 11
+  },
+  {
+    "team1": "POR",
+    "team2": "SAN",
+    "total_meetings": 92,
+    "team1_wins": 50,
+    "team2_wins": 42
+  },
+  {
+    "team1": "DEN",
+    "team2": "DET",
+    "total_meetings": 94,
+    "team1_wins": 41,
+    "team2_wins": 53
+  },
+  {
+    "team1": "SAN",
+    "team2": "SEA",
+    "total_meetings": 87,
+    "team1_wins": 45,
+    "team2_wins": 42
+  },
+  {
+    "team1": "LAL",
+    "team2": "SAN",
+    "total_meetings": 104,
+    "team1_wins": 58,
+    "team2_wins": 46
+  },
+  {
+    "team1": "DEN",
+    "team2": "IND",
+    "total_meetings": 95,
+    "team1_wins": 49,
+    "team2_wins": 46
+  },
+  {
+    "team1": "ATL",
+    "team2": "NJN",
+    "total_meetings": 149,
+    "team1_wins": 85,
+    "team2_wins": 64
+  },
+  {
+    "team1": "IND",
+    "team2": "WAS",
+    "total_meetings": 190,
+    "team1_wins": 106,
+    "team2_wins": 84
+  },
+  {
+    "team1": "BOS",
+    "team2": "NJN",
+    "total_meetings": 180,
+    "team1_wins": 118,
+    "team2_wins": 62
+  },
+  {
+    "team1": "BUF",
+    "team2": "DEN",
+    "total_meetings": 4,
+    "team1_wins": 1,
+    "team2_wins": 3
+  },
+  {
+    "team1": "PHX",
+    "team2": "SAN",
+    "total_meetings": 91,
+    "team1_wins": 52,
+    "team2_wins": 39
+  },
+  {
+    "team1": "CLE",
+    "team2": "DEN",
+    "total_meetings": 90,
+    "team1_wins": 41,
+    "team2_wins": 49
+  },
+  {
+    "team1": "LAL",
+    "team2": "NJN",
+    "total_meetings": 71,
+    "team1_wins": 52,
+    "team2_wins": 19
+  },
+  {
+    "team1": "IND",
+    "team2": "SEA",
+    "total_meetings": 65,
+    "team1_wins": 27,
+    "team2_wins": 38
+  },
+  {
+    "team1": "NJN",
+    "team2": "PHL",
+    "total_meetings": 108,
+    "team1_wins": 42,
+    "team2_wins": 66
+  },
+  {
+    "team1": "BOS",
+    "team2": "DEN",
+    "total_meetings": 92,
+    "team1_wins": 56,
+    "team2_wins": 36
+  },
+  {
+    "team1": "DEN",
+    "team2": "PHL",
+    "total_meetings": 41,
+    "team1_wins": 16,
+    "team2_wins": 25
+  },
+  {
+    "team1": "BUF",
+    "team2": "SAN",
+    "total_meetings": 4,
+    "team1_wins": 1,
+    "team2_wins": 3
+  },
+  {
+    "team1": "CLE",
+    "team2": "NJN",
+    "total_meetings": 165,
+    "team1_wins": 94,
+    "team2_wins": 71
+  },
+  {
+    "team1": "IND",
+    "team2": "POR",
+    "total_meetings": 92,
+    "team1_wins": 37,
+    "team2_wins": 55
+  },
+  {
+    "team1": "NYK",
+    "team2": "SAN",
+    "total_meetings": 46,
+    "team1_wins": 23,
+    "team2_wins": 23
+  },
+  {
+    "team1": "GOS",
+    "team2": "IND",
+    "total_meetings": 42,
+    "team1_wins": 20,
+    "team2_wins": 22
+  },
+  {
+    "team1": "DEN",
+    "team2": "NOJ",
+    "total_meetings": 8,
+    "team1_wins": 6,
+    "team2_wins": 2
+  },
+  {
+    "team1": "DET",
+    "team2": "SAN",
+    "total_meetings": 45,
+    "team1_wins": 17,
+    "team2_wins": 28
+  },
+  {
+    "team1": "CHI",
+    "team2": "NJN",
+    "total_meetings": 145,
+    "team1_wins": 80,
+    "team2_wins": 65
+  },
+  {
+    "team1": "NJN",
+    "team2": "NYK",
+    "total_meetings": 182,
+    "team1_wins": 88,
+    "team2_wins": 94
+  },
+  {
+    "team1": "DEN",
+    "team2": "KCK",
+    "total_meetings": 44,
+    "team1_wins": 22,
+    "team2_wins": 22
+  },
+  {
+    "team1": "ATL",
+    "team2": "SAN",
+    "total_meetings": 46,
+    "team1_wins": 25,
+    "team2_wins": 21
+  },
+  {
+    "team1": "IND",
+    "team2": "PHX",
+    "total_meetings": 91,
+    "team1_wins": 39,
+    "team2_wins": 52
+  },
+  {
+    "team1": "BUF",
+    "team2": "IND",
+    "total_meetings": 4,
+    "team1_wins": 1,
+    "team2_wins": 3
+  },
+  {
+    "team1": "KCK",
+    "team2": "SAN",
+    "total_meetings": 40,
+    "team1_wins": 15,
+    "team2_wins": 25
+  },
+  {
+    "team1": "MIL",
+    "team2": "NJN",
+    "total_meetings": 160,
+    "team1_wins": 90,
+    "team2_wins": 70
+  },
+  {
+    "team1": "IND",
+    "team2": "NJN",
+    "total_meetings": 152,
+    "team1_wins": 86,
+    "team2_wins": 66
+  },
+  {
+    "team1": "DEN",
+    "team2": "SAN",
+    "total_meetings": 113,
+    "team1_wins": 45,
+    "team2_wins": 68
+  },
+  {
+    "team1": "IND",
+    "team2": "NYK",
+    "total_meetings": 215,
+    "team1_wins": 105,
+    "team2_wins": 110
+  },
+  {
+    "team1": "DEN",
+    "team2": "NJN",
+    "total_meetings": 72,
+    "team1_wins": 41,
+    "team2_wins": 31
+  },
+  {
+    "team1": "DEN",
+    "team2": "WAS",
+    "total_meetings": 93,
+    "team1_wins": 56,
+    "team2_wins": 37
+  },
+  {
+    "team1": "IND",
+    "team2": "NOJ",
+    "total_meetings": 7,
+    "team1_wins": 4,
+    "team2_wins": 3
+  },
+  {
+    "team1": "NJN",
+    "team2": "SAN",
+    "total_meetings": 46,
+    "team1_wins": 10,
+    "team2_wins": 36
+  },
+  {
+    "team1": "ATL",
+    "team2": "DEN",
+    "total_meetings": 91,
+    "team1_wins": 49,
+    "team2_wins": 42
+  },
+  {
+    "team1": "MIL",
+    "team2": "SAN",
+    "total_meetings": 42,
+    "team1_wins": 19,
+    "team2_wins": 23
+  },
+  {
+    "team1": "NJN",
+    "team2": "POR",
+    "total_meetings": 71,
+    "team1_wins": 20,
+    "team2_wins": 51
+  },
+  {
+    "team1": "DEN",
+    "team2": "PHX",
+    "total_meetings": 211,
+    "team1_wins": 95,
+    "team2_wins": 116
+  },
+  {
+    "team1": "NJN",
+    "team2": "SEA",
+    "total_meetings": 65,
+    "team1_wins": 25,
+    "team2_wins": 40
+  },
+  {
+    "team1": "DEN",
+    "team2": "SEA",
+    "total_meetings": 145,
+    "team1_wins": 62,
+    "team2_wins": 83
+  },
+  {
+    "team1": "PHL",
+    "team2": "SAN",
+    "total_meetings": 53,
+    "team1_wins": 25,
+    "team2_wins": 28
+  },
+  {
+    "team1": "GOS",
+    "team2": "NJN",
+    "total_meetings": 42,
+    "team1_wins": 26,
+    "team2_wins": 16
+  },
+  {
+    "team1": "SAN",
+    "team2": "WAS",
+    "total_meetings": 59,
+    "team1_wins": 30,
+    "team2_wins": 29
+  },
+  {
+    "team1": "IND",
+    "team2": "MIL",
+    "total_meetings": 204,
+    "team1_wins": 93,
+    "team2_wins": 111
+  },
+  {
+    "team1": "KCK",
+    "team2": "NJN",
+    "total_meetings": 20,
+    "team1_wins": 14,
+    "team2_wins": 6
+  },
+  {
+    "team1": "DET",
+    "team2": "IND",
+    "total_meetings": 219,
+    "team1_wins": 112,
+    "team2_wins": 107
+  },
+  {
+    "team1": "NOJ",
+    "team2": "SAN",
+    "total_meetings": 8,
+    "team1_wins": 3,
+    "team2_wins": 5
+  },
+  {
+    "team1": "IND",
+    "team2": "PHL",
+    "total_meetings": 94,
+    "team1_wins": 26,
+    "team2_wins": 68
+  },
+  {
+    "team1": "CHI",
+    "team2": "SAN",
+    "total_meetings": 41,
+    "team1_wins": 15,
+    "team2_wins": 26
+  },
+  {
+    "team1": "NJN",
+    "team2": "WAS",
+    "total_meetings": 162,
+    "team1_wins": 78,
+    "team2_wins": 84
+  },
+  {
+    "team1": "CHI",
+    "team2": "DEN",
+    "total_meetings": 97,
+    "team1_wins": 45,
+    "team2_wins": 52
+  },
+  {
+    "team1": "HOU",
+    "team2": "NJN",
+    "total_meetings": 78,
+    "team1_wins": 53,
+    "team2_wins": 25
+  },
+  {
+    "team1": "ATL",
+    "team2": "IND",
+    "total_meetings": 218,
+    "team1_wins": 115,
+    "team2_wins": 103
+  },
+  {
+    "team1": "DEN",
+    "team2": "GOS",
+    "total_meetings": 86,
+    "team1_wins": 50,
+    "team2_wins": 36
+  },
+  {
+    "team1": "HOU",
+    "team2": "SAN",
+    "total_meetings": 118,
+    "team1_wins": 63,
+    "team2_wins": 55
+  },
+  {
+    "team1": "IND",
+    "team2": "SAN",
+    "total_meetings": 46,
+    "team1_wins": 26,
+    "team2_wins": 20
+  },
+  {
+    "team1": "HOU",
+    "team2": "IND",
+    "total_meetings": 100,
+    "team1_wins": 57,
+    "team2_wins": 43
+  },
+  {
+    "team1": "CLE",
+    "team2": "SAN",
+    "total_meetings": 46,
+    "team1_wins": 16,
+    "team2_wins": 30
+  },
+  {
+    "team1": "NJN",
+    "team2": "PHX",
+    "total_meetings": 70,
+    "team1_wins": 30,
+    "team2_wins": 40
+  },
+  {
+    "team1": "DEN",
+    "team2": "HOU",
+    "total_meetings": 199,
+    "team1_wins": 92,
+    "team2_wins": 107
+  },
+  {
+    "team1": "DEN",
+    "team2": "NYK",
+    "total_meetings": 91,
+    "team1_wins": 48,
+    "team2_wins": 43
+  },
+  {
+    "team1": "CLE",
+    "team2": "IND",
+    "total_meetings": 224,
+    "team1_wins": 112,
+    "team2_wins": 112
+  },
+  {
+    "team1": "BOS",
+    "team2": "IND",
+    "total_meetings": 213,
+    "team1_wins": 120,
+    "team2_wins": 93
+  },
+  {
+    "team1": "PHX",
+    "team2": "SDC",
+    "total_meetings": 34,
+    "team1_wins": 22,
+    "team2_wins": 12
+  },
+  {
+    "team1": "GOS",
+    "team2": "SDC",
+    "total_meetings": 34,
+    "team1_wins": 17,
+    "team2_wins": 17
+  },
+  {
+    "team1": "DEN",
+    "team2": "SDC",
+    "total_meetings": 30,
+    "team1_wins": 19,
+    "team2_wins": 11
+  },
+  {
+    "team1": "CHI",
+    "team2": "SDC",
+    "total_meetings": 18,
+    "team1_wins": 9,
+    "team2_wins": 9
+  },
+  {
+    "team1": "SAN",
+    "team2": "SDC",
+    "total_meetings": 26,
+    "team1_wins": 21,
+    "team2_wins": 5
+  },
+  {
+    "team1": "IND",
+    "team2": "SDC",
+    "total_meetings": 14,
+    "team1_wins": 7,
+    "team2_wins": 7
+  },
+  {
+    "team1": "LAL",
+    "team2": "SDC",
+    "total_meetings": 34,
+    "team1_wins": 24,
+    "team2_wins": 10
+  },
+  {
+    "team1": "MIL",
+    "team2": "SDC",
+    "total_meetings": 18,
+    "team1_wins": 12,
+    "team2_wins": 6
+  },
+  {
+    "team1": "SDC",
+    "team2": "SEA",
+    "total_meetings": 34,
+    "team1_wins": 14,
+    "team2_wins": 20
+  },
+  {
+    "team1": "NYK",
+    "team2": "SDC",
+    "total_meetings": 14,
+    "team1_wins": 9,
+    "team2_wins": 5
+  },
+  {
+    "team1": "POR",
+    "team2": "SDC",
+    "total_meetings": 34,
+    "team1_wins": 23,
+    "team2_wins": 11
+  },
+  {
+    "team1": "CLE",
+    "team2": "SDC",
+    "total_meetings": 14,
+    "team1_wins": 7,
+    "team2_wins": 7
+  },
+  {
+    "team1": "NOJ",
+    "team2": "SDC",
+    "total_meetings": 4,
+    "team1_wins": 0,
+    "team2_wins": 4
+  },
+  {
+    "team1": "ATL",
+    "team2": "SDC",
+    "total_meetings": 14,
+    "team1_wins": 8,
+    "team2_wins": 6
+  },
+  {
+    "team1": "HOU",
+    "team2": "SDC",
+    "total_meetings": 25,
+    "team1_wins": 13,
+    "team2_wins": 12
+  },
+  {
+    "team1": "PHL",
+    "team2": "SDC",
+    "total_meetings": 14,
+    "team1_wins": 12,
+    "team2_wins": 2
+  },
+  {
+    "team1": "KCK",
+    "team2": "SDC",
+    "total_meetings": 30,
+    "team1_wins": 21,
+    "team2_wins": 9
+  },
+  {
+    "team1": "BOS",
+    "team2": "SDC",
+    "total_meetings": 14,
+    "team1_wins": 9,
+    "team2_wins": 5
+  },
+  {
+    "team1": "DET",
+    "team2": "SDC",
+    "total_meetings": 14,
+    "team1_wins": 8,
+    "team2_wins": 6
+  },
+  {
+    "team1": "NJN",
+    "team2": "SDC",
+    "total_meetings": 14,
+    "team1_wins": 8,
+    "team2_wins": 6
+  },
+  {
+    "team1": "SDC",
+    "team2": "WAS",
+    "total_meetings": 13,
+    "team1_wins": 2,
+    "team2_wins": 11
+  },
+  {
+    "team1": "POR",
+    "team2": "UTH",
+    "total_meetings": 93,
+    "team1_wins": 43,
+    "team2_wins": 50
+  },
+  {
+    "team1": "MIL",
+    "team2": "UTH",
+    "total_meetings": 38,
+    "team1_wins": 20,
+    "team2_wins": 18
+  },
+  {
+    "team1": "GOS",
+    "team2": "UTH",
+    "total_meetings": 86,
+    "team1_wins": 41,
+    "team2_wins": 45
+  },
+  {
+    "team1": "SDC",
+    "team2": "UTH",
+    "total_meetings": 26,
+    "team1_wins": 13,
+    "team2_wins": 13
+  },
+  {
+    "team1": "LAL",
+    "team2": "UTH",
+    "total_meetings": 85,
+    "team1_wins": 55,
+    "team2_wins": 30
+  },
+  {
+    "team1": "CHI",
+    "team2": "UTH",
+    "total_meetings": 38,
+    "team1_wins": 19,
+    "team2_wins": 19
+  },
+  {
+    "team1": "DEN",
+    "team2": "UTH",
+    "total_meetings": 103,
+    "team1_wins": 44,
+    "team2_wins": 59
+  },
+  {
+    "team1": "KCK",
+    "team2": "UTH",
+    "total_meetings": 36,
+    "team1_wins": 23,
+    "team2_wins": 13
+  },
+  {
+    "team1": "NYK",
+    "team2": "UTH",
+    "total_meetings": 34,
+    "team1_wins": 19,
+    "team2_wins": 15
+  },
+  {
+    "team1": "PHX",
+    "team2": "UTH",
+    "total_meetings": 93,
+    "team1_wins": 55,
+    "team2_wins": 38
+  },
+  {
+    "team1": "SEA",
+    "team2": "UTH",
+    "total_meetings": 88,
+    "team1_wins": 50,
+    "team2_wins": 38
+  },
+  {
+    "team1": "IND",
+    "team2": "UTH",
+    "total_meetings": 34,
+    "team1_wins": 16,
+    "team2_wins": 18
+  },
+  {
+    "team1": "ATL",
+    "team2": "UTH",
+    "total_meetings": 34,
+    "team1_wins": 22,
+    "team2_wins": 12
+  },
+  {
+    "team1": "BOS",
+    "team2": "UTH",
+    "total_meetings": 34,
+    "team1_wins": 19,
+    "team2_wins": 15
+  },
+  {
+    "team1": "UTH",
+    "team2": "WAS",
+    "total_meetings": 34,
+    "team1_wins": 21,
+    "team2_wins": 13
+  },
+  {
+    "team1": "CLE",
+    "team2": "UTH",
+    "total_meetings": 34,
+    "team1_wins": 11,
+    "team2_wins": 23
+  },
+  {
+    "team1": "DET",
+    "team2": "UTH",
+    "total_meetings": 34,
+    "team1_wins": 11,
+    "team2_wins": 23
+  },
+  {
+    "team1": "SAN",
+    "team2": "UTH",
+    "total_meetings": 91,
+    "team1_wins": 42,
+    "team2_wins": 49
+  },
+  {
+    "team1": "PHL",
+    "team2": "UTH",
+    "total_meetings": 34,
+    "team1_wins": 19,
+    "team2_wins": 15
+  },
+  {
+    "team1": "NJN",
+    "team2": "UTH",
+    "total_meetings": 34,
+    "team1_wins": 12,
+    "team2_wins": 22
+  },
+  {
+    "team1": "HOU",
+    "team2": "UTH",
+    "total_meetings": 100,
+    "team1_wins": 49,
+    "team2_wins": 51
+  },
+  {
+    "team1": "DAL",
+    "team2": "SAN",
+    "total_meetings": 88,
+    "team1_wins": 38,
+    "team2_wins": 50
+  },
+  {
+    "team1": "DAL",
+    "team2": "SEA",
+    "total_meetings": 127,
+    "team1_wins": 62,
+    "team2_wins": 65
+  },
+  {
+    "team1": "DAL",
+    "team2": "DEN",
+    "total_meetings": 196,
+    "team1_wins": 100,
+    "team2_wins": 96
+  },
+  {
+    "team1": "DAL",
+    "team2": "KCK",
+    "total_meetings": 30,
+    "team1_wins": 15,
+    "team2_wins": 15
+  },
+  {
+    "team1": "DAL",
+    "team2": "PHX",
+    "total_meetings": 185,
+    "team1_wins": 79,
+    "team2_wins": 106
+  },
+  {
+    "team1": "DAL",
+    "team2": "POR",
+    "total_meetings": 187,
+    "team1_wins": 87,
+    "team2_wins": 100
+  },
+  {
+    "team1": "DAL",
+    "team2": "GOS",
+    "total_meetings": 72,
+    "team1_wins": 37,
+    "team2_wins": 35
+  },
+  {
+    "team1": "DAL",
+    "team2": "UTH",
+    "total_meetings": 92,
+    "team1_wins": 34,
+    "team2_wins": 58
+  },
+  {
+    "team1": "DAL",
+    "team2": "HOU",
+    "total_meetings": 214,
+    "team1_wins": 100,
+    "team2_wins": 114
+  },
+  {
+    "team1": "DAL",
+    "team2": "SDC",
+    "total_meetings": 20,
+    "team1_wins": 13,
+    "team2_wins": 7
+  },
+  {
+    "team1": "DAL",
+    "team2": "WAS",
+    "total_meetings": 86,
+    "team1_wins": 47,
+    "team2_wins": 39
+  },
+  {
+    "team1": "DAL",
+    "team2": "LAL",
+    "total_meetings": 189,
+    "team1_wins": 64,
+    "team2_wins": 125
+  },
+  {
+    "team1": "DAL",
+    "team2": "DET",
+    "total_meetings": 87,
+    "team1_wins": 43,
+    "team2_wins": 44
+  },
+  {
+    "team1": "DAL",
+    "team2": "PHL",
+    "total_meetings": 32,
+    "team1_wins": 11,
+    "team2_wins": 21
+  },
+  {
+    "team1": "CLE",
+    "team2": "DAL",
+    "total_meetings": 87,
+    "team1_wins": 46,
+    "team2_wins": 41
+  },
+  {
+    "team1": "BOS",
+    "team2": "DAL",
+    "total_meetings": 82,
+    "team1_wins": 43,
+    "team2_wins": 39
+  },
+  {
+    "team1": "ATL",
+    "team2": "DAL",
+    "total_meetings": 86,
+    "team1_wins": 48,
+    "team2_wins": 38
+  },
+  {
+    "team1": "DAL",
+    "team2": "MIL",
+    "total_meetings": 90,
+    "team1_wins": 44,
+    "team2_wins": 46
+  },
+  {
+    "team1": "DAL",
+    "team2": "NYK",
+    "total_meetings": 84,
+    "team1_wins": 45,
+    "team2_wins": 39
+  },
+  {
+    "team1": "CHI",
+    "team2": "DAL",
+    "total_meetings": 90,
+    "team1_wins": 44,
+    "team2_wins": 46
+  },
+  {
+    "team1": "DAL",
+    "team2": "IND",
+    "total_meetings": 87,
+    "team1_wins": 49,
+    "team2_wins": 38
+  },
+  {
+    "team1": "DAL",
+    "team2": "NJN",
+    "total_meetings": 62,
+    "team1_wins": 37,
+    "team2_wins": 25
+  },
+  {
+    "team1": "LAC",
+    "team2": "UTH",
+    "total_meetings": 57,
+    "team1_wins": 19,
+    "team2_wins": 38
+  },
+  {
+    "team1": "LAC",
+    "team2": "PHX",
+    "total_meetings": 183,
+    "team1_wins": 77,
+    "team2_wins": 106
+  },
+  {
+    "team1": "LAC",
+    "team2": "NYK",
+    "total_meetings": 73,
+    "team1_wins": 36,
+    "team2_wins": 37
+  },
+  {
+    "team1": "LAC",
+    "team2": "POR",
+    "total_meetings": 178,
+    "team1_wins": 66,
+    "team2_wins": 112
+  },
+  {
+    "team1": "DEN",
+    "team2": "LAC",
+    "total_meetings": 167,
+    "team1_wins": 92,
+    "team2_wins": 75
+  },
+  {
+    "team1": "BOS",
+    "team2": "LAC",
+    "total_meetings": 74,
+    "team1_wins": 45,
+    "team2_wins": 29
+  },
+  {
+    "team1": "LAC",
+    "team2": "WAS",
+    "total_meetings": 74,
+    "team1_wins": 35,
+    "team2_wins": 39
+  },
+  {
+    "team1": "HOU",
+    "team2": "LAC",
+    "total_meetings": 160,
+    "team1_wins": 95,
+    "team2_wins": 65
+  },
+  {
+    "team1": "LAC",
+    "team2": "NJN",
+    "total_meetings": 55,
+    "team1_wins": 23,
+    "team2_wins": 32
+  },
+  {
+    "team1": "LAC",
+    "team2": "MIL",
+    "total_meetings": 73,
+    "team1_wins": 37,
+    "team2_wins": 36
+  },
+  {
+    "team1": "KCK",
+    "team2": "LAC",
+    "total_meetings": 5,
+    "team1_wins": 3,
+    "team2_wins": 2
+  },
+  {
+    "team1": "LAC",
+    "team2": "LAL",
+    "total_meetings": 175,
+    "team1_wins": 67,
+    "team2_wins": 108
+  },
+  {
+    "team1": "LAC",
+    "team2": "SEA",
+    "total_meetings": 110,
+    "team1_wins": 32,
+    "team2_wins": 78
+  },
+  {
+    "team1": "CHI",
+    "team2": "LAC",
+    "total_meetings": 73,
+    "team1_wins": 39,
+    "team2_wins": 34
+  },
+  {
+    "team1": "LAC",
+    "team2": "SAN",
+    "total_meetings": 52,
+    "team1_wins": 13,
+    "team2_wins": 39
+  },
+  {
+    "team1": "DAL",
+    "team2": "LAC",
+    "total_meetings": 163,
+    "team1_wins": 91,
+    "team2_wins": 72
+  },
+  {
+    "team1": "ATL",
+    "team2": "LAC",
+    "total_meetings": 75,
+    "team1_wins": 48,
+    "team2_wins": 27
+  },
+  {
+    "team1": "GOS",
+    "team2": "LAC",
+    "total_meetings": 63,
+    "team1_wins": 42,
+    "team2_wins": 21
+  },
+  {
+    "team1": "LAC",
+    "team2": "PHL",
+    "total_meetings": 24,
+    "team1_wins": 7,
+    "team2_wins": 17
+  },
+  {
+    "team1": "CLE",
+    "team2": "LAC",
+    "total_meetings": 73,
+    "team1_wins": 46,
+    "team2_wins": 27
+  },
+  {
+    "team1": "IND",
+    "team2": "LAC",
+    "total_meetings": 72,
+    "team1_wins": 44,
+    "team2_wins": 28
+  },
+  {
+    "team1": "DET",
+    "team2": "LAC",
+    "total_meetings": 72,
+    "team1_wins": 40,
+    "team2_wins": 32
+  },
+  {
+    "team1": "LAC",
+    "team2": "SAC",
+    "total_meetings": 164,
+    "team1_wins": 82,
+    "team2_wins": 82
+  },
+  {
+    "team1": "DEN",
+    "team2": "SAC",
+    "total_meetings": 144,
+    "team1_wins": 73,
+    "team2_wins": 71
+  },
+  {
+    "team1": "HOU",
+    "team2": "SAC",
+    "total_meetings": 151,
+    "team1_wins": 100,
+    "team2_wins": 51
+  },
+  {
+    "team1": "DAL",
+    "team2": "SAC",
+    "total_meetings": 161,
+    "team1_wins": 90,
+    "team2_wins": 71
+  },
+  {
+    "team1": "CLE",
+    "team2": "SAC",
+    "total_meetings": 69,
+    "team1_wins": 41,
+    "team2_wins": 28
+  },
+  {
+    "team1": "SAC",
+    "team2": "SEA",
+    "total_meetings": 108,
+    "team1_wins": 44,
+    "team2_wins": 64
+  },
+  {
+    "team1": "GOS",
+    "team2": "SAC",
+    "total_meetings": 54,
+    "team1_wins": 29,
+    "team2_wins": 25
+  },
+  {
+    "team1": "POR",
+    "team2": "SAC",
+    "total_meetings": 167,
+    "team1_wins": 105,
+    "team2_wins": 62
+  },
+  {
+    "team1": "SAC",
+    "team2": "UTH",
+    "total_meetings": 50,
+    "team1_wins": 11,
+    "team2_wins": 39
+  },
+  {
+    "team1": "SAC",
+    "team2": "SAN",
+    "total_meetings": 50,
+    "team1_wins": 19,
+    "team2_wins": 31
+  },
+  {
+    "team1": "MIL",
+    "team2": "SAC",
+    "total_meetings": 71,
+    "team1_wins": 40,
+    "team2_wins": 31
+  },
+  {
+    "team1": "NJN",
+    "team2": "SAC",
+    "total_meetings": 51,
+    "team1_wins": 25,
+    "team2_wins": 26
+  },
+  {
+    "team1": "PHX",
+    "team2": "SAC",
+    "total_meetings": 171,
+    "team1_wins": 102,
+    "team2_wins": 69
+  },
+  {
+    "team1": "CHI",
+    "team2": "SAC",
+    "total_meetings": 72,
+    "team1_wins": 36,
+    "team2_wins": 36
+  },
+  {
+    "team1": "DET",
+    "team2": "SAC",
+    "total_meetings": 72,
+    "team1_wins": 40,
+    "team2_wins": 32
+  },
+  {
+    "team1": "SAC",
+    "team2": "WAS",
+    "total_meetings": 73,
+    "team1_wins": 37,
+    "team2_wins": 36
+  },
+  {
+    "team1": "BOS",
+    "team2": "SAC",
+    "total_meetings": 72,
+    "team1_wins": 44,
+    "team2_wins": 28
+  },
+  {
+    "team1": "LAL",
+    "team2": "SAC",
+    "total_meetings": 175,
+    "team1_wins": 110,
+    "team2_wins": 65
+  },
+  {
+    "team1": "PHL",
+    "team2": "SAC",
+    "total_meetings": 22,
+    "team1_wins": 12,
+    "team2_wins": 10
+  },
+  {
+    "team1": "IND",
+    "team2": "SAC",
+    "total_meetings": 70,
+    "team1_wins": 39,
+    "team2_wins": 31
+  },
+  {
+    "team1": "NYK",
+    "team2": "SAC",
+    "total_meetings": 73,
+    "team1_wins": 39,
+    "team2_wins": 34
+  },
+  {
+    "team1": "ATL",
+    "team2": "SAC",
+    "total_meetings": 70,
+    "team1_wins": 46,
+    "team2_wins": 24
+  },
+  {
+    "team1": "CHH",
+    "team2": "CLE",
+    "total_meetings": 57,
+    "team1_wins": 27,
+    "team2_wins": 30
+  },
+  {
+    "team1": "LAC",
+    "team2": "MIA",
+    "total_meetings": 69,
+    "team1_wins": 30,
+    "team2_wins": 39
+  },
+  {
+    "team1": "CHH",
+    "team2": "DET",
+    "total_meetings": 57,
+    "team1_wins": 29,
+    "team2_wins": 28
+  },
+  {
+    "team1": "DAL",
+    "team2": "MIA",
+    "total_meetings": 77,
+    "team1_wins": 39,
+    "team2_wins": 38
+  },
+  {
+    "team1": "CHH",
+    "team2": "LAC",
+    "total_meetings": 28,
+    "team1_wins": 18,
+    "team2_wins": 10
+  },
+  {
+    "team1": "MIA",
+    "team2": "SAN",
+    "total_meetings": 20,
+    "team1_wins": 5,
+    "team2_wins": 15
+  },
+  {
+    "team1": "HOU",
+    "team2": "MIA",
+    "total_meetings": 75,
+    "team1_wins": 34,
+    "team2_wins": 41
+  },
+  {
+    "team1": "CHH",
+    "team2": "WAS",
+    "total_meetings": 54,
+    "team1_wins": 32,
+    "team2_wins": 22
+  },
+  {
+    "team1": "ATL",
+    "team2": "CHH",
+    "total_meetings": 61,
+    "team1_wins": 33,
+    "team2_wins": 28
+  },
+  {
+    "team1": "CHH",
+    "team2": "NJN",
+    "total_meetings": 53,
+    "team1_wins": 29,
+    "team2_wins": 24
+  },
+  {
+    "team1": "BOS",
+    "team2": "MIA",
+    "total_meetings": 167,
+    "team1_wins": 96,
+    "team2_wins": 71
+  },
+  {
+    "team1": "CHH",
+    "team2": "DAL",
+    "total_meetings": 28,
+    "team1_wins": 12,
+    "team2_wins": 16
+  },
+  {
+    "team1": "GOS",
+    "team2": "MIA",
+    "total_meetings": 18,
+    "team1_wins": 15,
+    "team2_wins": 3
+  },
+  {
+    "team1": "CHH",
+    "team2": "SAN",
+    "total_meetings": 19,
+    "team1_wins": 7,
+    "team2_wins": 12
+  },
+  {
+    "team1": "BOS",
+    "team2": "CHH",
+    "total_meetings": 57,
+    "team1_wins": 26,
+    "team2_wins": 31
+  },
+  {
+    "team1": "LAL",
+    "team2": "MIA",
+    "total_meetings": 74,
+    "team1_wins": 43,
+    "team2_wins": 31
+  },
+  {
+    "team1": "CHH",
+    "team2": "PHL",
+    "total_meetings": 32,
+    "team1_wins": 21,
+    "team2_wins": 11
+  },
+  {
+    "team1": "MIA",
+    "team2": "MIL",
+    "total_meetings": 140,
+    "team1_wins": 84,
+    "team2_wins": 56
+  },
+  {
+    "team1": "CLE",
+    "team2": "MIA",
+    "total_meetings": 123,
+    "team1_wins": 51,
+    "team2_wins": 72
+  },
+  {
+    "team1": "CHH",
+    "team2": "MIA",
+    "total_meetings": 52,
+    "team1_wins": 28,
+    "team2_wins": 24
+  },
+  {
+    "team1": "MIA",
+    "team2": "POR",
+    "total_meetings": 67,
+    "team1_wins": 26,
+    "team2_wins": 41
+  },
+  {
+    "team1": "CHH",
+    "team2": "HOU",
+    "total_meetings": 29,
+    "team1_wins": 8,
+    "team2_wins": 21
+  },
+  {
+    "team1": "MIA",
+    "team2": "SAC",
+    "total_meetings": 67,
+    "team1_wins": 43,
+    "team2_wins": 24
+  },
+  {
+    "team1": "DEN",
+    "team2": "MIA",
+    "total_meetings": 75,
+    "team1_wins": 42,
+    "team2_wins": 33
+  },
+  {
+    "team1": "CHI",
+    "team2": "MIA",
+    "total_meetings": 143,
+    "team1_wins": 74,
+    "team2_wins": 69
+  },
+  {
+    "team1": "MIA",
+    "team2": "UTH",
+    "total_meetings": 20,
+    "team1_wins": 5,
+    "team2_wins": 15
+  },
+  {
+    "team1": "CHH",
+    "team2": "IND",
+    "total_meetings": 57,
+    "team1_wins": 24,
+    "team2_wins": 33
+  },
+  {
+    "team1": "CHH",
+    "team2": "MIL",
+    "total_meetings": 65,
+    "team1_wins": 35,
+    "team2_wins": 30
+  },
+  {
+    "team1": "DET",
+    "team2": "MIA",
+    "total_meetings": 136,
+    "team1_wins": 65,
+    "team2_wins": 71
+  },
+  {
+    "team1": "MIA",
+    "team2": "SEA",
+    "total_meetings": 40,
+    "team1_wins": 14,
+    "team2_wins": 26
+  },
+  {
+    "team1": "CHH",
+    "team2": "CHI",
+    "total_meetings": 66,
+    "team1_wins": 23,
+    "team2_wins": 43
+  },
+  {
+    "team1": "CHH",
+    "team2": "NYK",
+    "total_meetings": 62,
+    "team1_wins": 23,
+    "team2_wins": 39
+  },
+  {
+    "team1": "MIA",
+    "team2": "PHX",
+    "total_meetings": 67,
+    "team1_wins": 30,
+    "team2_wins": 37
+  },
+  {
+    "team1": "CHH",
+    "team2": "UTH",
+    "total_meetings": 19,
+    "team1_wins": 6,
+    "team2_wins": 13
+  },
+  {
+    "team1": "MIA",
+    "team2": "WAS",
+    "total_meetings": 145,
+    "team1_wins": 98,
+    "team2_wins": 47
+  },
+  {
+    "team1": "IND",
+    "team2": "MIA",
+    "total_meetings": 153,
+    "team1_wins": 81,
+    "team2_wins": 72
+  },
+  {
+    "team1": "CHH",
+    "team2": "PHX",
+    "total_meetings": 29,
+    "team1_wins": 12,
+    "team2_wins": 17
+  },
+  {
+    "team1": "CHH",
+    "team2": "LAL",
+    "total_meetings": 29,
+    "team1_wins": 8,
+    "team2_wins": 21
+  },
+  {
+    "team1": "CHH",
+    "team2": "POR",
+    "total_meetings": 29,
+    "team1_wins": 8,
+    "team2_wins": 21
+  },
+  {
+    "team1": "CHH",
+    "team2": "SEA",
+    "total_meetings": 28,
+    "team1_wins": 10,
+    "team2_wins": 18
+  },
+  {
+    "team1": "ATL",
+    "team2": "MIA",
+    "total_meetings": 154,
+    "team1_wins": 70,
+    "team2_wins": 84
+  },
+  {
+    "team1": "MIA",
+    "team2": "NJN",
+    "total_meetings": 102,
+    "team1_wins": 60,
+    "team2_wins": 42
+  },
+  {
+    "team1": "MIA",
+    "team2": "PHL",
+    "total_meetings": 35,
+    "team1_wins": 11,
+    "team2_wins": 24
+  },
+  {
+    "team1": "MIA",
+    "team2": "NYK",
+    "total_meetings": 158,
+    "team1_wins": 80,
+    "team2_wins": 78
+  },
+  {
+    "team1": "CHH",
+    "team2": "DEN",
+    "total_meetings": 29,
+    "team1_wins": 16,
+    "team2_wins": 13
+  },
+  {
+    "team1": "CHH",
+    "team2": "SAC",
+    "total_meetings": 29,
+    "team1_wins": 14,
+    "team2_wins": 15
+  },
+  {
+    "team1": "CHH",
+    "team2": "GOS",
+    "total_meetings": 18,
+    "team1_wins": 8,
+    "team2_wins": 10
+  },
+  {
+    "team1": "MIN",
+    "team2": "SEA",
+    "total_meetings": 80,
+    "team1_wins": 25,
+    "team2_wins": 55
+  },
+  {
+    "team1": "NJN",
+    "team2": "ORL",
+    "total_meetings": 88,
+    "team1_wins": 35,
+    "team2_wins": 53
+  },
+  {
+    "team1": "MIN",
+    "team2": "POR",
+    "total_meetings": 127,
+    "team1_wins": 41,
+    "team2_wins": 86
+  },
+  {
+    "team1": "NYK",
+    "team2": "ORL",
+    "total_meetings": 122,
+    "team1_wins": 58,
+    "team2_wins": 64
+  },
+  {
+    "team1": "CHI",
+    "team2": "MIN",
+    "total_meetings": 74,
+    "team1_wins": 40,
+    "team2_wins": 34
+  },
+  {
+    "team1": "CLE",
+    "team2": "ORL",
+    "total_meetings": 131,
+    "team1_wins": 66,
+    "team2_wins": 65
+  },
+  {
+    "team1": "DET",
+    "team2": "ORL",
+    "total_meetings": 138,
+    "team1_wins": 81,
+    "team2_wins": 57
+  },
+  {
+    "team1": "MIN",
+    "team2": "PHL",
+    "total_meetings": 14,
+    "team1_wins": 7,
+    "team2_wins": 7
+  },
+  {
+    "team1": "ATL",
+    "team2": "ORL",
+    "total_meetings": 149,
+    "team1_wins": 74,
+    "team2_wins": 75
+  },
+  {
+    "team1": "GOS",
+    "team2": "MIN",
+    "total_meetings": 28,
+    "team1_wins": 19,
+    "team2_wins": 9
+  },
+  {
+    "team1": "CHH",
+    "team2": "ORL",
+    "total_meetings": 45,
+    "team1_wins": 24,
+    "team2_wins": 21
+  },
+  {
+    "team1": "MIN",
+    "team2": "SAN",
+    "total_meetings": 34,
+    "team1_wins": 4,
+    "team2_wins": 30
+  },
+  {
+    "team1": "MIL",
+    "team2": "ORL",
+    "total_meetings": 130,
+    "team1_wins": 76,
+    "team2_wins": 54
+  },
+  {
+    "team1": "BOS",
+    "team2": "MIN",
+    "total_meetings": 65,
+    "team1_wins": 44,
+    "team2_wins": 21
+  },
+  {
+    "team1": "ORL",
+    "team2": "PHL",
+    "total_meetings": 29,
+    "team1_wins": 20,
+    "team2_wins": 9
+  },
+  {
+    "team1": "MIN",
+    "team2": "NYK",
+    "total_meetings": 63,
+    "team1_wins": 30,
+    "team2_wins": 33
+  },
+  {
+    "team1": "MIN",
+    "team2": "UTH",
+    "total_meetings": 34,
+    "team1_wins": 7,
+    "team2_wins": 27
+  },
+  {
+    "team1": "ORL",
+    "team2": "SAC",
+    "total_meetings": 66,
+    "team1_wins": 30,
+    "team2_wins": 36
+  },
+  {
+    "team1": "DEN",
+    "team2": "MIN",
+    "total_meetings": 153,
+    "team1_wins": 92,
+    "team2_wins": 61
+  },
+  {
+    "team1": "ORL",
+    "team2": "UTH",
+    "total_meetings": 17,
+    "team1_wins": 7,
+    "team2_wins": 10
+  },
+  {
+    "team1": "DAL",
+    "team2": "MIN",
+    "total_meetings": 129,
+    "team1_wins": 74,
+    "team2_wins": 55
+  },
+  {
+    "team1": "ORL",
+    "team2": "PHX",
+    "total_meetings": 65,
+    "team1_wins": 25,
+    "team2_wins": 40
+  },
+  {
+    "team1": "CHH",
+    "team2": "MIN",
+    "total_meetings": 26,
+    "team1_wins": 16,
+    "team2_wins": 10
+  },
+  {
+    "team1": "MIA",
+    "team2": "ORL",
+    "total_meetings": 147,
+    "team1_wins": 79,
+    "team2_wins": 68
+  },
+  {
+    "team1": "MIA",
+    "team2": "MIN",
+    "total_meetings": 67,
+    "team1_wins": 33,
+    "team2_wins": 34
+  },
+  {
+    "team1": "MIN",
+    "team2": "ORL",
+    "total_meetings": 65,
+    "team1_wins": 23,
+    "team2_wins": 42
+  },
+  {
+    "team1": "IND",
+    "team2": "ORL",
+    "total_meetings": 138,
+    "team1_wins": 77,
+    "team2_wins": 61
+  },
+  {
+    "team1": "CLE",
+    "team2": "MIN",
+    "total_meetings": 63,
+    "team1_wins": 39,
+    "team2_wins": 24
+  },
+  {
+    "team1": "ORL",
+    "team2": "POR",
+    "total_meetings": 65,
+    "team1_wins": 26,
+    "team2_wins": 39
+  },
+  {
+    "team1": "MIN",
+    "team2": "NJN",
+    "total_meetings": 43,
+    "team1_wins": 24,
+    "team2_wins": 19
+  },
+  {
+    "team1": "ATL",
+    "team2": "MIN",
+    "total_meetings": 64,
+    "team1_wins": 40,
+    "team2_wins": 24
+  },
+  {
+    "team1": "LAL",
+    "team2": "ORL",
+    "total_meetings": 71,
+    "team1_wins": 48,
+    "team2_wins": 23
+  },
+  {
+    "team1": "IND",
+    "team2": "MIN",
+    "total_meetings": 76,
+    "team1_wins": 48,
+    "team2_wins": 28
+  },
+  {
+    "team1": "CHI",
+    "team2": "ORL",
+    "total_meetings": 125,
+    "team1_wins": 63,
+    "team2_wins": 62
+  },
+  {
+    "team1": "ORL",
+    "team2": "SAN",
+    "total_meetings": 16,
+    "team1_wins": 5,
+    "team2_wins": 11
+  },
+  {
+    "team1": "HOU",
+    "team2": "ORL",
+    "total_meetings": 79,
+    "team1_wins": 44,
+    "team2_wins": 35
+  },
+  {
+    "team1": "MIN",
+    "team2": "WAS",
+    "total_meetings": 63,
+    "team1_wins": 25,
+    "team2_wins": 38
+  },
+  {
+    "team1": "LAL",
+    "team2": "MIN",
+    "total_meetings": 138,
+    "team1_wins": 89,
+    "team2_wins": 49
+  },
+  {
+    "team1": "DEN",
+    "team2": "ORL",
+    "total_meetings": 67,
+    "team1_wins": 34,
+    "team2_wins": 33
+  },
+  {
+    "team1": "MIL",
+    "team2": "MIN",
+    "total_meetings": 83,
+    "team1_wins": 38,
+    "team2_wins": 45
+  },
+  {
+    "team1": "HOU",
+    "team2": "MIN",
+    "total_meetings": 138,
+    "team1_wins": 88,
+    "team2_wins": 50
+  },
+  {
+    "team1": "MIN",
+    "team2": "PHX",
+    "total_meetings": 120,
+    "team1_wins": 41,
+    "team2_wins": 79
+  },
+  {
+    "team1": "LAC",
+    "team2": "MIN",
+    "total_meetings": 126,
+    "team1_wins": 64,
+    "team2_wins": 62
+  },
+  {
+    "team1": "MIN",
+    "team2": "SAC",
+    "total_meetings": 131,
+    "team1_wins": 69,
+    "team2_wins": 62
+  },
+  {
+    "team1": "DET",
+    "team2": "MIN",
+    "total_meetings": 72,
+    "team1_wins": 37,
+    "team2_wins": 35
+  },
+  {
+    "team1": "GOS",
+    "team2": "ORL",
+    "total_meetings": 16,
+    "team1_wins": 8,
+    "team2_wins": 8
+  },
+  {
+    "team1": "BOS",
+    "team2": "ORL",
+    "total_meetings": 143,
+    "team1_wins": 79,
+    "team2_wins": 64
+  },
+  {
+    "team1": "LAC",
+    "team2": "ORL",
+    "total_meetings": 65,
+    "team1_wins": 34,
+    "team2_wins": 31
+  },
+  {
+    "team1": "DAL",
+    "team2": "ORL",
+    "total_meetings": 74,
+    "team1_wins": 40,
+    "team2_wins": 34
+  },
+  {
+    "team1": "ORL",
+    "team2": "SEA",
+    "total_meetings": 38,
+    "team1_wins": 16,
+    "team2_wins": 22
+  },
+  {
+    "team1": "ORL",
+    "team2": "WAS",
+    "total_meetings": 131,
+    "team1_wins": 73,
+    "team2_wins": 58
+  },
+  {
+    "team1": "NJN",
+    "team2": "TOR",
+    "total_meetings": 73,
+    "team1_wins": 36,
+    "team2_wins": 37
+  },
+  {
+    "team1": "POR",
+    "team2": "VAN",
+    "total_meetings": 23,
+    "team1_wins": 16,
+    "team2_wins": 7
+  },
+  {
+    "team1": "IND",
+    "team2": "TOR",
+    "total_meetings": 105,
+    "team1_wins": 56,
+    "team2_wins": 49
+  },
+  {
+    "team1": "MIN",
+    "team2": "VAN",
+    "total_meetings": 24,
+    "team1_wins": 20,
+    "team2_wins": 4
+  },
+  {
+    "team1": "CHI",
+    "team2": "TOR",
+    "total_meetings": 105,
+    "team1_wins": 58,
+    "team2_wins": 47
+  },
+  {
+    "team1": "DAL",
+    "team2": "VAN",
+    "total_meetings": 23,
+    "team1_wins": 19,
+    "team2_wins": 4
+  },
+  {
+    "team1": "SAN",
+    "team2": "VAN",
+    "total_meetings": 4,
+    "team1_wins": 4,
+    "team2_wins": 0
+  },
+  {
+    "team1": "SAC",
+    "team2": "TOR",
+    "total_meetings": 53,
+    "team1_wins": 27,
+    "team2_wins": 26
+  },
+  {
+    "team1": "PHX",
+    "team2": "TOR",
+    "total_meetings": 53,
+    "team1_wins": 33,
+    "team2_wins": 20
+  },
+  {
+    "team1": "LAC",
+    "team2": "VAN",
+    "total_meetings": 24,
+    "team1_wins": 12,
+    "team2_wins": 12
+  },
+  {
+    "team1": "CHH",
+    "team2": "TOR",
+    "total_meetings": 27,
+    "team1_wins": 19,
+    "team2_wins": 8
+  },
+  {
+    "team1": "SEA",
+    "team2": "VAN",
+    "total_meetings": 23,
+    "team1_wins": 20,
+    "team2_wins": 3
+  },
+  {
+    "team1": "TOR",
+    "team2": "UTH",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "HOU",
+    "team2": "TOR",
+    "total_meetings": 55,
+    "team1_wins": 30,
+    "team2_wins": 25
+  },
+  {
+    "team1": "MIN",
+    "team2": "TOR",
+    "total_meetings": 59,
+    "team1_wins": 21,
+    "team2_wins": 38
+  },
+  {
+    "team1": "LAL",
+    "team2": "VAN",
+    "total_meetings": 23,
+    "team1_wins": 22,
+    "team2_wins": 1
+  },
+  {
+    "team1": "TOR",
+    "team2": "WAS",
+    "total_meetings": 113,
+    "team1_wins": 68,
+    "team2_wins": 45
+  },
+  {
+    "team1": "NYK",
+    "team2": "VAN",
+    "total_meetings": 10,
+    "team1_wins": 8,
+    "team2_wins": 2
+  },
+  {
+    "team1": "SEA",
+    "team2": "TOR",
+    "total_meetings": 24,
+    "team1_wins": 15,
+    "team2_wins": 9
+  },
+  {
+    "team1": "MIL",
+    "team2": "TOR",
+    "total_meetings": 112,
+    "team1_wins": 58,
+    "team2_wins": 54
+  },
+  {
+    "team1": "ORL",
+    "team2": "VAN",
+    "total_meetings": 10,
+    "team1_wins": 9,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CHH",
+    "team2": "VAN",
+    "total_meetings": 10,
+    "team1_wins": 9,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MIA",
+    "team2": "VAN",
+    "total_meetings": 10,
+    "team1_wins": 8,
+    "team2_wins": 2
+  },
+  {
+    "team1": "ATL",
+    "team2": "TOR",
+    "total_meetings": 99,
+    "team1_wins": 49,
+    "team2_wins": 50
+  },
+  {
+    "team1": "GOS",
+    "team2": "TOR",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CLE",
+    "team2": "TOR",
+    "total_meetings": 120,
+    "team1_wins": 65,
+    "team2_wins": 55
+  },
+  {
+    "team1": "CHI",
+    "team2": "VAN",
+    "total_meetings": 11,
+    "team1_wins": 8,
+    "team2_wins": 3
+  },
+  {
+    "team1": "PHL",
+    "team2": "TOR",
+    "total_meetings": 4,
+    "team1_wins": 3,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MIL",
+    "team2": "VAN",
+    "total_meetings": 10,
+    "team1_wins": 6,
+    "team2_wins": 4
+  },
+  {
+    "team1": "MIA",
+    "team2": "TOR",
+    "total_meetings": 105,
+    "team1_wins": 60,
+    "team2_wins": 45
+  },
+  {
+    "team1": "PHX",
+    "team2": "VAN",
+    "total_meetings": 23,
+    "team1_wins": 20,
+    "team2_wins": 3
+  },
+  {
+    "team1": "DET",
+    "team2": "VAN",
+    "total_meetings": 10,
+    "team1_wins": 7,
+    "team2_wins": 3
+  },
+  {
+    "team1": "POR",
+    "team2": "TOR",
+    "total_meetings": 54,
+    "team1_wins": 34,
+    "team2_wins": 20
+  },
+  {
+    "team1": "LAL",
+    "team2": "TOR",
+    "total_meetings": 53,
+    "team1_wins": 31,
+    "team2_wins": 22
+  },
+  {
+    "team1": "TOR",
+    "team2": "VAN",
+    "total_meetings": 11,
+    "team1_wins": 7,
+    "team2_wins": 4
+  },
+  {
+    "team1": "BOS",
+    "team2": "TOR",
+    "total_meetings": 129,
+    "team1_wins": 76,
+    "team2_wins": 53
+  },
+  {
+    "team1": "HOU",
+    "team2": "VAN",
+    "total_meetings": 24,
+    "team1_wins": 20,
+    "team2_wins": 4
+  },
+  {
+    "team1": "GOS",
+    "team2": "VAN",
+    "total_meetings": 4,
+    "team1_wins": 4,
+    "team2_wins": 0
+  },
+  {
+    "team1": "ORL",
+    "team2": "TOR",
+    "total_meetings": 105,
+    "team1_wins": 47,
+    "team2_wins": 58
+  },
+  {
+    "team1": "SAC",
+    "team2": "VAN",
+    "total_meetings": 24,
+    "team1_wins": 19,
+    "team2_wins": 5
+  },
+  {
+    "team1": "DET",
+    "team2": "TOR",
+    "total_meetings": 102,
+    "team1_wins": 59,
+    "team2_wins": 43
+  },
+  {
+    "team1": "NYK",
+    "team2": "TOR",
+    "total_meetings": 114,
+    "team1_wins": 45,
+    "team2_wins": 69
+  },
+  {
+    "team1": "BOS",
+    "team2": "VAN",
+    "total_meetings": 11,
+    "team1_wins": 5,
+    "team2_wins": 6
+  },
+  {
+    "team1": "PHL",
+    "team2": "VAN",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "DEN",
+    "team2": "VAN",
+    "total_meetings": 24,
+    "team1_wins": 16,
+    "team2_wins": 8
+  },
+  {
+    "team1": "CLE",
+    "team2": "VAN",
+    "total_meetings": 10,
+    "team1_wins": 9,
+    "team2_wins": 1
+  },
+  {
+    "team1": "VAN",
+    "team2": "WAS",
+    "total_meetings": 10,
+    "team1_wins": 5,
+    "team2_wins": 5
+  },
+  {
+    "team1": "DEN",
+    "team2": "TOR",
+    "total_meetings": 54,
+    "team1_wins": 33,
+    "team2_wins": 21
+  },
+  {
+    "team1": "NJN",
+    "team2": "VAN",
+    "total_meetings": 10,
+    "team1_wins": 7,
+    "team2_wins": 3
+  },
+  {
+    "team1": "LAC",
+    "team2": "TOR",
+    "total_meetings": 57,
+    "team1_wins": 26,
+    "team2_wins": 31
+  },
+  {
+    "team1": "UTH",
+    "team2": "VAN",
+    "total_meetings": 4,
+    "team1_wins": 4,
+    "team2_wins": 0
+  },
+  {
+    "team1": "ATL",
+    "team2": "VAN",
+    "total_meetings": 11,
+    "team1_wins": 9,
+    "team2_wins": 2
+  },
+  {
+    "team1": "DAL",
+    "team2": "TOR",
+    "total_meetings": 51,
+    "team1_wins": 29,
+    "team2_wins": 22
+  },
+  {
+    "team1": "SAN",
+    "team2": "TOR",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "IND",
+    "team2": "VAN",
+    "total_meetings": 11,
+    "team1_wins": 11,
+    "team2_wins": 0
+  },
+  {
+    "team1": "GSW",
+    "team2": "LAC",
+    "total_meetings": 125,
+    "team1_wins": 65,
+    "team2_wins": 60
+  },
+  {
+    "team1": "MIL",
+    "team2": "PHI",
+    "total_meetings": 99,
+    "team1_wins": 51,
+    "team2_wins": 48
+  },
+  {
+    "team1": "MIN",
+    "team2": "SAS",
+    "total_meetings": 101,
+    "team1_wins": 34,
+    "team2_wins": 67
+  },
+  {
+    "team1": "SEA",
+    "team2": "UTA",
+    "total_meetings": 48,
+    "team1_wins": 19,
+    "team2_wins": 29
+  },
+  {
+    "team1": "LAC",
+    "team2": "UTA",
+    "total_meetings": 121,
+    "team1_wins": 44,
+    "team2_wins": 77
+  },
+  {
+    "team1": "CHI",
+    "team2": "PHI",
+    "total_meetings": 98,
+    "team1_wins": 44,
+    "team2_wins": 54
+  },
+  {
+    "team1": "GSW",
+    "team2": "VAN",
+    "total_meetings": 19,
+    "team1_wins": 11,
+    "team2_wins": 8
+  },
+  {
+    "team1": "DEN",
+    "team2": "SAS",
+    "total_meetings": 115,
+    "team1_wins": 41,
+    "team2_wins": 74
+  },
+  {
+    "team1": "HOU",
+    "team2": "UTA",
+    "total_meetings": 129,
+    "team1_wins": 57,
+    "team2_wins": 72
+  },
+  {
+    "team1": "CLE",
+    "team2": "SAS",
+    "total_meetings": 58,
+    "team1_wins": 20,
+    "team2_wins": 38
+  },
+  {
+    "team1": "DET",
+    "team2": "PHI",
+    "total_meetings": 115,
+    "team1_wins": 60,
+    "team2_wins": 55
+  },
+  {
+    "team1": "GSW",
+    "team2": "POR",
+    "total_meetings": 122,
+    "team1_wins": 71,
+    "team2_wins": 51
+  },
+  {
+    "team1": "SAS",
+    "team2": "WAS",
+    "total_meetings": 52,
+    "team1_wins": 37,
+    "team2_wins": 15
+  },
+  {
+    "team1": "GSW",
+    "team2": "NYK",
+    "total_meetings": 48,
+    "team1_wins": 31,
+    "team2_wins": 17
+  },
+  {
+    "team1": "DEN",
+    "team2": "GSW",
+    "total_meetings": 115,
+    "team1_wins": 55,
+    "team2_wins": 60
+  },
+  {
+    "team1": "BOS",
+    "team2": "PHI",
+    "total_meetings": 138,
+    "team1_wins": 77,
+    "team2_wins": 61
+  },
+  {
+    "team1": "SAS",
+    "team2": "SEA",
+    "total_meetings": 51,
+    "team1_wins": 32,
+    "team2_wins": 19
+  },
+  {
+    "team1": "PHI",
+    "team2": "PHX",
+    "total_meetings": 52,
+    "team1_wins": 21,
+    "team2_wins": 31
+  },
+  {
+    "team1": "POR",
+    "team2": "SAS",
+    "total_meetings": 105,
+    "team1_wins": 43,
+    "team2_wins": 62
+  },
+  {
+    "team1": "GSW",
+    "team2": "SEA",
+    "total_meetings": 48,
+    "team1_wins": 17,
+    "team2_wins": 31
+  },
+  {
+    "team1": "NYK",
+    "team2": "PHI",
+    "total_meetings": 115,
+    "team1_wins": 54,
+    "team2_wins": 61
+  },
+  {
+    "team1": "PHI",
+    "team2": "TOR",
+    "total_meetings": 125,
+    "team1_wins": 54,
+    "team2_wins": 71
+  },
+  {
+    "team1": "SAC",
+    "team2": "UTA",
+    "total_meetings": 109,
+    "team1_wins": 49,
+    "team2_wins": 60
+  },
+  {
+    "team1": "LAL",
+    "team2": "SAS",
+    "total_meetings": 125,
+    "team1_wins": 61,
+    "team2_wins": 64
+  },
+  {
+    "team1": "GSW",
+    "team2": "MIL",
+    "total_meetings": 51,
+    "team1_wins": 23,
+    "team2_wins": 28
+  },
+  {
+    "team1": "UTA",
+    "team2": "VAN",
+    "total_meetings": 19,
+    "team1_wins": 18,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CLE",
+    "team2": "PHI",
+    "total_meetings": 103,
+    "team1_wins": 50,
+    "team2_wins": 53
+  },
+  {
+    "team1": "IND",
+    "team2": "SAS",
+    "total_meetings": 52,
+    "team1_wins": 18,
+    "team2_wins": 34
+  },
+  {
+    "team1": "DAL",
+    "team2": "UTA",
+    "total_meetings": 109,
+    "team1_wins": 57,
+    "team2_wins": 52
+  },
+  {
+    "team1": "GSW",
+    "team2": "HOU",
+    "total_meetings": 118,
+    "team1_wins": 56,
+    "team2_wins": 62
+  },
+  {
+    "team1": "MIA",
+    "team2": "PHI",
+    "total_meetings": 113,
+    "team1_wins": 63,
+    "team2_wins": 50
+  },
+  {
+    "team1": "GSW",
+    "team2": "SAS",
+    "total_meetings": 108,
+    "team1_wins": 37,
+    "team2_wins": 71
+  },
+  {
+    "team1": "GSW",
+    "team2": "LAL",
+    "total_meetings": 129,
+    "team1_wins": 51,
+    "team2_wins": 78
+  },
+  {
+    "team1": "LAC",
+    "team2": "SAS",
+    "total_meetings": 107,
+    "team1_wins": 36,
+    "team2_wins": 71
+  },
+  {
+    "team1": "LAL",
+    "team2": "UTA",
+    "total_meetings": 135,
+    "team1_wins": 67,
+    "team2_wins": 68
+  },
+  {
+    "team1": "IND",
+    "team2": "PHI",
+    "total_meetings": 102,
+    "team1_wins": 59,
+    "team2_wins": 43
+  },
+  {
+    "team1": "GSW",
+    "team2": "UTA",
+    "total_meetings": 108,
+    "team1_wins": 45,
+    "team2_wins": 63
+  },
+  {
+    "team1": "PHI",
+    "team2": "WAS",
+    "total_meetings": 109,
+    "team1_wins": 57,
+    "team2_wins": 52
+  },
+  {
+    "team1": "CHI",
+    "team2": "UTA",
+    "total_meetings": 64,
+    "team1_wins": 31,
+    "team2_wins": 33
+  },
+  {
+    "team1": "SAS",
+    "team2": "VAN",
+    "total_meetings": 19,
+    "team1_wins": 16,
+    "team2_wins": 3
+  },
+  {
+    "team1": "NJN",
+    "team2": "UTA",
+    "total_meetings": 30,
+    "team1_wins": 10,
+    "team2_wins": 20
+  },
+  {
+    "team1": "GSW",
+    "team2": "MIA",
+    "total_meetings": 50,
+    "team1_wins": 20,
+    "team2_wins": 30
+  },
+  {
+    "team1": "LAL",
+    "team2": "PHI",
+    "total_meetings": 55,
+    "team1_wins": 28,
+    "team2_wins": 27
+  },
+  {
+    "team1": "DAL",
+    "team2": "SAS",
+    "total_meetings": 134,
+    "team1_wins": 55,
+    "team2_wins": 79
+  },
+  {
+    "team1": "DEN",
+    "team2": "UTA",
+    "total_meetings": 118,
+    "team1_wins": 44,
+    "team2_wins": 74
+  },
+  {
+    "team1": "GSW",
+    "team2": "NJN",
+    "total_meetings": 30,
+    "team1_wins": 13,
+    "team2_wins": 17
+  },
+  {
+    "team1": "ORL",
+    "team2": "PHI",
+    "total_meetings": 109,
+    "team1_wins": 63,
+    "team2_wins": 46
+  },
+  {
+    "team1": "PHI",
+    "team2": "VAN",
+    "total_meetings": 9,
+    "team1_wins": 9,
+    "team2_wins": 0
+  },
+  {
+    "team1": "CHI",
+    "team2": "SAS",
+    "total_meetings": 50,
+    "team1_wins": 20,
+    "team2_wins": 30
+  },
+  {
+    "team1": "CHH",
+    "team2": "UTA",
+    "total_meetings": 11,
+    "team1_wins": 4,
+    "team2_wins": 7
+  },
+  {
+    "team1": "PHI",
+    "team2": "SAS",
+    "total_meetings": 52,
+    "team1_wins": 22,
+    "team2_wins": 30
+  },
+  {
+    "team1": "GSW",
+    "team2": "PHX",
+    "total_meetings": 106,
+    "team1_wins": 46,
+    "team2_wins": 60
+  },
+  {
+    "team1": "DAL",
+    "team2": "PHI",
+    "total_meetings": 49,
+    "team1_wins": 30,
+    "team2_wins": 19
+  },
+  {
+    "team1": "MIN",
+    "team2": "UTA",
+    "total_meetings": 100,
+    "team1_wins": 41,
+    "team2_wins": 59
+  },
+  {
+    "team1": "GSW",
+    "team2": "IND",
+    "total_meetings": 50,
+    "team1_wins": 21,
+    "team2_wins": 29
+  },
+  {
+    "team1": "HOU",
+    "team2": "PHI",
+    "total_meetings": 50,
+    "team1_wins": 29,
+    "team2_wins": 21
+  },
+  {
+    "team1": "PHI",
+    "team2": "SEA",
+    "total_meetings": 23,
+    "team1_wins": 12,
+    "team2_wins": 11
+  },
+  {
+    "team1": "PHX",
+    "team2": "SAS",
+    "total_meetings": 131,
+    "team1_wins": 55,
+    "team2_wins": 76
+  },
+  {
+    "team1": "IND",
+    "team2": "UTA",
+    "total_meetings": 52,
+    "team1_wins": 26,
+    "team2_wins": 26
+  },
+  {
+    "team1": "GSW",
+    "team2": "TOR",
+    "total_meetings": 56,
+    "team1_wins": 32,
+    "team2_wins": 24
+  },
+  {
+    "team1": "PHX",
+    "team2": "UTA",
+    "total_meetings": 107,
+    "team1_wins": 46,
+    "team2_wins": 61
+  },
+  {
+    "team1": "CLE",
+    "team2": "GSW",
+    "total_meetings": 71,
+    "team1_wins": 28,
+    "team2_wins": 43
+  },
+  {
+    "team1": "CHH",
+    "team2": "PHI",
+    "total_meetings": 22,
+    "team1_wins": 13,
+    "team2_wins": 9
+  },
+  {
+    "team1": "ATL",
+    "team2": "PHI",
+    "total_meetings": 98,
+    "team1_wins": 49,
+    "team2_wins": 49
+  },
+  {
+    "team1": "ORL",
+    "team2": "UTA",
+    "total_meetings": 49,
+    "team1_wins": 17,
+    "team2_wins": 32
+  },
+  {
+    "team1": "GSW",
+    "team2": "WAS",
+    "total_meetings": 52,
+    "team1_wins": 30,
+    "team2_wins": 22
+  },
+  {
+    "team1": "NYK",
+    "team2": "UTA",
+    "total_meetings": 49,
+    "team1_wins": 20,
+    "team2_wins": 29
+  },
+  {
+    "team1": "GSW",
+    "team2": "MIN",
+    "total_meetings": 97,
+    "team1_wins": 52,
+    "team2_wins": 45
+  },
+  {
+    "team1": "MIA",
+    "team2": "UTA",
+    "total_meetings": 50,
+    "team1_wins": 28,
+    "team2_wins": 22
+  },
+  {
+    "team1": "HOU",
+    "team2": "SAS",
+    "total_meetings": 125,
+    "team1_wins": 51,
+    "team2_wins": 74
+  },
+  {
+    "team1": "CLE",
+    "team2": "UTA",
+    "total_meetings": 50,
+    "team1_wins": 22,
+    "team2_wins": 28
+  },
+  {
+    "team1": "MIA",
+    "team2": "SAS",
+    "total_meetings": 73,
+    "team1_wins": 32,
+    "team2_wins": 41
+  },
+  {
+    "team1": "DAL",
+    "team2": "GSW",
+    "total_meetings": 108,
+    "team1_wins": 55,
+    "team2_wins": 53
+  },
+  {
+    "team1": "DEN",
+    "team2": "PHI",
+    "total_meetings": 49,
+    "team1_wins": 25,
+    "team2_wins": 24
+  },
+  {
+    "team1": "POR",
+    "team2": "UTA",
+    "total_meetings": 128,
+    "team1_wins": 60,
+    "team2_wins": 68
+  },
+  {
+    "team1": "PHI",
+    "team2": "UTA",
+    "total_meetings": 51,
+    "team1_wins": 15,
+    "team2_wins": 36
+  },
+  {
+    "team1": "SAS",
+    "team2": "UTA",
+    "total_meetings": 112,
+    "team1_wins": 71,
+    "team2_wins": 41
+  },
+  {
+    "team1": "GSW",
+    "team2": "PHI",
+    "total_meetings": 50,
+    "team1_wins": 29,
+    "team2_wins": 21
+  },
+  {
+    "team1": "PHI",
+    "team2": "SAC",
+    "total_meetings": 50,
+    "team1_wins": 27,
+    "team2_wins": 23
+  },
+  {
+    "team1": "CHH",
+    "team2": "GSW",
+    "total_meetings": 11,
+    "team1_wins": 9,
+    "team2_wins": 2
+  },
+  {
+    "team1": "NJN",
+    "team2": "SAS",
+    "total_meetings": 35,
+    "team1_wins": 10,
+    "team2_wins": 25
+  },
+  {
+    "team1": "MIL",
+    "team2": "UTA",
+    "total_meetings": 52,
+    "team1_wins": 18,
+    "team2_wins": 34
+  },
+  {
+    "team1": "BOS",
+    "team2": "SAS",
+    "total_meetings": 49,
+    "team1_wins": 13,
+    "team2_wins": 36
+  },
+  {
+    "team1": "TOR",
+    "team2": "UTA",
+    "total_meetings": 51,
+    "team1_wins": 22,
+    "team2_wins": 29
+  },
+  {
+    "team1": "DET",
+    "team2": "SAS",
+    "total_meetings": 62,
+    "team1_wins": 22,
+    "team2_wins": 40
+  },
+  {
+    "team1": "ATL",
+    "team2": "SAS",
+    "total_meetings": 54,
+    "team1_wins": 16,
+    "team2_wins": 38
+  },
+  {
+    "team1": "DET",
+    "team2": "UTA",
+    "total_meetings": 52,
+    "team1_wins": 14,
+    "team2_wins": 38
+  },
+  {
+    "team1": "BOS",
+    "team2": "GSW",
+    "total_meetings": 55,
+    "team1_wins": 27,
+    "team2_wins": 28
+  },
+  {
+    "team1": "NYK",
+    "team2": "SAS",
+    "total_meetings": 55,
+    "team1_wins": 20,
+    "team2_wins": 35
+  },
+  {
+    "team1": "NJN",
+    "team2": "PHI",
+    "total_meetings": 73,
+    "team1_wins": 34,
+    "team2_wins": 39
+  },
+  {
+    "team1": "SAC",
+    "team2": "SAS",
+    "total_meetings": 97,
+    "team1_wins": 32,
+    "team2_wins": 65
+  },
+  {
+    "team1": "DET",
+    "team2": "GSW",
+    "total_meetings": 48,
+    "team1_wins": 26,
+    "team2_wins": 22
+  },
+  {
+    "team1": "MIL",
+    "team2": "SAS",
+    "total_meetings": 49,
+    "team1_wins": 22,
+    "team2_wins": 27
+  },
+  {
+    "team1": "ATL",
+    "team2": "UTA",
+    "total_meetings": 48,
+    "team1_wins": 18,
+    "team2_wins": 30
+  },
+  {
+    "team1": "CHI",
+    "team2": "GSW",
+    "total_meetings": 49,
+    "team1_wins": 19,
+    "team2_wins": 30
+  },
+  {
+    "team1": "UTA",
+    "team2": "WAS",
+    "total_meetings": 50,
+    "team1_wins": 31,
+    "team2_wins": 19
+  },
+  {
+    "team1": "ATL",
+    "team2": "GSW",
+    "total_meetings": 48,
+    "team1_wins": 22,
+    "team2_wins": 26
+  },
+  {
+    "team1": "GSW",
+    "team2": "SAC",
+    "total_meetings": 121,
+    "team1_wins": 68,
+    "team2_wins": 53
+  },
+  {
+    "team1": "SAS",
+    "team2": "TOR",
+    "total_meetings": 50,
+    "team1_wins": 31,
+    "team2_wins": 19
+  },
+  {
+    "team1": "BOS",
+    "team2": "UTA",
+    "total_meetings": 49,
+    "team1_wins": 25,
+    "team2_wins": 24
+  },
+  {
+    "team1": "LAC",
+    "team2": "PHI",
+    "total_meetings": 49,
+    "team1_wins": 22,
+    "team2_wins": 27
+  },
+  {
+    "team1": "PHI",
+    "team2": "POR",
+    "total_meetings": 50,
+    "team1_wins": 22,
+    "team2_wins": 28
+  },
+  {
+    "team1": "CHH",
+    "team2": "SAS",
+    "total_meetings": 10,
+    "team1_wins": 5,
+    "team2_wins": 5
+  },
+  {
+    "team1": "ORL",
+    "team2": "SAS",
+    "total_meetings": 59,
+    "team1_wins": 20,
+    "team2_wins": 39
+  },
+  {
+    "team1": "GSW",
+    "team2": "ORL",
+    "total_meetings": 50,
+    "team1_wins": 24,
+    "team2_wins": 26
+  },
+  {
+    "team1": "MIN",
+    "team2": "PHI",
+    "total_meetings": 50,
+    "team1_wins": 24,
+    "team2_wins": 26
+  },
+  {
+    "team1": "DET",
+    "team2": "MEM",
+    "total_meetings": 48,
+    "team1_wins": 20,
+    "team2_wins": 28
+  },
+  {
+    "team1": "MEM",
+    "team2": "MIN",
+    "total_meetings": 89,
+    "team1_wins": 53,
+    "team2_wins": 36
+  },
+  {
+    "team1": "DAL",
+    "team2": "MEM",
+    "total_meetings": 84,
+    "team1_wins": 56,
+    "team2_wins": 28
+  },
+  {
+    "team1": "MEM",
+    "team2": "PHX",
+    "total_meetings": 79,
+    "team1_wins": 37,
+    "team2_wins": 42
+  },
+  {
+    "team1": "LAC",
+    "team2": "MEM",
+    "total_meetings": 89,
+    "team1_wins": 45,
+    "team2_wins": 44
+  },
+  {
+    "team1": "LAL",
+    "team2": "MEM",
+    "total_meetings": 82,
+    "team1_wins": 44,
+    "team2_wins": 38
+  },
+  {
+    "team1": "GSW",
+    "team2": "MEM",
+    "total_meetings": 89,
+    "team1_wins": 46,
+    "team2_wins": 43
+  },
+  {
+    "team1": "MEM",
+    "team2": "POR",
+    "total_meetings": 79,
+    "team1_wins": 39,
+    "team2_wins": 40
+  },
+  {
+    "team1": "CLE",
+    "team2": "MEM",
+    "total_meetings": 44,
+    "team1_wins": 24,
+    "team2_wins": 20
+  },
+  {
+    "team1": "MEM",
+    "team2": "SAC",
+    "total_meetings": 75,
+    "team1_wins": 40,
+    "team2_wins": 35
+  },
+  {
+    "team1": "MEM",
+    "team2": "TOR",
+    "total_meetings": 43,
+    "team1_wins": 20,
+    "team2_wins": 23
+  },
+  {
+    "team1": "HOU",
+    "team2": "MEM",
+    "total_meetings": 94,
+    "team1_wins": 49,
+    "team2_wins": 45
+  },
+  {
+    "team1": "MEM",
+    "team2": "PHI",
+    "total_meetings": 42,
+    "team1_wins": 27,
+    "team2_wins": 15
+  },
+  {
+    "team1": "MEM",
+    "team2": "ORL",
+    "total_meetings": 52,
+    "team1_wins": 30,
+    "team2_wins": 22
+  },
+  {
+    "team1": "MEM",
+    "team2": "WAS",
+    "total_meetings": 44,
+    "team1_wins": 25,
+    "team2_wins": 19
+  },
+  {
+    "team1": "DEN",
+    "team2": "MEM",
+    "total_meetings": 74,
+    "team1_wins": 43,
+    "team2_wins": 31
+  },
+  {
+    "team1": "MEM",
+    "team2": "MIL",
+    "total_meetings": 47,
+    "team1_wins": 26,
+    "team2_wins": 21
+  },
+  {
+    "team1": "MEM",
+    "team2": "NYK",
+    "total_meetings": 40,
+    "team1_wins": 25,
+    "team2_wins": 15
+  },
+  {
+    "team1": "BOS",
+    "team2": "MEM",
+    "total_meetings": 41,
+    "team1_wins": 30,
+    "team2_wins": 11
+  },
+  {
+    "team1": "CHI",
+    "team2": "MEM",
+    "total_meetings": 49,
+    "team1_wins": 27,
+    "team2_wins": 22
+  },
+  {
+    "team1": "MEM",
+    "team2": "MIA",
+    "total_meetings": 48,
+    "team1_wins": 24,
+    "team2_wins": 24
+  },
+  {
+    "team1": "MEM",
+    "team2": "SAS",
+    "total_meetings": 107,
+    "team1_wins": 37,
+    "team2_wins": 70
+  },
+  {
+    "team1": "MEM",
+    "team2": "NJN",
+    "total_meetings": 21,
+    "team1_wins": 11,
+    "team2_wins": 10
+  },
+  {
+    "team1": "ATL",
+    "team2": "MEM",
+    "total_meetings": 53,
+    "team1_wins": 27,
+    "team2_wins": 26
+  },
+  {
+    "team1": "MEM",
+    "team2": "SEA",
+    "total_meetings": 26,
+    "team1_wins": 9,
+    "team2_wins": 17
+  },
+  {
+    "team1": "MEM",
+    "team2": "UTA",
+    "total_meetings": 80,
+    "team1_wins": 34,
+    "team2_wins": 46
+  },
+  {
+    "team1": "IND",
+    "team2": "MEM",
+    "total_meetings": 47,
+    "team1_wins": 23,
+    "team2_wins": 24
+  },
+  {
+    "team1": "CHH",
+    "team2": "MEM",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "NOH",
+    "team2": "UTA",
+    "total_meetings": 26,
+    "team1_wins": 11,
+    "team2_wins": 15
+  },
+  {
+    "team1": "CHI",
+    "team2": "NOH",
+    "total_meetings": 20,
+    "team1_wins": 12,
+    "team2_wins": 8
+  },
+  {
+    "team1": "MIA",
+    "team2": "NOH",
+    "total_meetings": 31,
+    "team1_wins": 13,
+    "team2_wins": 18
+  },
+  {
+    "team1": "NOH",
+    "team2": "SEA",
+    "total_meetings": 10,
+    "team1_wins": 5,
+    "team2_wins": 5
+  },
+  {
+    "team1": "GSW",
+    "team2": "NOH",
+    "total_meetings": 27,
+    "team1_wins": 11,
+    "team2_wins": 16
+  },
+  {
+    "team1": "NOH",
+    "team2": "NYK",
+    "total_meetings": 18,
+    "team1_wins": 8,
+    "team2_wins": 10
+  },
+  {
+    "team1": "DET",
+    "team2": "NOH",
+    "total_meetings": 19,
+    "team1_wins": 10,
+    "team2_wins": 9
+  },
+  {
+    "team1": "MIN",
+    "team2": "NOH",
+    "total_meetings": 25,
+    "team1_wins": 12,
+    "team2_wins": 13
+  },
+  {
+    "team1": "ATL",
+    "team2": "NOH",
+    "total_meetings": 23,
+    "team1_wins": 13,
+    "team2_wins": 10
+  },
+  {
+    "team1": "NOH",
+    "team2": "PHI",
+    "total_meetings": 24,
+    "team1_wins": 12,
+    "team2_wins": 12
+  },
+  {
+    "team1": "CLE",
+    "team2": "NOH",
+    "total_meetings": 19,
+    "team1_wins": 9,
+    "team2_wins": 10
+  },
+  {
+    "team1": "BOS",
+    "team2": "NOH",
+    "total_meetings": 19,
+    "team1_wins": 10,
+    "team2_wins": 9
+  },
+  {
+    "team1": "NOH",
+    "team2": "TOR",
+    "total_meetings": 19,
+    "team1_wins": 9,
+    "team2_wins": 10
+  },
+  {
+    "team1": "HOU",
+    "team2": "NOH",
+    "total_meetings": 30,
+    "team1_wins": 17,
+    "team2_wins": 13
+  },
+  {
+    "team1": "MIL",
+    "team2": "NOH",
+    "total_meetings": 19,
+    "team1_wins": 5,
+    "team2_wins": 14
+  },
+  {
+    "team1": "LAC",
+    "team2": "NOH",
+    "total_meetings": 26,
+    "team1_wins": 9,
+    "team2_wins": 17
+  },
+  {
+    "team1": "LAL",
+    "team2": "NOH",
+    "total_meetings": 31,
+    "team1_wins": 23,
+    "team2_wins": 8
+  },
+  {
+    "team1": "NOH",
+    "team2": "SAC",
+    "total_meetings": 25,
+    "team1_wins": 12,
+    "team2_wins": 13
+  },
+  {
+    "team1": "NOH",
+    "team2": "POR",
+    "total_meetings": 26,
+    "team1_wins": 12,
+    "team2_wins": 14
+  },
+  {
+    "team1": "NOH",
+    "team2": "SAS",
+    "total_meetings": 36,
+    "team1_wins": 11,
+    "team2_wins": 25
+  },
+  {
+    "team1": "DAL",
+    "team2": "NOH",
+    "total_meetings": 34,
+    "team1_wins": 20,
+    "team2_wins": 14
+  },
+  {
+    "team1": "IND",
+    "team2": "NOH",
+    "total_meetings": 26,
+    "team1_wins": 13,
+    "team2_wins": 13
+  },
+  {
+    "team1": "NOH",
+    "team2": "ORL",
+    "total_meetings": 22,
+    "team1_wins": 12,
+    "team2_wins": 10
+  },
+  {
+    "team1": "MEM",
+    "team2": "NOH",
+    "total_meetings": 32,
+    "team1_wins": 15,
+    "team2_wins": 17
+  },
+  {
+    "team1": "NOH",
+    "team2": "PHX",
+    "total_meetings": 28,
+    "team1_wins": 15,
+    "team2_wins": 13
+  },
+  {
+    "team1": "NOH",
+    "team2": "WAS",
+    "total_meetings": 20,
+    "team1_wins": 13,
+    "team2_wins": 7
+  },
+  {
+    "team1": "NJN",
+    "team2": "NOH",
+    "total_meetings": 18,
+    "team1_wins": 8,
+    "team2_wins": 10
+  },
+  {
+    "team1": "DEN",
+    "team2": "NOH",
+    "total_meetings": 31,
+    "team1_wins": 18,
+    "team2_wins": 13
+  },
+  {
+    "team1": "CHA",
+    "team2": "WAS",
+    "total_meetings": 77,
+    "team1_wins": 37,
+    "team2_wins": 40
+  },
+  {
+    "team1": "CHA",
+    "team2": "ORL",
+    "total_meetings": 82,
+    "team1_wins": 35,
+    "team2_wins": 47
+  },
+  {
+    "team1": "CHA",
+    "team2": "MIL",
+    "total_meetings": 69,
+    "team1_wins": 29,
+    "team2_wins": 40
+  },
+  {
+    "team1": "BOS",
+    "team2": "CHA",
+    "total_meetings": 69,
+    "team1_wins": 54,
+    "team2_wins": 15
+  },
+  {
+    "team1": "CHA",
+    "team2": "GSW",
+    "total_meetings": 35,
+    "team1_wins": 16,
+    "team2_wins": 19
+  },
+  {
+    "team1": "CHA",
+    "team2": "UTA",
+    "total_meetings": 36,
+    "team1_wins": 10,
+    "team2_wins": 26
+  },
+  {
+    "team1": "CHA",
+    "team2": "CLE",
+    "total_meetings": 68,
+    "team1_wins": 23,
+    "team2_wins": 45
+  },
+  {
+    "team1": "CHA",
+    "team2": "DET",
+    "total_meetings": 69,
+    "team1_wins": 37,
+    "team2_wins": 32
+  },
+  {
+    "team1": "CHA",
+    "team2": "IND",
+    "total_meetings": 69,
+    "team1_wins": 29,
+    "team2_wins": 40
+  },
+  {
+    "team1": "ATL",
+    "team2": "CHA",
+    "total_meetings": 82,
+    "team1_wins": 42,
+    "team2_wins": 40
+  },
+  {
+    "team1": "CHA",
+    "team2": "NJN",
+    "total_meetings": 32,
+    "team1_wins": 10,
+    "team2_wins": 22
+  },
+  {
+    "team1": "CHA",
+    "team2": "NYK",
+    "total_meetings": 66,
+    "team1_wins": 36,
+    "team2_wins": 30
+  },
+  {
+    "team1": "CHA",
+    "team2": "LAC",
+    "total_meetings": 36,
+    "team1_wins": 9,
+    "team2_wins": 27
+  },
+  {
+    "team1": "CHA",
+    "team2": "SAC",
+    "total_meetings": 35,
+    "team1_wins": 23,
+    "team2_wins": 12
+  },
+  {
+    "team1": "CHA",
+    "team2": "PHX",
+    "total_meetings": 37,
+    "team1_wins": 13,
+    "team2_wins": 24
+  },
+  {
+    "team1": "CHA",
+    "team2": "NOH",
+    "total_meetings": 16,
+    "team1_wins": 6,
+    "team2_wins": 10
+  },
+  {
+    "team1": "CHA",
+    "team2": "HOU",
+    "total_meetings": 36,
+    "team1_wins": 11,
+    "team2_wins": 25
+  },
+  {
+    "team1": "CHA",
+    "team2": "SEA",
+    "total_meetings": 8,
+    "team1_wins": 3,
+    "team2_wins": 5
+  },
+  {
+    "team1": "CHA",
+    "team2": "MIA",
+    "total_meetings": 87,
+    "team1_wins": 30,
+    "team2_wins": 57
+  },
+  {
+    "team1": "CHA",
+    "team2": "MIN",
+    "total_meetings": 38,
+    "team1_wins": 25,
+    "team2_wins": 13
+  },
+  {
+    "team1": "CHA",
+    "team2": "MEM",
+    "total_meetings": 38,
+    "team1_wins": 15,
+    "team2_wins": 23
+  },
+  {
+    "team1": "CHA",
+    "team2": "PHI",
+    "total_meetings": 64,
+    "team1_wins": 26,
+    "team2_wins": 38
+  },
+  {
+    "team1": "CHA",
+    "team2": "DAL",
+    "total_meetings": 40,
+    "team1_wins": 11,
+    "team2_wins": 29
+  },
+  {
+    "team1": "CHA",
+    "team2": "TOR",
+    "total_meetings": 64,
+    "team1_wins": 26,
+    "team2_wins": 38
+  },
+  {
+    "team1": "CHA",
+    "team2": "CHI",
+    "total_meetings": 68,
+    "team1_wins": 26,
+    "team2_wins": 42
+  },
+  {
+    "team1": "CHA",
+    "team2": "LAL",
+    "total_meetings": 40,
+    "team1_wins": 17,
+    "team2_wins": 23
+  },
+  {
+    "team1": "CHA",
+    "team2": "POR",
+    "total_meetings": 34,
+    "team1_wins": 10,
+    "team2_wins": 24
+  },
+  {
+    "team1": "CHA",
+    "team2": "SAS",
+    "total_meetings": 35,
+    "team1_wins": 10,
+    "team2_wins": 25
+  },
+  {
+    "team1": "CHA",
+    "team2": "DEN",
+    "total_meetings": 35,
+    "team1_wins": 14,
+    "team2_wins": 21
+  },
+  {
+    "team1": "NOK",
+    "team2": "SAC",
+    "total_meetings": 10,
+    "team1_wins": 6,
+    "team2_wins": 4
+  },
+  {
+    "team1": "CLE",
+    "team2": "NOK",
+    "total_meetings": 4,
+    "team1_wins": 3,
+    "team2_wins": 1
+  },
+  {
+    "team1": "HOU",
+    "team2": "NOK",
+    "total_meetings": 8,
+    "team1_wins": 2,
+    "team2_wins": 6
+  },
+  {
+    "team1": "NOK",
+    "team2": "ORL",
+    "total_meetings": 6,
+    "team1_wins": 2,
+    "team2_wins": 4
+  },
+  {
+    "team1": "DAL",
+    "team2": "NOK",
+    "total_meetings": 9,
+    "team1_wins": 8,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MIA",
+    "team2": "NOK",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "DEN",
+    "team2": "NOK",
+    "total_meetings": 9,
+    "team1_wins": 5,
+    "team2_wins": 4
+  },
+  {
+    "team1": "ATL",
+    "team2": "NOK",
+    "total_meetings": 6,
+    "team1_wins": 3,
+    "team2_wins": 3
+  },
+  {
+    "team1": "NOK",
+    "team2": "PHI",
+    "total_meetings": 4,
+    "team1_wins": 1,
+    "team2_wins": 3
+  },
+  {
+    "team1": "MIN",
+    "team2": "NOK",
+    "total_meetings": 7,
+    "team1_wins": 2,
+    "team2_wins": 5
+  },
+  {
+    "team1": "NOK",
+    "team2": "SEA",
+    "total_meetings": 8,
+    "team1_wins": 5,
+    "team2_wins": 3
+  },
+  {
+    "team1": "GSW",
+    "team2": "NOK",
+    "total_meetings": 8,
+    "team1_wins": 5,
+    "team2_wins": 3
+  },
+  {
+    "team1": "MEM",
+    "team2": "NOK",
+    "total_meetings": 8,
+    "team1_wins": 2,
+    "team2_wins": 6
+  },
+  {
+    "team1": "BOS",
+    "team2": "NOK",
+    "total_meetings": 4,
+    "team1_wins": 2,
+    "team2_wins": 2
+  },
+  {
+    "team1": "NOK",
+    "team2": "POR",
+    "total_meetings": 7,
+    "team1_wins": 4,
+    "team2_wins": 3
+  },
+  {
+    "team1": "NOK",
+    "team2": "PHX",
+    "total_meetings": 7,
+    "team1_wins": 1,
+    "team2_wins": 6
+  },
+  {
+    "team1": "LAC",
+    "team2": "NOK",
+    "total_meetings": 7,
+    "team1_wins": 3,
+    "team2_wins": 4
+  },
+  {
+    "team1": "NOK",
+    "team2": "SAS",
+    "total_meetings": 9,
+    "team1_wins": 1,
+    "team2_wins": 8
+  },
+  {
+    "team1": "MIL",
+    "team2": "NOK",
+    "total_meetings": 4,
+    "team1_wins": 1,
+    "team2_wins": 3
+  },
+  {
+    "team1": "CHA",
+    "team2": "NOK",
+    "total_meetings": 4,
+    "team1_wins": 1,
+    "team2_wins": 3
+  },
+  {
+    "team1": "DET",
+    "team2": "NOK",
+    "total_meetings": 4,
+    "team1_wins": 3,
+    "team2_wins": 1
+  },
+  {
+    "team1": "NOK",
+    "team2": "WAS",
+    "total_meetings": 4,
+    "team1_wins": 2,
+    "team2_wins": 2
+  },
+  {
+    "team1": "NOK",
+    "team2": "NYK",
+    "total_meetings": 4,
+    "team1_wins": 4,
+    "team2_wins": 0
+  },
+  {
+    "team1": "CHI",
+    "team2": "NOK",
+    "total_meetings": 4,
+    "team1_wins": 3,
+    "team2_wins": 1
+  },
+  {
+    "team1": "LAL",
+    "team2": "NOK",
+    "total_meetings": 8,
+    "team1_wins": 5,
+    "team2_wins": 3
+  },
+  {
+    "team1": "NJN",
+    "team2": "NOK",
+    "total_meetings": 4,
+    "team1_wins": 3,
+    "team2_wins": 1
+  },
+  {
+    "team1": "IND",
+    "team2": "NOK",
+    "total_meetings": 4,
+    "team1_wins": 3,
+    "team2_wins": 1
+  },
+  {
+    "team1": "NOK",
+    "team2": "UTA",
+    "total_meetings": 7,
+    "team1_wins": 2,
+    "team2_wins": 5
+  },
+  {
+    "team1": "NOK",
+    "team2": "TOR",
+    "total_meetings": 4,
+    "team1_wins": 2,
+    "team2_wins": 2
+  },
+  {
+    "team1": "LYV",
+    "team2": "SAS",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "BAR",
+    "team2": "PHI",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "PHX",
+    "team2": "ROM",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "KHI",
+    "team2": "LAC",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "DEN",
+    "team2": "EPT",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "MTA",
+    "team2": "PHX",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MOS",
+    "team2": "PHI",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "EPT",
+    "team2": "GSW",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CLE",
+    "team2": "MTA",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "MTA",
+    "team2": "TOR",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "EPT",
+    "team2": "MIN",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "LRO",
+    "team2": "TOR",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MAL",
+    "team2": "MEM",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "MTA",
+    "team2": "NYK",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "MEM",
+    "team2": "MMT",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "RMA",
+    "team2": "TOR",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "HOU",
+    "team2": "PAN",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "PAN",
+    "team2": "SAS",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "GSW",
+    "team2": "ZAK",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "TOR",
+    "team2": "ZAK",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "CHN",
+    "team2": "ORL",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "WAS",
+    "team2": "ZAK",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "MIL",
+    "team2": "OKC",
+    "total_meetings": 28,
+    "team1_wins": 15,
+    "team2_wins": 13
+  },
+  {
+    "team1": "HOU",
+    "team2": "OKC",
+    "total_meetings": 72,
+    "team1_wins": 40,
+    "team2_wins": 32
+  },
+  {
+    "team1": "MIN",
+    "team2": "OKC",
+    "total_meetings": 57,
+    "team1_wins": 21,
+    "team2_wins": 36
+  },
+  {
+    "team1": "BOS",
+    "team2": "OKC",
+    "total_meetings": 28,
+    "team1_wins": 14,
+    "team2_wins": 14
+  },
+  {
+    "team1": "OKC",
+    "team2": "UTA",
+    "total_meetings": 63,
+    "team1_wins": 37,
+    "team2_wins": 26
+  },
+  {
+    "team1": "ATL",
+    "team2": "OKC",
+    "total_meetings": 26,
+    "team1_wins": 11,
+    "team2_wins": 15
+  },
+  {
+    "team1": "IND",
+    "team2": "OKC",
+    "total_meetings": 27,
+    "team1_wins": 16,
+    "team2_wins": 11
+  },
+  {
+    "team1": "OKC",
+    "team2": "ORL",
+    "total_meetings": 28,
+    "team1_wins": 18,
+    "team2_wins": 10
+  },
+  {
+    "team1": "NYK",
+    "team2": "OKC",
+    "total_meetings": 26,
+    "team1_wins": 7,
+    "team2_wins": 19
+  },
+  {
+    "team1": "OKC",
+    "team2": "PHI",
+    "total_meetings": 28,
+    "team1_wins": 20,
+    "team2_wins": 8
+  },
+  {
+    "team1": "LAC",
+    "team2": "OKC",
+    "total_meetings": 57,
+    "team1_wins": 28,
+    "team2_wins": 29
+  },
+  {
+    "team1": "NOH",
+    "team2": "OKC",
+    "total_meetings": 16,
+    "team1_wins": 7,
+    "team2_wins": 9
+  },
+  {
+    "team1": "OKC",
+    "team2": "PHX",
+    "total_meetings": 53,
+    "team1_wins": 30,
+    "team2_wins": 23
+  },
+  {
+    "team1": "CLE",
+    "team2": "OKC",
+    "total_meetings": 27,
+    "team1_wins": 15,
+    "team2_wins": 12
+  },
+  {
+    "team1": "MEM",
+    "team2": "OKC",
+    "total_meetings": 74,
+    "team1_wins": 35,
+    "team2_wins": 39
+  },
+  {
+    "team1": "CHA",
+    "team2": "OKC",
+    "total_meetings": 29,
+    "team1_wins": 11,
+    "team2_wins": 18
+  },
+  {
+    "team1": "MIA",
+    "team2": "OKC",
+    "total_meetings": 35,
+    "team1_wins": 19,
+    "team2_wins": 16
+  },
+  {
+    "team1": "GSW",
+    "team2": "OKC",
+    "total_meetings": 56,
+    "team1_wins": 33,
+    "team2_wins": 23
+  },
+  {
+    "team1": "DAL",
+    "team2": "OKC",
+    "total_meetings": 69,
+    "team1_wins": 32,
+    "team2_wins": 37
+  },
+  {
+    "team1": "OKC",
+    "team2": "SAS",
+    "total_meetings": 71,
+    "team1_wins": 36,
+    "team2_wins": 35
+  },
+  {
+    "team1": "OKC",
+    "team2": "TOR",
+    "total_meetings": 28,
+    "team1_wins": 15,
+    "team2_wins": 13
+  },
+  {
+    "team1": "DET",
+    "team2": "OKC",
+    "total_meetings": 28,
+    "team1_wins": 9,
+    "team2_wins": 19
+  },
+  {
+    "team1": "OKC",
+    "team2": "WAS",
+    "total_meetings": 27,
+    "team1_wins": 16,
+    "team2_wins": 11
+  },
+  {
+    "team1": "DEN",
+    "team2": "OKC",
+    "total_meetings": 68,
+    "team1_wins": 33,
+    "team2_wins": 35
+  },
+  {
+    "team1": "CHI",
+    "team2": "OKC",
+    "total_meetings": 31,
+    "team1_wins": 15,
+    "team2_wins": 16
+  },
+  {
+    "team1": "NJN",
+    "team2": "OKC",
+    "total_meetings": 7,
+    "team1_wins": 1,
+    "team2_wins": 6
+  },
+  {
+    "team1": "OKC",
+    "team2": "SAC",
+    "total_meetings": 53,
+    "team1_wins": 30,
+    "team2_wins": 23
+  },
+  {
+    "team1": "OKC",
+    "team2": "POR",
+    "total_meetings": 60,
+    "team1_wins": 30,
+    "team2_wins": 30
+  },
+  {
+    "team1": "LAL",
+    "team2": "OKC",
+    "total_meetings": 60,
+    "team1_wins": 30,
+    "team2_wins": 30
+  },
+  {
+    "team1": "MOS",
+    "team2": "ORL",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MOS",
+    "team2": "TOR",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "BAR",
+    "team2": "LAL",
+    "total_meetings": 2,
+    "team1_wins": 1,
+    "team2_wins": 1
+  },
+  {
+    "team1": "BAR",
+    "team2": "LAC",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "GSW",
+    "team2": "LRY",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "PAR",
+    "team2": "PHX",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "RMA",
+    "team2": "UTA",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "OLP",
+    "team2": "SAS",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CLE",
+    "team2": "OLP",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "LAC",
+    "team2": "MTA",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "MAC",
+    "team2": "NJN",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MLN",
+    "team2": "NYK",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MIA",
+    "team2": "MOS",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "LAB",
+    "team2": "MEM",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MOS",
+    "team2": "OKC",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "LAB",
+    "team2": "SAS",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CLE",
+    "team2": "MOS",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "BOS",
+    "team2": "FBU",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MEM",
+    "team2": "RMD",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "MPS",
+    "team2": "SAS",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "ALB",
+    "team2": "DAL",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "BOS",
+    "team2": "EAM",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "RMD",
+    "team2": "TOR",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "CLE",
+    "team2": "MPS",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "DAL",
+    "team2": "FCB",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "GSW",
+    "team2": "MAC",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "BKN",
+    "team2": "PHI",
+    "total_meetings": 57,
+    "team1_wins": 22,
+    "team2_wins": 35
+  },
+  {
+    "team1": "BKN",
+    "team2": "WAS",
+    "total_meetings": 38,
+    "team1_wins": 17,
+    "team2_wins": 21
+  },
+  {
+    "team1": "BKN",
+    "team2": "BOS",
+    "total_meetings": 59,
+    "team1_wins": 22,
+    "team2_wins": 37
+  },
+  {
+    "team1": "MAC",
+    "team2": "MIN",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "BKN",
+    "team2": "NYK",
+    "total_meetings": 44,
+    "team1_wins": 25,
+    "team2_wins": 19
+  },
+  {
+    "team1": "BKN",
+    "team2": "CHI",
+    "total_meetings": 41,
+    "team1_wins": 20,
+    "team2_wins": 21
+  },
+  {
+    "team1": "BKN",
+    "team2": "CLE",
+    "total_meetings": 34,
+    "team1_wins": 14,
+    "team2_wins": 20
+  },
+  {
+    "team1": "IND",
+    "team2": "NOP",
+    "total_meetings": 22,
+    "team1_wins": 13,
+    "team2_wins": 9
+  },
+  {
+    "team1": "BKN",
+    "team2": "MIA",
+    "total_meetings": 46,
+    "team1_wins": 21,
+    "team2_wins": 25
+  },
+  {
+    "team1": "NOP",
+    "team2": "ORL",
+    "total_meetings": 25,
+    "team1_wins": 9,
+    "team2_wins": 16
+  },
+  {
+    "team1": "CHA",
+    "team2": "NOP",
+    "total_meetings": 19,
+    "team1_wins": 7,
+    "team2_wins": 12
+  },
+  {
+    "team1": "BKN",
+    "team2": "ORL",
+    "total_meetings": 35,
+    "team1_wins": 19,
+    "team2_wins": 16
+  },
+  {
+    "team1": "NOP",
+    "team2": "PHX",
+    "total_meetings": 41,
+    "team1_wins": 19,
+    "team2_wins": 22
+  },
+  {
+    "team1": "BKN",
+    "team2": "UTA",
+    "total_meetings": 20,
+    "team1_wins": 8,
+    "team2_wins": 12
+  },
+  {
+    "team1": "MEM",
+    "team2": "NOP",
+    "total_meetings": 39,
+    "team1_wins": 20,
+    "team2_wins": 19
+  },
+  {
+    "team1": "LAL",
+    "team2": "NOP",
+    "total_meetings": 35,
+    "team1_wins": 17,
+    "team2_wins": 18
+  },
+  {
+    "team1": "BKN",
+    "team2": "IND",
+    "total_meetings": 35,
+    "team1_wins": 14,
+    "team2_wins": 21
+  },
+  {
+    "team1": "BKN",
+    "team2": "SAC",
+    "total_meetings": 22,
+    "team1_wins": 14,
+    "team2_wins": 8
+  },
+  {
+    "team1": "NOP",
+    "team2": "UTA",
+    "total_meetings": 36,
+    "team1_wins": 12,
+    "team2_wins": 24
+  },
+  {
+    "team1": "BKN",
+    "team2": "PHX",
+    "total_meetings": 20,
+    "team1_wins": 12,
+    "team2_wins": 8
+  },
+  {
+    "team1": "NOP",
+    "team2": "PHI",
+    "total_meetings": 19,
+    "team1_wins": 8,
+    "team2_wins": 11
+  },
+  {
+    "team1": "BKN",
+    "team2": "LAC",
+    "total_meetings": 19,
+    "team1_wins": 8,
+    "team2_wins": 11
+  },
+  {
+    "team1": "BKN",
+    "team2": "POR",
+    "total_meetings": 20,
+    "team1_wins": 7,
+    "team2_wins": 13
+  },
+  {
+    "team1": "BKN",
+    "team2": "CHA",
+    "total_meetings": 36,
+    "team1_wins": 18,
+    "team2_wins": 18
+  },
+  {
+    "team1": "CLE",
+    "team2": "NOP",
+    "total_meetings": 20,
+    "team1_wins": 7,
+    "team2_wins": 13
+  },
+  {
+    "team1": "BKN",
+    "team2": "MIN",
+    "total_meetings": 22,
+    "team1_wins": 10,
+    "team2_wins": 12
+  },
+  {
+    "team1": "BKN",
+    "team2": "DET",
+    "total_meetings": 37,
+    "team1_wins": 21,
+    "team2_wins": 16
+  },
+  {
+    "team1": "NOP",
+    "team2": "SAS",
+    "total_meetings": 38,
+    "team1_wins": 16,
+    "team2_wins": 22
+  },
+  {
+    "team1": "GSW",
+    "team2": "NOP",
+    "total_meetings": 44,
+    "team1_wins": 35,
+    "team2_wins": 9
+  },
+  {
+    "team1": "BKN",
+    "team2": "TOR",
+    "total_meetings": 50,
+    "team1_wins": 17,
+    "team2_wins": 33
+  },
+  {
+    "team1": "BKN",
+    "team2": "LAL",
+    "total_meetings": 21,
+    "team1_wins": 11,
+    "team2_wins": 10
+  },
+  {
+    "team1": "BKN",
+    "team2": "HOU",
+    "total_meetings": 20,
+    "team1_wins": 10,
+    "team2_wins": 10
+  },
+  {
+    "team1": "BKN",
+    "team2": "MEM",
+    "total_meetings": 20,
+    "team1_wins": 7,
+    "team2_wins": 13
+  },
+  {
+    "team1": "NOP",
+    "team2": "NYK",
+    "total_meetings": 19,
+    "team1_wins": 10,
+    "team2_wins": 9
+  },
+  {
+    "team1": "CHI",
+    "team2": "NOP",
+    "total_meetings": 25,
+    "team1_wins": 11,
+    "team2_wins": 14
+  },
+  {
+    "team1": "BKN",
+    "team2": "DEN",
+    "total_meetings": 20,
+    "team1_wins": 12,
+    "team2_wins": 8
+  },
+  {
+    "team1": "DAL",
+    "team2": "NOP",
+    "total_meetings": 42,
+    "team1_wins": 24,
+    "team2_wins": 18
+  },
+  {
+    "team1": "NOP",
+    "team2": "OKC",
+    "total_meetings": 38,
+    "team1_wins": 17,
+    "team2_wins": 21
+  },
+  {
+    "team1": "BKN",
+    "team2": "MIL",
+    "total_meetings": 43,
+    "team1_wins": 15,
+    "team2_wins": 28
+  },
+  {
+    "team1": "DET",
+    "team2": "NOP",
+    "total_meetings": 21,
+    "team1_wins": 4,
+    "team2_wins": 17
+  },
+  {
+    "team1": "DEN",
+    "team2": "NOP",
+    "total_meetings": 36,
+    "team1_wins": 21,
+    "team2_wins": 15
+  },
+  {
+    "team1": "LAC",
+    "team2": "NOP",
+    "total_meetings": 35,
+    "team1_wins": 17,
+    "team2_wins": 18
+  },
+  {
+    "team1": "NOP",
+    "team2": "POR",
+    "total_meetings": 40,
+    "team1_wins": 21,
+    "team2_wins": 19
+  },
+  {
+    "team1": "NOP",
+    "team2": "SAC",
+    "total_meetings": 37,
+    "team1_wins": 20,
+    "team2_wins": 17
+  },
+  {
+    "team1": "HOU",
+    "team2": "NOP",
+    "total_meetings": 44,
+    "team1_wins": 25,
+    "team2_wins": 19
+  },
+  {
+    "team1": "BKN",
+    "team2": "SAS",
+    "total_meetings": 20,
+    "team1_wins": 9,
+    "team2_wins": 11
+  },
+  {
+    "team1": "MIN",
+    "team2": "NOP",
+    "total_meetings": 36,
+    "team1_wins": 18,
+    "team2_wins": 18
+  },
+  {
+    "team1": "BKN",
+    "team2": "OKC",
+    "total_meetings": 19,
+    "team1_wins": 7,
+    "team2_wins": 12
+  },
+  {
+    "team1": "BOS",
+    "team2": "NOP",
+    "total_meetings": 20,
+    "team1_wins": 12,
+    "team2_wins": 8
+  },
+  {
+    "team1": "ATL",
+    "team2": "BKN",
+    "total_meetings": 41,
+    "team1_wins": 18,
+    "team2_wins": 23
+  },
+  {
+    "team1": "MIA",
+    "team2": "NOP",
+    "total_meetings": 25,
+    "team1_wins": 15,
+    "team2_wins": 10
+  },
+  {
+    "team1": "NOP",
+    "team2": "WAS",
+    "total_meetings": 22,
+    "team1_wins": 8,
+    "team2_wins": 14
+  },
+  {
+    "team1": "BKN",
+    "team2": "GSW",
+    "total_meetings": 19,
+    "team1_wins": 7,
+    "team2_wins": 12
+  },
+  {
+    "team1": "BKN",
+    "team2": "DAL",
+    "total_meetings": 19,
+    "team1_wins": 7,
+    "team2_wins": 12
+  },
+  {
+    "team1": "ATL",
+    "team2": "NOP",
+    "total_meetings": 23,
+    "team1_wins": 14,
+    "team2_wins": 9
+  },
+  {
+    "team1": "BKN",
+    "team2": "NOP",
+    "total_meetings": 20,
+    "team1_wins": 10,
+    "team2_wins": 10
+  },
+  {
+    "team1": "NOP",
+    "team2": "TOR",
+    "total_meetings": 20,
+    "team1_wins": 7,
+    "team2_wins": 13
+  },
+  {
+    "team1": "MIL",
+    "team2": "NOP",
+    "total_meetings": 21,
+    "team1_wins": 10,
+    "team2_wins": 11
+  },
+  {
+    "team1": "FBU",
+    "team2": "OKC",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "PHI",
+    "team2": "UBB",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "MIN",
+    "team2": "MOS",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MAC",
+    "team2": "PHX",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "DET",
+    "team2": "MAC",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "MOS",
+    "team2": "SAS",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MAC",
+    "team2": "MEM",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "BKN",
+    "team2": "MTA",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "ALB",
+    "team2": "SAS",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "FLA",
+    "team2": "PHX",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "FBU",
+    "team2": "SAS",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "FLA",
+    "team2": "ORL",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "MAC",
+    "team2": "WAS",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "FLA",
+    "team2": "MEM",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MAC",
+    "team2": "POR",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "MAC",
+    "team2": "SAC",
+    "total_meetings": 2,
+    "team1_wins": 0,
+    "team2_wins": 2
+  },
+  {
+    "team1": "MAC",
+    "team2": "TOR",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "BKN",
+    "team2": "FEN",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "BOS",
+    "team2": "MLN",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "BAU",
+    "team2": "NYK",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "BOS",
+    "team2": "RMD",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "FEN",
+    "team2": "OKC",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "LAL",
+    "team2": "MAC",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "BAU",
+    "team2": "WAS",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "HOU",
+    "team2": "SDS",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "OKC",
+    "team2": "RMD",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "FCB",
+    "team2": "OKC",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "SLA",
+    "team2": "TOR",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "GUA",
+    "team2": "WAS",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "SYD",
+    "team2": "UTA",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MAC",
+    "team2": "UTA",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MEL",
+    "team2": "OKC",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "IND",
+    "team2": "MAC",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "BNE",
+    "team2": "PHX",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "LBN",
+    "team2": "STP",
+    "total_meetings": 2,
+    "team1_wins": 2,
+    "team2_wins": 0
+  },
+  {
+    "team1": "GNS",
+    "team2": "LBN",
+    "total_meetings": 5,
+    "team1_wins": 2,
+    "team2_wins": 3
+  },
+  {
+    "team1": "DRT",
+    "team2": "LBN",
+    "total_meetings": 3,
+    "team1_wins": 0,
+    "team2_wins": 3
+  },
+  {
+    "team1": "LAC",
+    "team2": "MRA",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "ADL",
+    "team2": "PHX",
+    "total_meetings": 1,
+    "team1_wins": 1,
+    "team2_wins": 0
+  },
+  {
+    "team1": "MRA",
+    "team2": "POR",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "ADL",
+    "team2": "OKC",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  },
+  {
+    "team1": "MRA",
+    "team2": "OKC",
+    "total_meetings": 1,
+    "team1_wins": 0,
+    "team2_wins": 1
+  }
+]
